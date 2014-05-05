@@ -52,5 +52,6 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               (swap! feeds #(update-in % [user] conj event))
               (println "Current feeds:")
               (clojure.pprint/pprint @feeds)
-              (wcar redis-connection (car/publish "feeds" @feeds))  ;; Insert into redis-connection
+              ;;(wcar redis-connection (car/publish "feeds" @feeds))  ;; Insert into redis-connection
+              (wcar redis-connection (car/publish "feeds" (car/hmset user event @feeds)))
               (ack! collector tuple)))))
