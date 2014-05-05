@@ -2,6 +2,7 @@
   :description "Consume the Fetish Feed"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/data.json "0.2.4"]
                  [lib-noir "0.8.2"]
                  [compojure "1.1.6"]
                  [ring-server "0.3.1"]

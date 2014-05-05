@@ -2,7 +2,8 @@
   (:use compojure.core)
   (:require [feed-eater.views.layout :as layout]
             [feed-eater.util :as util]
-            [taoensso.carmine :as car :refer (wcar)]))
+            [taoensso.carmine :as car :refer (wcar)]
+            [clojure.data.json :as json]))
 
 (def redis-connection {:pool {:max-active 8}
                        :spec {:host "localhost"
@@ -11,8 +12,10 @@
 (def listener
   (car/with-new-pubsub-listener (:spec redis-connection)
     {"feeds" (fn f1 [msg] (:p "Channel match: " msg))}
+   (json/write-str msg)
    (car/subscribe  "feeds")
-   (car/get "feeds")))
+   (car/get "feeds")
+   ))
 
 ;;(defn home-page []
 ;;  (layout/render

@@ -1,0 +1,23 @@
+(use 'taoensso.carmine)
+(use 'taoensso.carmine :as car)
+(use 'feeds.bolts)
+(use feeds.bolts)
+(use 'feeds.bolts)
+feeds.bolts
+(def redis-connection {:pool {:max-active 8}
+                       :spec {:host "localhost"
+                              :port 6379
+                              :timeout 4000}})
+feeds.bolts/redis-connection
+(taoensso.carmine feeds.bolts/redis-connection)
+wcar
+(wcar feeds.bolts/redis-connection)
+(wcar feeds.bolts/redis-connection (car/get "feeds"))
+(wcar feeds.bolts/redis-connection (wcar/get "feeds"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/get "feeds"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/hget "feeds"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/hget ":jim" "feeds"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/hget ":jim" ":action"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/hget ":jim" ":loved"))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/hget [":jim" ":loved"]))
+(wcar feeds.bolts/redis-connection (taoensso.carmine/get ":jim"))

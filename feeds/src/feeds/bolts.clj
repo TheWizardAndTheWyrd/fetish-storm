@@ -5,7 +5,8 @@ More info on the Clojure DSL here:
 
 https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
   (:require [backtype.storm [clojure :refer [emit-bolt! defbolt ack! bolt]]]
-            [taoensso.carmine :as car :refer (wcar)]))
+            [taoensso.carmine :as car :refer (wcar)]
+            [taoensso.nippy :as nippy]))
 
 
 (def redis-connection {:pool {:max-active 8}
