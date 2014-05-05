@@ -25,6 +25,10 @@ lein run -m feeds.topology/run!
 feed-eater-rails
 ================
 
+Use the following to start the app after bundling:
+
+rails s puma
+
 See the following link for loading deps using JRClj:
 
 https://github.com/chopmo/jruby-clojure-demo/blob/master/app/controllers/home_controller.rb
