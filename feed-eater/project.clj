@@ -1,5 +1,5 @@
 (defproject feed-eater "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "Consume the Fetish Feed"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [lib-noir "0.8.2"]
@@ -9,7 +9,8 @@
                  [com.taoensso/timbre "3.1.6"]
                  [com.taoensso/tower "2.0.2"]
                  [markdown-clj "0.9.43"]
-                 [environ "0.4.0"]]
+                 [environ "0.4.0"]
+                 [com.taoensso/carmine "2.6.2"]]
 
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
