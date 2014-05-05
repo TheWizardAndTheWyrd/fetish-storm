@@ -7,7 +7,8 @@
             [taoensso.timbre :as timbre]
             [taoensso.timbre.appenders.rotor :as rotor]
             [selmer.parser :as parser]
-            [environ.core :refer [env]]))
+            [environ.core :refer [env]]
+            [taoensso.carmine :as car :refer (wcar)]))
 
 (defroutes app-routes
   (route/resources "/")
