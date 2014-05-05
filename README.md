@@ -33,7 +33,9 @@ See the following link for loading deps using JRClj:
 
 https://github.com/chopmo/jruby-clojure-demo/blob/master/app/controllers/home_controller.rb
 
-This could probably go in an initializer.
+This could probably go in an initializer.  Better yet, just load them using hte JRuby examples:
+
+https://github.com/jruby/jruby/wiki/CallingJavaFromJRuby
 
 Then, the MessagesContoller can use Carmine from deps to read the Redis values.
 
