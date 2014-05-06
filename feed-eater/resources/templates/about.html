@@ -53,6 +53,59 @@
      ubiquitous, but that does not necessarily mean mobile devices will have the resources to handle large
      JavaScript calculations on JSON objects.
   </p>
-
-
+<h2>Redis</h2>
+  <p>
+     Redis has its own pros and cons.  The best part about Redis is how easy it is to manipulate the data store
+     and the fact that Redis data is stored as bytestrings.  A disadvantage using the current Fetish Storm system
+     is that the easiest way to retrieve our data is to use Carmine (or use Nippy with another client) as
+     Carmine handles the serialization and deserialization of our Redis data back and forth from Clojure
+     data types to the raw bytestrings.
+  </p>
+  <p>
+     Fortunately, transforming our Storm Tuples into JSON is as simple as wrapping our Redis query in a called
+     to (json/write-str).
+  </p>
+  <p>
+     One of the major disadvantages of using Redis is that the Redis Cluster Specification is still a
+     Work in Progress, and not yet ready for general Production.  However, parts of the specification are
+     complete.  The System Engineers have to determine if the risk of Redis failure is an acceptable
+     tradeoff for ease of use.
+  </p>
+<h2>Feed Eater</h2>
+  <p>
+     First, the CSS used by Feed Eater is &copy; 2007-2014 BitLove Inc. / BitLove Ltd.  The CSS is only used
+     because this project is being created as part of my application for the Sr. DevOps Engineer role, and I
+     will gladly remove the CSS if requested.  My only intent is to show full-stack proficiency.
+  </p>
+  <p>
+     As of right now, the transformation of the Data coming from Redis via the "Read API" is incomplete.
+     I wanted to get the data into the DOM before I started worrying about transforming said data.
+  </p>
+  <p>
+     Most of the calls to the API end-points should be done asynchronously.  The data will be bound using
+     KnockoutJS because it has an elegant syntax and BitLove is already using KnockoutJS on the FetLife
+     UI.
+  </p>
+  <p>
+     The project contains a feed-eater-rails application, but development of the Clojure app with Luminus
+     has been quicker (despite my expertise with Ruby and Rails and my relative newness to Clojure).
+     The Rails application uses JRuby for threading and to load the Clojure and Carmine Jars along with their
+     dependencies.  Although polyglot projects are perfectly fine in the hands of expert teams, I prefer
+     minimizing the overhead of context switching when moving around to different pieces of the system.
+     Consistent language use can help with easy interoperability, but so can coding against Interfaces =).
+  </p>
+<h2>Java</h2>
+  <p>
+     Using the JVM is both a strength and a weakness.  JVM tuning can be painful, and tracking down memory
+     leaks can be hell.  That is why I love Clojure on the JVM - it is concise.
+  </p>
+  <p>
+     Also, the security of the JVM is a constant source of concern.  This can be mitigated by sound SysAdmin
+     decisions when deploying the hosting infrastructure.
+  </p>
+<h2>Maintenance</h2>
+  <p>
+     I imagine one of the most painful of maintenance duties is the backup of complex data in these datastores
+     without blocking and locking the application.
+  </p>
 {% endblock %}
