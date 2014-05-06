@@ -12,7 +12,9 @@
      In Production, there would slightly more complexity to account for horizontal
      scaling.  Each component has its strengths and weaknesses.
   </p>
-
+<br />
+<img src="/img/FetishStormDeployment.png" />
+<br />
 <h2>Storm</h2>
   <p>
      Storm was chosen for its fault-tolerant real-time map reduce.  Also, a Storm cluster
@@ -24,9 +26,33 @@
   </p>
   <p>
      How?  If Nimbus can't move workers to different hosts, and the JVM is leaking memory, everything
-     is going to grind to a halt.
+     is going to grind to a halt.  Since these computations are real time, this failure could result in
+     either a back log or just missing data.
+  </p>
+  <p>
+     A quick search for Storm users indicates many Engineers are adding Hadoop for batch processing.
+     The purpose for adding Datomic is that we can record unique state of our data while preserving its
+     immutability.  (Datomic is not yet implemented in this prototype.)
+  </p>
+<h2>Write API</h2>
+  <p>
+     This system is designed to have data pushed to its Datomic via the (unimplemented) Write API which
+     aggregates data from the customers.
+     This API should be transactional.
+  </p>
+<h2>Read API</h2>
+  <p>
+     The Read API is called by the web tier to pull data from Redis.  Early versions of this API should
+     probably sort, marshal, filter, etc. the data before it is presented to the web tier.  However, other
+     Engineers are likely to make valid cases for off-loading a large bulk of this data manipulation to the
+     client.
+  </p>
+  <p>
+     The best solution is probably somewhere in the middle since pushing a lot of the data manipulation to
+     the DOM makes assumptions about the customer that may not be true.  However, broadband is fairly
+     ubiquitous, but that does not necessarily mean mobile devices will have the resources to handle large
+     JavaScript calculations on JSON objects.
   </p>
 
-<br />
-<img src="/img/FetishStormDeployment.png" />
+
 {% endblock %}
