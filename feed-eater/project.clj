@@ -11,12 +11,24 @@
                  [com.taoensso/tower "2.0.2"]
                  [markdown-clj "0.9.43"]
                  [environ "0.4.0"]
-                 [com.taoensso/carmine "2.6.2"]]
+                 [com.taoensso/carmine "2.6.2"]
+                 [org.clojure/clojurescript "0.0-2202"]
+                 [domina "1.0.3-SNAPSHOT"]]
 
 
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
-            [lein-environ "0.4.0"]]
+            [lein-environ "0.4.0"]
+            ;; [lein-cljsbuild "0.3.0"]
+            ]
+
+  ;; :hooks [leiningen.cljsbuild]
+
+  ;; :cljsbuild
+  ;; {:builds [{:source-paths ["src-cljs"]
+  ;;         :compiler {:output-to "resources/public/js/site.js"
+  ;;                    :optimizations :advanced}}]}
+
   :ring {:handler feed-eater.handler/app
          :init    feed-eater.handler/init
          :destroy feed-eater.handler/destroy}

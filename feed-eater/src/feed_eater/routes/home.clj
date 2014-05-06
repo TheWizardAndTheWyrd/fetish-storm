@@ -28,7 +28,9 @@
 
 (defn events-page []
   (layout/render "home.html" {:content
-  (str "<h1>Feeds:</h1><p>" (json/write-str (wcar redis-connection (car/hgetall "rob") "</p>")))}))
+  (str "<h1>Feeds:</h1><p>" (json/write-str (wcar redis-connection (car/hgetall "rob") "</p>")))
+  ;;(str "<script>var objData ='" (json/write-str (wcar redis-connection (car/hgetall "rob") "'; console.log(objData);</script>")))
+   }))
 
 ;;(defn feed-api [key]
 ;;  (layout/render "home.html"
