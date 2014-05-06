@@ -1,6 +1,130 @@
-html,
+/*html,
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100%;
     padding-top: 40px;
+}*/
+
+/*	Kinky&Popular
+	------------------	*/
+
+.kpg {}
+	.kpg .info {
+		display: none;
+		position: absolute;
+		bottom: 5px;
+		left: 5px;
+		width: 240px;
+		padding: 5px;
+    background-color: #000;
+		background-color: rgba(0,0,0,0.5);
+		text-align: left;
+	}
+	.kpg a:hover .info { display: block; }
+
+
+/*	@You
+	------------------	*/
+
+.icomment:hover .on_hover { display: inline; }
+
+
+/* bar between new and old */
+.bbno {
+	display: block;
+	background-color: #333;
+	height: 5px;
+	margin: 15px 0 12px 0;
+	text-align: center;
 }
+	.bbno span {
+		display: inline-block;
+		position: relative;
+		bottom: 9px;
+		padding: 0 5px;
+		background-color: #1B1B1B;
+		font-size: 12px;
+		color: #777;
+		text-transform: uppercase;
+	}
+
+
+
+/*	BOXES
+	------------------	*/
+
+/* Big Border Box */
+.bbb {
+	border: 15px solid #222;
+	padding: 15px;
+}
+
+/* Support Box */
+.sb {
+	border: 15px solid #111;
+	padding: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.rb {
+	padding: 10px;
+	background-color: #171717;
+}
+
+.rcb {
+	padding: 10px;
+	background-color: #171717;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	.rcb.light { background-color: #272727; }
+
+/* VERTICAL LINE SEPERATION */
+.vls { border-bottom: 1px solid #222;}
+.vls.top { border-top: 1px solid #222;}
+
+/* MEDIA BOX */
+.mb.s256 {
+	position: relative;
+	width: 256px;
+}
+
+.mb.s256 .media {
+	display: table;
+	width: 256px;
+	height: 256px;
+	background-color: #171717;
+}
+	.mb.s256 .media a {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		line-height: 0;
+	}
+		.mb.s256 .media a:hover { background-color: transparent; }
+
+	.mb.s256 .media a img {
+		padding: 10px;
+		max-width: 236px;
+		max-height: 236px;
+	}
+	.mb.s256 .obr {
+		display: none;
+		position: absolute;
+		top: 233px;
+		right: 5px;
+		z-index: 5;
+		background-color: #111;
+		background-color: rgba(11, 11, 11, 0.7);
+		padding: 1px 5px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.mb:hover .obr { display: inline-block; }
+
+
+.load-hidden { display: none; }

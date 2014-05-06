@@ -1,21 +1,58 @@
+### fetish-storm
 
-### Managing Your Middleware
+Feeds Backend on Storm and Luminus front-end for streaming Activity Feed
 
-Two middleware functions are provided by default in the `feed-eater.middleware` namespace.
+Requirements:
 
-* `log-request` - logs all requests using the debug level
-* `template-error-page` - provides friendly formatting for Selmer errors in dev mode
+* lein 2.0+
+* Redis 2.0+
+* rvm
+* JRuby 1.7.10
 
-See the `:middleware` key of the `app` definition located in the `feed-eater.handler` namespace to manage the enabled middleware.
+### redis
 
-### Here are some links to get started
+I just use homebrew to install Redis.  These apps assume a default Redis config on localhost.
 
-1. [HTML templating](http://www.luminusweb.net/docs/html_templating.md)
-2. [Accessing the database](http://www.luminusweb.net/docs/database.md)
-3. [Serving static resources](http://www.luminusweb.net/docs/static_resources.md)
-4. [Setting response types](http://www.luminusweb.net/docs/responses.md)
-5. [Defining routes](http://www.luminusweb.net/docs/routes.md)
-6. [Adding middleware](http://www.luminusweb.net/docs/middleware.md)
-7. [Sessions and cookies](http://www.luminusweb.net/docs/sessions_cookies.md)
-8. [Security](http://www.luminusweb.net/docs/security.md)
-9. [Deploying the application](http://www.luminusweb.net/docs/deployment.md)
+---
+
+### feeds
+
+The feeds folder contains the Storm backend.  After starting Redis, cd to the feeds folder and run:
+
+```shell
+lein run -m feeds.topology/run!
+```
+
+---
+
+### feed-eater
+
+The Clojure and ClojureScript version of FeedEater, built upon the Luminus framework, is coming along.
+I am now able to get JSON data from Redis into my web view.  The next steps are to page and format the data
+into something attractive.
+
+I have also borrowed the fetlife.com stylesheets.  The goal is to demonstrate expertise in the complete web stack.
+
+---
+
+### feed-eater-rails
+
+Use the following to start the app after bundling:
+
+```shell
+rails s puma
+```
+
+---
+
+See the following link for loading deps using JRClj:
+
+[chopmo/jruby-clojure-demo](https://github.com/chopmo/jruby-clojure-demo/blob/master/app/controllers/home_controller.rb)
+
+This could probably go in an initializer.  Better yet, just load them using hte JRuby examples:
+
+[jruby/jruby](https://github.com/jruby/jruby/wiki/CallingJavaFromJRuby)
+
+Then, the MessagesContoller can use Carmine from deps to read the Redis values.
+
+

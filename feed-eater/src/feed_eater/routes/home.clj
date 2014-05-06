@@ -3,7 +3,8 @@
   (:require [feed-eater.views.layout :as layout]
             [feed-eater.util :as util]
             [taoensso.carmine :as car :refer (wcar)]
-            [clojure.data.json :as json]))
+            [clojure.data.json :as json]
+            ))
 
 (def redis-connection {:pool {:max-active 8}
                        :spec {:host "localhost"
@@ -17,17 +18,21 @@
    ;;(car/get "feeds")
    ))
 
-;;(defn home-page []
-;;  (layout/render
-;;    "home.html" {:content (util/md->html "/md/docs.md")}))
-
 (defn home-page []
   (layout/render
-   "home.html" {:content listener}))
+    "home.html" {:content (util/md->html "/md/docs.md")}))
+
+;;(defn home-page []
+;;  (layout/render
+;;   "home.html" {:content listener}))
 
 (defn events-page []
   (layout/render "home.html" {:content
   (str "<h1>Feeds:</h1><p>" (json/write-str (wcar redis-connection (car/hgetall "rob") "</p>")))}))
+
+;;(defn feed-api [key]
+;;  (layout/render "home.html"
+;;    {:content (.log js/console (json/write-str (wcar redis-connection (car/hgetall key) "</p>")))}))
 
 (defn about-page []
   (layout/render "about.html"))
@@ -35,4 +40,5 @@
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
-  (GET "/feed" [] (events-page)))
+  (GET "/feed" [] (events-page))
+ )

@@ -6,6 +6,7 @@
   </head>
   <body>
     <!-- navbar -->
+    <!--<header id="navigation_bar">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -19,10 +20,26 @@
         </div>
       </div>
     </div>
+    </header>-->
 
-    <div class="container">
-      {% block content %}
-      {% endblock %}
+    <header id="navigation_bar">
+        <div class="flexible_container">
+          <nav>
+            <h1><a href="{{servlet-context}}/">FeedEater</a></h1>
+            <ul class="horizontal sections">
+              <li class="shorter"><a href="{{servlet-context}}/about">About</a></li>
+              <li class="shorter"><a href="{{servlet-context}}/feed">Feed</a></li>
+
+            </ul>
+          </nav>
+        </div><!-- /.flexible_container -->
+      </header>
+
+    <div class="content-container">
+      <div class="container">
+        {% block content %}
+        {% endblock %}
+      </div>
     </div>
     <!-- scripts and styles -->
     {% style "/css/bootstrap-theme.min.css" %}
