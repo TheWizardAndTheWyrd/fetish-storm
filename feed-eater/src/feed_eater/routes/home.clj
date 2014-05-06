@@ -27,7 +27,7 @@
 
 (defn events-page []
   (layout/render "home.html" {:content
-  (str "<h1>Feeds:</h1><p>" (wcar redis-connection (car/hgetall "rob") "</p>"))}))
+  (str "<h1>Feeds:</h1><p>" (json/write-str (wcar redis-connection (car/hgetall "rob") "</p>")))}))
 
 (defn about-page []
   (layout/render "about.html"))
