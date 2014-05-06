@@ -15,23 +15,26 @@
                  [org.clojure/clojurescript "0.0-2202"]
                  [domina "1.0.3-SNAPSHOT"]]
 
+  ;;:source-paths ["src/feed_eater" "src-cljs"]
 
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
             [lein-environ "0.4.0"]
-            ;; [lein-cljsbuild "0.3.0"]
-            ]
+            [lein-cljsbuild "1.0.0"]]
+
 
   ;; :hooks [leiningen.cljsbuild]
 
-  ;; :cljsbuild
-  ;; {:builds [{:source-paths ["src-cljs"]
-  ;;         :compiler {:output-to "resources/public/js/site.js"
-  ;;                    :optimizations :advanced}}]}
+  :cljsbuild
+    {:builds [{:source-paths ["src-cljs"]
+               :compiler {:output-to "resources/public/js/site.js"
+                          :optimizations :advanced
+                          :pretty-print true}}]}
 
   :ring {:handler feed-eater.handler/app
          :init    feed-eater.handler/init
          :destroy feed-eater.handler/destroy}
+
   :profiles
   {:uberjar {:aot :all}
    :production {:ring {:open-browser? false
@@ -40,4 +43,5 @@
    :dev {:dependencies [[ring-mock "0.1.5"]
                         [ring/ring-devel "1.2.2"]]
          :env {:dev true}}}
+
   :min-lein-version "2.0.0")
