@@ -1,4 +1,32 @@
 {% extends "templates/base.html" %}
 {% block content %}
-  <p>this is the story of feed-eater... work in progress</p>
+<h1>About Fetish Storm and Feed Eater</h1>
+  <p>
+     Here's a Diagram to show the Components of the System.
+     This diagram doesn't illustrate every connection, but really, this is an
+     initial prototype.  Currently, Datomic data storage is not yet implemented.
+     Also, to really make this work, we need a complete authentication and
+     authorization framework.
+  </p>
+  <p>
+     In Production, there would slightly more complexity to account for horizontal
+     scaling.  Each component has its strengths and weaknesses.
+  </p>
+
+<h2>Storm</h2>
+  <p>
+     Storm was chosen for its fault-tolerant real-time map reduce.  Also, a Storm cluster
+     is built on ZooKeeper, and is distributed.  Nimbus controls and orchestrates the whole thing,
+     and Nimbus is almost a single point of failure.  I say almost because if Nimbus fails, workers
+     will continue to run, but won't fail over to other hosts in the cluster if needed.  This means
+     that monitoring Nimbus should be a bit of a "high touch" situation in the sense that an
+     untreated Niumbus failure can eventually result in cascading Storm failure.
+  </p>
+  <p>
+     How?  If Nimbus can't move workers to different hosts, and the JVM is leaking memory, everything
+     is going to grind to a halt.
+  </p>
+
+<br />
+<img src="/img/FetishStormDeployment.png" />
 {% endblock %}
