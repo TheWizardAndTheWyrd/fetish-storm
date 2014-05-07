@@ -31,14 +31,15 @@
                  :output-path "target/classes"
                  :rules :cljs}]}
 
+  :hooks [cljx.hooks]
 
   ;; :hooks [leiningen.cljsbuild]
 
-  :cljsbuild
-    {:builds [{:source-paths ["src-cljs"]
-               :compiler {:output-to "resources/public/js/site.js"
-                          :optimizations :advanced
-                          :pretty-print true}}]}
+  ;;:cljsbuild
+  ;;  {:builds [{:source-paths ["src-cljs"]
+  ;;             :compiler {:output-to "resources/public/js/site.js"
+  ;;                        :optimizations :advanced
+  ;;                        :pretty-print true}}]}
 
   :ring {:handler feed-eater.handler/app
          :init    feed-eater.handler/init
