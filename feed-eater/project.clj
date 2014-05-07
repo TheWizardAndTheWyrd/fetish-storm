@@ -15,31 +15,35 @@
                  [org.clojure/clojurescript "0.0-2202"]
                  [domina "1.0.3-SNAPSHOT"]]
 
-  ;;:source-paths ["src/feed_eater" "src-cljs"]
-
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
             [lein-environ "0.4.0"]
-            [lein-cljsbuild "1.0.0"]
-            [com.keminglabs/cljx "0.3.2"]]
+            [lein-cljsbuild "1.0.3"]
+            [com.keminglabs/cljx "0.3.2"]
+            [lein-kibit "0.0.8"]]
 
-  :cljx {:builds [{:source-paths ["src"]
-                 :output-path "target/classes"
-                 :rules :clj}
+  :cljx {:builds [
+                  {:source-paths ["src"]
+                   :output-path "target/classes"
+                   :rules :clj}
 
-                {:source-paths ["src"]
-                 :output-path "target/classes"
-                 :rules :cljs}]}
+                  ;;{:source-paths ["src"]
+                  ;; :output-path "target/classes"
+                  ;; :rules :cljs}
+                 ]}
 
+  ;;:hooks [[cljx.hooks]
+  ;;        [leiningen.cljsbuild]
+  ;;        ]
+
+  ;;:hooks [cljx.hooks leiningen.cljsbuild]
   :hooks [cljx.hooks]
 
-  ;; :hooks [leiningen.cljsbuild]
-
-  ;;:cljsbuild
-  ;;  {:builds [{:source-paths ["src-cljs"]
-  ;;             :compiler {:output-to "resources/public/js/site.js"
-  ;;                        :optimizations :advanced
-  ;;                        :pretty-print true}}]}
+  :cljsbuild
+    {:builds [{:source-paths ["target/classes/feed_eater" "src-cljs"]
+               :compiler {:output-to "resources/public/js/site.js"
+                          :optimizations :advanced
+                          :pretty-print true}}]}
 
   :ring {:handler feed-eater.handler/app
          :init    feed-eater.handler/init
@@ -50,6 +54,7 @@
    :production {:ring {:open-browser? false
                        :stacktraces?  false
                        :auto-reload?  false}}
+
    :dev {:dependencies [[ring-mock "0.1.5"]
                         [ring/ring-devel "1.2.2"]]
          :env {:dev true}}}

@@ -28,9 +28,17 @@
 
 (defn events-page []
   (layout/render "home.html" {:content
-  (str "<h1>Feeds:</h1><p>" (json/write-str (wcar redis-connection (car/hgetall "rob") "</p>")))
-  ;;(str "<script>var objData ='" (json/write-str (wcar redis-connection (car/hgetall "rob") "'; console.log(objData);</script>")))
-   }))
+                                (str "<h1>Feeds:</h1><p>"
+                                       (json/write-str (wcar redis-connection (car/hgetall "rob")))
+                                     "</p>")
+
+                              ;; TO DO:
+                              ;; Remove the duplicate Redis call; no need for that.  Also, figure about-page
+                              ;; how to get this data to the view properly treated to be used as JSON.
+
+                              :feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
+                              ;;:feed-data (wcar redis-connection (car/hgetall "rob"))
+                              }))
 
 ;;(defn feed-api [key]
 ;;  (layout/render "home.html"

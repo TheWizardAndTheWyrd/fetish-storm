@@ -1,17 +1,17 @@
 (ns feed-eater.middleware
-  (:require [taoensso.timbre :as timbre]
+  #+clj (:require [taoensso.timbre :as timbre]
             [selmer.parser :as parser]
             [environ.core :refer [env]]))
 
 (defn log-request [handler]
-  (if (env :dev)
+  #+clj (if (env :dev)
     (fn [req]
       (timbre/debug req)
       (handler req))
     handler))
 
 (defn template-error-page [handler]
-  (if (env :dev)
+  #+clj (if (env :dev)
     (fn [request]
       (try
         (handler request)
