@@ -13,11 +13,16 @@
 
     <div class="span8" id="feed">
 
+        {% for item in feed-data %}
+        <!--<div>{{item.user}} did {{item.action}}.</div>-->
+        <p>{{item.rob}}
+        {% endfor %}
+
     </div>
 
     <script>
 
-        var objFeedData = {{feed-data}};
+        var objFeedData = {{feed-data|json|safe}};
 
         console.log(objFeedData);
 

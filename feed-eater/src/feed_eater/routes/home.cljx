@@ -29,7 +29,7 @@
 (defn events-page []
   (layout/render "home.html" {:content
                                 (str "<h1>Feeds:</h1><p>"
-                                       (json/write-str (wcar redis-connection (car/hgetall "rob")))
+                                       ;;(json/write-str (wcar redis-connection (car/hgetall "rob")))
                                      "</p>")
 
                               ;; TO DO:
@@ -38,8 +38,8 @@
                               ;; Also, json/write-str may be lossy.  See:
                               ;; https://github.com/clojure/data.json
 
-                              :feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
-                              ;;:feed-data (wcar redis-connection (car/hgetall "rob"))
+                              ;;:feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
+                              :feed-data (wcar redis-connection (car/hgetall "rob"))
                               }))
 
 ;;(defn feed-api [key]
