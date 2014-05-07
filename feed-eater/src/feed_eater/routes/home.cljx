@@ -35,6 +35,8 @@
                               ;; TO DO:
                               ;; Remove the duplicate Redis call; no need for that.  Also, figure about-page
                               ;; how to get this data to the view properly treated to be used as JSON.
+                              ;; Also, json/write-str may be lossy.  See:
+                              ;; https://github.com/clojure/data.json
 
                               :feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
                               ;;:feed-data (wcar redis-connection (car/hgetall "rob"))
