@@ -33,12 +33,24 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
   ;;              {:action :liked, :user :rob, :listing :green-hat}
   ;;              {:action :commented, :user :emma, :listing :green-hat}]]
 
-  (let [events [{:action :commented, :user :travis, :status :latest}
-                {:action :commented, :user :jim, :fetish :newest}
-                {:action :loved, :user :karen, :note :newest}
-                {:action :started, :user :rob, :discussion :group}
-                {:action :loved, :user :emma, :pictures :count}
-                {:action :commented, :user :emma, :writings :count}]]
+  (let
+       ;;[events [{:action :commented, :user :travis, :status :latest}
+       ;;         {:action :commented, :user :jim, :fetish :newest}
+       ;;         {:action :loved, :user :karen, :note :newest}
+       ;;         {:action :started, :user :rob, :discussion :group}
+       ;;         {:action :loved, :user :emma, :pictures :count}
+       ;;         {:action :commented, :user :emma, :writings :count}]]
+
+       [events [{:action :commented, :user :travis, :status :update}
+                {:action :loved,     :user :jim,    :status :picture}
+                {:action :loved,     :user :karen,  :status :fetish}
+                {:action :commented, :user :emma,   :status :writing}
+                {:action :loved,     :user :jim,    :status :writing}
+                {:action :shared,    :user :karen,  :status :picture}
+                {:action :joined,    :user :group,  :status :group-name}
+                {:action :commented, :user :group,  :status :discussion}
+                {:action :loved,     :user :group,  :status :discussion}]]
+
     (spout
      (nextTuple []
         ;; This would need to be adjusted in a real app; probably a pull-based
