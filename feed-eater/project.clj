@@ -20,7 +20,16 @@
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
             [lein-environ "0.4.0"]
-            [lein-cljsbuild "1.0.0"]]
+            [lein-cljsbuild "1.0.0"]
+            [com.keminglabs/cljx "0.3.2"]]
+
+  :cljx {:builds [{:source-paths ["src"]
+                 :output-path "target/classes"
+                 :rules :clj}
+
+                {:source-paths ["src"]
+                 :output-path "target/classes"
+                 :rules :cljs}]}
 
 
   ;; :hooks [leiningen.cljsbuild]
