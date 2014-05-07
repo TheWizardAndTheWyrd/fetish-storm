@@ -15,7 +15,17 @@
 
         {% for item in feed-data %}
         <!--<div>{{item.user}} did {{item.action}}.</div>-->
-        <p>{{item.rob}}
+            {% for x in item%}
+
+                <p>{{x.user}} {{x.action}} {{x.status}}.</p>
+
+                    {% for y in x %}
+
+                        <p>{{y}}</p>
+
+                    {% endfor %}
+
+            {% endfor %}
         {% endfor %}
 
     </div>
