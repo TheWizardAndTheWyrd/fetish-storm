@@ -33,13 +33,17 @@
                               ;; TO DO:
                               ;; Remove the duplicate Redis call; no need for that.
 
-                              :feed-data (wcar redis-connection (car/hgetall "rob")
-                                                                (car/hgetall "karen")
-                                                                (car/hgetall "travis")
-                                                                (car/hgetall "emma")
-                                                                (car/hgetall "kaitlyn")
-                                                                (car/hgetall "jim"))
+                              ;;:feed-data (wcar redis-connection (car/hgetall "rob")
+                              ;;                                  (car/hgetall "karen")
+                              ;;                                  (car/hgetall "travis")
+                              ;;                                  (car/hgetall "emma")
+                              ;;                                  (car/hgetall "kaitlyn")
+                              ;;                                  (car/hgetall "jim"))
+
+                              :feed-data (wcar redis-connection (car/hgetall "travis"))
+
                               }))
+
 
 (defn feed-api [user-key]
   (layout/render "home.html"
