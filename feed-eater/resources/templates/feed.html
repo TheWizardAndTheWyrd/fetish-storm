@@ -13,12 +13,9 @@
 
     <div class="span8" id="feed">
         {% for item in feed-data %}
-
             {% for u in item %}
 
-                <!---->
-
-                    {% ifequal u.user "" %}
+                {% ifequal u.user "" %}
                         <!--<h3>My Friend's Updates:</h3>-->
 
                         {% for u2 in u %}
@@ -34,9 +31,9 @@
 
                         {% endfor %}
 
-                    {% else %}
+                {% else %}
                         <!--<h3>{{u.user}}'s Updates:</h3>-->
-
+                        <h4>{{u.user}}'s Updates</h4>
                         <p>{{u.user}} {{u.action}} {{u.status}}</p>
 
                             {% for k in u %}
@@ -46,19 +43,15 @@
                                 </script>
                             {% endfor %}
 
-                    {% endifequal %}
+                {% endifequal %}
 
             {% endfor %}
-
         {% endfor %}
     </div>
 
     <script>
-
         var objFeedData = {{feed-data|json|safe}};
-
         console.log(objFeedData);
-
     </script>
   </div>
 {% endblock %}

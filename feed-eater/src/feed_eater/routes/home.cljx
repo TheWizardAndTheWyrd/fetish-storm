@@ -28,7 +28,7 @@
 
 (defn feed-page []
   (layout/render "feed.html" {:content
-                                (str "<h1>Feeds:</h1>")
+                                (str "<h3>Feeds:</h3>")
 
                               ;; TO DO:
                               ;; Remove the duplicate Redis call; no need for that.
@@ -53,8 +53,7 @@
   (layout/render "about.html"))
 
 (defroutes home-routes
-  (GET "/" [] (home-page))
-  (GET "/about" [] (about-page))
-  (GET "/feed" [] (feed-page))
-  (GET "/feed-api" [user-key] (feed-api user-key))
- )
+  (GET "/"         []         (home-page))
+  (GET "/about"    []         (about-page))
+  (GET "/feed"     []         (feed-page))
+  (GET "/feed-api" [user-key] (feed-api user-key)))
