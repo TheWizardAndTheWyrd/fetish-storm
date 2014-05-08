@@ -39,12 +39,8 @@
                               ;; https://github.com/clojure/data.json
 
                               ;;:feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
-                              :feed-data (wcar redis-connection (car/hgetall "rob")
-                                                                (car/hgetall "karen")
-                                                                (car/hgetall "travis")
-                                                                (car/hgetall "emma")
-                                                                (car/hgetall "kaitlyn")
-                                                                (car/hgetall "jim"))
+                              :feed-data (wcar redis-connection (car/hgetall "rob"))
+
                               ;;:feed-data (wcar redis-connection (car/keys "*"))
                               }))
 

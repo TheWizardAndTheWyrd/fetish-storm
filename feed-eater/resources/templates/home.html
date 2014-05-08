@@ -12,9 +12,7 @@
     </div>
 
     <div class="span8" id="feed">
-
         {% for item in feed-data %}
-        <!--<div>{{item.user}} did {{item.action}}.</div>-->
             {% for x in item%}
 
                 <p>{{x.user}} {{x.action}} {{x.status}}.</p>
@@ -23,11 +21,16 @@
 
                         <p>{{y}}</p>
 
+                            {% for z in y %}
+
+                                <p>{{z}}</p>
+
+                            {% endfor %}
+
                     {% endfor %}
 
             {% endfor %}
         {% endfor %}
-
     </div>
 
     <script>

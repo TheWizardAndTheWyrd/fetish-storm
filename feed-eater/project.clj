@@ -50,7 +50,7 @@
          :destroy feed-eater.handler/destroy}
 
   :profiles
-  {:uberjar {:aot :all}
+  {;;:uberjar {:aot :all}
    :production {:ring {:open-browser? false
                        :stacktraces?  false
                        :auto-reload?  false}}
