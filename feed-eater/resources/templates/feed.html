@@ -22,18 +22,18 @@
                         <script>console.log("-----> u2.0: {{u2.0}}");</script>
                         <script>console.log("-----> u2.1: {{u2.1}}");</script>
 
-                        <h4>{{u2.0}}'s Updates</h4>
+                        <br><h4>{{u2.0}}'s Updates</h4>
 
                             {% for q in u2.1 %}
                                 <p>{{q.user}} {{q.action}} {{u2.0}}'s {{q.status}}</p>
                                 <script>console.log("-----> q: {{q}}");</script>
                             {% endfor %}
-
+                        <hr>
                         {% endfor %}
 
                 {% else %}
                         <!--<h3>{{u.user}}'s Updates:</h3>-->
-                        <h4>{{u.user}}'s Updates</h4>
+                        <br><h4>{{u.user}}'s Updates</h4>
                         <p>{{u.user}} {{u.action}} {{u.status}}</p>
 
                             {% for k in u %}
@@ -42,7 +42,7 @@
                                     console.log("-----> k: {{k}}");
                                 </script>
                             {% endfor %}
-
+                        <hr>
                 {% endifequal %}
 
             {% endfor %}
