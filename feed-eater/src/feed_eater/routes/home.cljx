@@ -26,21 +26,21 @@
 ;;  (layout/render
 ;;   "home.html" {:content listener}))
 
-(defn events-page []
-  (layout/render "home.html" {:content
+(defn feed-page []
+  (layout/render "feed.html" {:content
                                 (str "<h1>Feeds:</h1>")
 
                               ;; TO DO:
                               ;; Remove the duplicate Redis call; no need for that.
 
-                              ;;:feed-data (wcar redis-connection (car/hgetall "rob")
-                              ;;                                  (car/hgetall "karen")
-                              ;;                                  (car/hgetall "travis")
-                              ;;                                  (car/hgetall "emma")
-                              ;;                                  (car/hgetall "kaitlyn")
-                              ;;                                  (car/hgetall "jim"))
+                              :feed-data (wcar redis-connection (car/hgetall "rob")
+                                                                (car/hgetall "karen")
+                                                                (car/hgetall "travis")
+                                                                (car/hgetall "emma")
+                                                                (car/hgetall "kaitlyn")
+                                                                (car/hgetall "jim"))
 
-                              :feed-data (wcar redis-connection (car/hgetall "travis"))
+                              ;;:feed-data (wcar redis-connection (car/hgetall "travis"))
 
                               }))
 
@@ -55,6 +55,6 @@
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
-  (GET "/feed" [] (events-page))
+  (GET "/feed" [] (feed-page))
   (GET "/feed-api" [user-key] (feed-api user-key))
  )

@@ -1,0 +1,64 @@
+{% extends "templates/base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <h1>Welcome to FeedEater</h1>
+    <p>FeedEater consumes the Fetish Storm!</p>
+    <p><a class="btn btn-primary btn-lg" href="https://github.com/wizardbeard/fetish-storm">GitHub Repo &raquo;</a></p>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span8">
+    {{content|safe}}
+    </div>
+
+    <div class="span8" id="feed">
+        {% for item in feed-data %}
+
+            {% for u in item %}
+
+                <!---->
+
+                    {% ifequal u.user "" %}
+                        <h3>My Friend's Updates:</h3>
+
+                        {% for u2 in u %}
+                        <script>console.log("-----> u2.0: {{u2.0}}");</script>
+                        <script>console.log("-----> u2.1: {{u2.1}}");</script>
+
+                        <h4>{{u2.0}}'s Updates</h4>
+
+                            {% for q in u2.1 %}
+                                <p>{{q.user}} {{q.action}} {{q.status}}</p>
+                                <script>console.log("-----> q: {{q}}");</script>
+                            {% endfor %}
+
+                        {% endfor %}
+
+                    {% else %}
+                        <h3>{{u.user}}'s Updates:</h3>
+
+                        <p>{{u.user}} {{u.action}} {{u.status}}</p>
+
+                            {% for k in u %}
+                                <!--{{k}}-->
+                                <script>
+                                    console.log("-----> k: {{k}}");
+                                </script>
+                            {% endfor %}
+
+                    {% endifequal %}
+
+            {% endfor %}
+
+        {% endfor %}
+    </div>
+
+    <script>
+
+        var objFeedData = {{feed-data|json|safe}};
+
+        console.log(objFeedData);
+
+    </script>
+  </div>
+{% endblock %}
