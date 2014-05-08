@@ -1,1 +1,1 @@
-web: lein trampoline run -m feed-eater.web
+web: lein with-profile production trampoline ring server

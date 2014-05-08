@@ -20,11 +20,7 @@
             [lein-environ "0.4.0"]
             [lein-cljsbuild "1.0.3"]
             [com.keminglabs/cljx "0.3.2"]
-            [lein-kibit "0.0.8"]
-            [lein-heroku-deploy "0.1.0"]]
-
-  :heroku {:app-name "fetish-storm"
-           :app-url "http://fetish-storm.herokuapp.com"}
+            [lein-kibit "0.0.8"]]
 
   :cljx {:builds [
                   {:source-paths ["src"]
@@ -54,7 +50,7 @@
          :destroy feed-eater.handler/destroy}
 
   :profiles
-  {:uberjar {:main feed-eater.web, :aot :all, :uberjar-name "feed-eater.jar"}
+  {:uberjar {:aot :all}
    :production {:ring {:open-browser? false
                        :stacktraces?  false
                        :auto-reload?  false}}

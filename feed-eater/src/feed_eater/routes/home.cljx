@@ -28,25 +28,22 @@
 
 (defn events-page []
   (layout/render "home.html" {:content
-                                (str "<h1>Feeds:</h1><p>"
-                                       ;;(json/write-str (wcar redis-connection (car/hgetall "rob")))
-                                     "</p>")
+                                (str "<h1>Feeds:</h1>")
 
                               ;; TO DO:
-                              ;; Remove the duplicate Redis call; no need for that.  Also, figure about-page
-                              ;; how to get this data to the view properly treated to be used as JSON.
-                              ;; Also, json/write-str may be lossy.  See:
-                              ;; https://github.com/clojure/data.json
+                              ;; Remove the duplicate Redis call; no need for that.
 
-                              ;;:feed-data (json/write-str (wcar redis-connection (car/hgetall "rob")))
-                              :feed-data (wcar redis-connection (car/hgetall "rob"))
-
-                              ;;:feed-data (wcar redis-connection (car/keys "*"))
+                              :feed-data (wcar redis-connection (car/hgetall "rob")
+                                                                (car/hgetall "karen")
+                                                                (car/hgetall "travis")
+                                                                (car/hgetall "emma")
+                                                                (car/hgetall "kaitlyn")
+                                                                (car/hgetall "jim"))
                               }))
 
-;;(defn feed-api [key]
-;;  (layout/render "home.html"
-;;    {:content (.log js/console (json/write-str (wcar redis-connection (car/hgetall key) "</p>")))}))
+(defn feed-api [user-key]
+  (layout/render "home.html"
+    {:feed-data (json/write-str (wcar redis-connection (car/hgetall key)))}))
 
 (defn about-page []
   (layout/render "about.html"))
@@ -55,4 +52,5 @@
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
   (GET "/feed" [] (events-page))
+  (GET "/feed-api" [user-key] (feed-api user-key))
  )
