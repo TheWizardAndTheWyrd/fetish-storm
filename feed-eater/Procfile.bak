@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/feed-eater.jar clojure.main -m feed-eater.web

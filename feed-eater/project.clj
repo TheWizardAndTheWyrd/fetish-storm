@@ -54,7 +54,7 @@
          :destroy feed-eater.handler/destroy}
 
   :profiles
-  {:uberjar {:aot :all}
+  {:uberjar {:main feed-eater.web, :aot :all, :uberjar-name "feed-eater.jar"}
    :production {:ring {:open-browser? false
                        :stacktraces?  false
                        :auto-reload?  false}}
