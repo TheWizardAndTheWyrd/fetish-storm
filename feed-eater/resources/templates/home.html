@@ -14,29 +14,48 @@
     <div class="span8" id="feed">
         {% for item in feed-data %}
 
-        <!--<p>{{item}}</p>-->
-
             {% for u in item %}
 
-                <!--<p>{{u.user}} {{u.action}} {{u.status}}</p>-->
-                <h3>
+                <!---->
+
                     {% ifequal u.user "" %}
-                        Upates:
+                        <h4>My Friend's Updates:</h4>
+
+                        {% for u2 in u %}
+                        <script>console.log("-----> u2: {{u2}}");</script>
+
+
+                            {% for u3 in u2 %}
+
+
+                                {% ifequal u3 "" %}
+                                    <p>{{u2}}</p>
+                                    <script>console.log("-----> u2: {{u2}}");</script>
+
+                                {% else %}
+                                    <p>{{u3}}</p>
+                                    <script>console.log("-----> u3: {{u3}}");</script>
+
+
+                                {% endifequal %}
+
+                            {% endfor %}
+
+                        {% endfor %}
+
                     {% else %}
-                        {{u.user}}'s Updates:
+                        <h4>{{u.user}}'s Updates:</h4>
+
+                        <!--<p>{{u.user}} {{u.action}} {{u.status}}</p>-->
+
+                            {% for k in u %}
+                                {{k}}
+                                <script>
+                                    console.log("-----> k: {{k}}");
+                                </script>
+                            {% endfor %}
+
                     {% endifequal %}
-                </h3>
-
-                <script>
-                    console.log("-----> u: {{u.user}}");
-                </script>
-
-                    {% for k in u %}
-                        {{k}}
-                        <script>
-                            console.log("-----> k: {{k}}");
-                        </script>
-                    {% endfor %}
 
             {% endfor %}
 
