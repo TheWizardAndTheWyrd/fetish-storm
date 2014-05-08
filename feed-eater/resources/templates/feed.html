@@ -19,7 +19,7 @@
                 <!---->
 
                     {% ifequal u.user "" %}
-                        <h3>My Friend's Updates:</h3>
+                        <!--<h3>My Friend's Updates:</h3>-->
 
                         {% for u2 in u %}
                         <script>console.log("-----> u2.0: {{u2.0}}");</script>
@@ -35,7 +35,7 @@
                         {% endfor %}
 
                     {% else %}
-                        <h3>{{u.user}}'s Updates:</h3>
+                        <!--<h3>{{u.user}}'s Updates:</h3>-->
 
                         <p>{{u.user}} {{u.action}} {{u.status}}</p>
 
