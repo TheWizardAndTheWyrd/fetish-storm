@@ -51,9 +51,15 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
        ;;         {:action :commented, :user :karen,  :status :discussion,  :glue "A Sample Discussion"}
        ;;         {:action :loved,     :user :emma,   :status :discussion,  :glue "A Second Discussion"}]]
 
+
+       ;; The :glue should be calculated based on some rules.
+       ;; Also, it may be beneficial to use a :subject-glue and a :predicate-glue
+       ;; for more robust sentences in our Feed.  Analyzing feed data could be
+       ;; sent to Storm with Apache OpenNLP to tokenize the words, etc.
+
        [events [{:user :travis, :action :commented, :glue "on",   :status :update}
                 {:user :jim,    :action :loved,     :glue "5 of", :status :picture}
-                {:user :karen,  :action :is-into,   :glue "everything to do with", :status fetish}
+                {:user :karen,  :action :is-into,   :glue "everything to do with", :status :fetish}
                 {:user :emma,   :action :commented, :glue "on",   :status :writing}
                 {:user :jim,    :action :loved,     :glue "3",    :status :writing}
                 {:user :karen,  :action :shared,    :glue "69",   :status :picture}

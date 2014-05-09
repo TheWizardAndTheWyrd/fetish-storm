@@ -25,7 +25,7 @@
                         <br><h4>{{u2.0}}'s Updates</h4>
 
                             {% for q in u2.1 %}
-                                <p>{{q.user}} {{q.action}} {{u2.0}}'s {{q.status}}</p>
+                                <p>{{q.user}} {{q.action}} {{q.glue}} {{u2.0}}'s {{q.status}}</p>
                                 <script>console.log("-----> q: {{q}}");</script>
                             {% endfor %}
                         <hr>
@@ -34,7 +34,7 @@
                 {% else %}
                         <!--<h3>{{u.user}}'s Updates:</h3>-->
                         <br><h4>{{u.user}}'s Updates</h4>
-                        <p>{{u.user}} {{u.action}} {{u.status}}</p>
+                        <p>{{u.user}} {{u.action}} {{u.glue}} {{u.status}}</p>
 
                             {% for k in u %}
                                 <!--{{k}}-->
