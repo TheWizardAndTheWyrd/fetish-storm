@@ -28,7 +28,7 @@
 
 (defn feed-page []
   (layout/render "feed.html" {:content
-                                (str "<h3>Feeds:</h3><hr>")
+                                (str "<h1 class='h1 dib'>Main Feed</h1>")
 
                               ;; TO DO:
                               ;; Remove the duplicate Redis calls; no need for that.

@@ -41,15 +41,25 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
        ;;         {:action :loved, :user :emma, :pictures :count}
        ;;         {:action :commented, :user :emma, :writings :count}]]
 
-       [events [{:action :commented, :user :travis, :status :update}
-                {:action :loved,     :user :jim,    :status :picture}
-                {:action :loved,     :user :karen,  :status :fetish}
-                {:action :commented, :user :emma,   :status :writing}
-                {:action :loved,     :user :jim,    :status :writing}
-                {:action :shared,    :user :karen,  :status :picture}
-                {:action :joined,    :user :group,  :status :group-name}
-                {:action :commented, :user :group,  :status :discussion}
-                {:action :loved,     :user :group,  :status :discussion}]]
+       ;;[events [{:action :commented, :user :travis, :status :update,      :glue "on"}
+       ;;         {:action :loved,     :user :jim,    :status :picture,     :glue "5 of"}
+       ;;         {:action :into,      :user :karen,  :status :fetish,      :glue "everything to do with"}
+       ;;         {:action :commented, :user :emma,   :status :writing,     :glue "on"}
+       ;;         {:action :loved,     :user :jim,    :status :writing,     :glue "3"}
+       ;;         {:action :shared,    :user :karen,  :status :picture,     :glue "69"}
+       ;;         {:action :joined,    :user :travis, :status :group-name,  :glue "the group"}
+       ;;         {:action :commented, :user :karen,  :status :discussion,  :glue "A Sample Discussion"}
+       ;;         {:action :loved,     :user :emma,   :status :discussion,  :glue "A Second Discussion"}]]
+
+       [events [{:user :travis, :action :commented, :glue "on",   :status :update}
+                {:user :jim,    :action :loved,     :glue "5 of", :status :picture}
+                {:user :karen,  :action :is-into,   :glue "everything to do with", :status fetish}
+                {:user :emma,   :action :commented, :glue "on",   :status :writing}
+                {:user :jim,    :action :loved,     :glue "3",    :status :writing}
+                {:user :karen,  :action :shared,    :glue "69",   :status :picture}
+                {:user :travis, :action :joined,    :glue "the group", :status :group-name}
+                {:user :karen,  :action :commented-on, :glue "'A Sample Discussion' in" :status :group-name}
+                {:user :emma,   :action :loved,     :glue "'A Second Discussion' in", :status :group-name}]]
 
     (spout
      (nextTuple []
