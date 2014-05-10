@@ -35,12 +35,12 @@
                               ;; Also, we should consider Redis clusters with channels
                               ;; for each logged-in users' friends' activities.
 
-                              :feed-data (wcar redis-connection ;;(car/hgetall "rob")
-                                                                ;;(car/hgetall "karen")
-                                                                ;;(car/hgetall "travis")
+                              :feed-data (wcar redis-connection (car/hgetall "rob")
+                                                                (car/hgetall "karen")
+                                                                (car/hgetall "travis")
                                                                 (car/hgetall "emma")
                                                                 (car/hgetall "kaitlyn")
-                                                                ;;(car/hgetall "jim")
+                                                                (car/hgetall "jim")
                                                                 )
 
                               ;;:feed-data (wcar redis-connection (car/hgetall "travis"))

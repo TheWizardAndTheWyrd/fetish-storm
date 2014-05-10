@@ -64,8 +64,11 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
                 {:user :jim,    :action :loved,     :glue "3",    :status :writing}
                 {:user :karen,  :action :shared,    :glue "69",   :status :picture}
                 {:user :travis, :action :joined,    :glue "the group", :status :group-name}
-                {:user :karen,  :action :commented-on, :glue "'A Sample Discussion' in" :status :group-name}
-                {:user :emma,   :action :loved,     :glue "'A Second Discussion' in", :status :group-name}]]
+                {:user :karen,  :action :commented, :glue "on 'A Sample Discussion' in" :status :group-name}
+                {:user :emma,   :action :loved,     :glue "on 'A Second Discussion' in", :status :group-name}
+                {:user :rob,    :action :commented, :glue "on",   :status :update}
+                {:user :rob,    :action :loved,     :glue "7",    :status :picture}
+                {:user :rob,    :action :shared,    :glue "10",   :status :picture}]]
 
     (spout
      (nextTuple []
