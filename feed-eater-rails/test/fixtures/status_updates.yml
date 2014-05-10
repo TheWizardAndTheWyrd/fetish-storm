@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: MyString
+  action: MyString
+  glue: MyString
+  status: MyText
+
+two:
+  user: MyString
+  action: MyString
+  glue: MyString
+  status: MyText

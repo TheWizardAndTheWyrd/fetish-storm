@@ -11,9 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140505034721) do
+ActiveRecord::Schema.define(version: 20140510193837) do
 
   create_table "feeds", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "status_updates", force: true do |t|
+    t.string   "user"
+    t.string   "action"
+    t.string   "glue"
+    t.text     "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

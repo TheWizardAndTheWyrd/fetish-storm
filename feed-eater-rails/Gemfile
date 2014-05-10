@@ -35,6 +35,7 @@ end
 
 gem 'puma'
 gem 'redis'
+#gem 'diametric'
 #gem 'jrclj'
 
 # Use ActiveModel has_secure_password
