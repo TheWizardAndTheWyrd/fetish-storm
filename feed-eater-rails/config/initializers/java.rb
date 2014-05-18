@@ -1,6 +1,6 @@
 require 'java'
 
-%w{clojure-1.4.0.jar 
+%w{clojure-1.6.0.jar
    carmine-2.6.2.jar
    commons-codec-1.9.jar
    nippy-2.6.3.jar

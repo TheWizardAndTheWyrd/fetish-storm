@@ -36,7 +36,7 @@ end
 gem 'puma'
 gem 'redis'
 #gem 'diametric'
-#gem 'jrclj'
+gem 'jrclj'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
