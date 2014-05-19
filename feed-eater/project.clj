@@ -14,7 +14,8 @@
                  [com.taoensso/carmine "2.6.2"]
                  [org.clojure/clojurescript "0.0-2202"]
                  [domina "1.0.3-SNAPSHOT"]
-                 [shoutout "0.1.0-SNAPSHOT"]]
+                 [shoutout "0.1.0-SNAPSHOT"] ;; The port of FetLife's feature flipper
+                 [com.novemberain/welle "2.0.0"]]  ;; a Riak client
 
   :repl-options {:init-ns feed-eater.repl}
   :plugins [[lein-ring "0.8.10"]
