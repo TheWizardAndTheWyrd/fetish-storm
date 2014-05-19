@@ -1,0 +1,57 @@
+2014-05-19 00:22:28.487 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-19 00:22:28.705 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:28.772 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:28.802 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:28.920 [info] <0.98.0> Starting Boss in development mode....
+
+2014-05-19 00:22:28.941 [info] <0.98.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-19 00:22:29.062 [info] <0.98.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 00:22:29.108 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:29.351 [info] <0.98.0> SSL:[]
+
+2014-05-19 00:22:29.360 [info] <0.98.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 00:22:29.371 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:29.381 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:29.422 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:22:29.422 [info] <0.98.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-19 00:22:29.567 [info] <0.98.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-19 00:22:29.593 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:22:29.660 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:22:29.680 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:22:29.706 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:22:29.711 [info] <0.98.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-19 00:22:29.834 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/feed_eater_erlang/include"]}] 
+2014-05-19 00:22:44.347 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-19 00:22:44.357 [warning] <0.6.0> lager_error_logger_h dropped 35 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-19 00:22:44.357 [info] <0.265.0> Loading routes from "/Users/ramonlong/src/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-19 00:22:44.360 [error] <0.275.0> GET / [feed_eater_erlang] 404 0ms
+2014-05-19 00:22:44.874 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-19 00:48:06.698 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-19 00:48:06.903 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:06.968 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.012 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.112 [info] <0.98.0> Starting Boss in development mode....
+
+2014-05-19 00:48:07.131 [info] <0.98.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-19 00:48:07.250 [info] <0.98.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 00:48:07.291 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.584 [info] <0.98.0> SSL:[]
+
+2014-05-19 00:48:07.597 [info] <0.98.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 00:48:07.605 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.619 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.663 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 00:48:07.664 [info] <0.98.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-19 00:48:07.822 [info] <0.98.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-19 00:48:07.848 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:48:07.912 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:48:07.933 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:48:07.952 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 00:48:07.968 [info] <0.98.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-19 00:48:08.100 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
