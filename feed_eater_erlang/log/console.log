@@ -55,3 +55,46 @@
 2014-05-19 00:48:07.952 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
 2014-05-19 00:48:07.968 [info] <0.98.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
 2014-05-19 00:48:08.100 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-19 12:20:37.166 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-19 12:20:37.224 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.279 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.312 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.406 [info] <0.98.0> Starting Boss in development mode....
+
+2014-05-19 12:20:37.427 [info] <0.98.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-19 12:20:37.547 [info] <0.98.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 12:20:37.623 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.840 [info] <0.98.0> SSL:[]
+
+2014-05-19 12:20:37.852 [info] <0.98.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-19 12:20:37.862 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.875 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.902 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-19 12:20:37.902 [info] <0.98.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-19 12:20:38.051 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-19 12:20:38.051 [info] <0.265.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-19 12:20:38.075 [info] <0.98.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-19 12:20:38.108 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 12:20:38.175 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 12:20:38.207 [info] <0.98.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-19 12:20:38.208 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 12:20:38.231 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 12:20:38.263 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-19 12:20:38.267 [info] <0.98.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-19 12:20:38.440 [notice] <0.98.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-19 12:23:21.938 [notice] <0.277.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-19 12:23:21.946 [info] <0.265.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-19 12:23:21.951 [error] <0.277.0> GET / [feed_eater_erlang] 404 0ms
+2014-05-19 12:23:26.198 [notice] <0.278.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-19 12:23:26.200 [info] <0.265.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-19 12:23:26.244 [notice] <0.278.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-19 12:23:26.244 [notice] <0.278.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-19 12:23:26.274 [info] <0.278.0> GET /feed [feed_eater_erlang] 200 0ms
+2014-05-19 12:23:53.525 [notice] <0.281.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-19 12:23:53.527 [info] <0.265.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-19 12:23:53.534 [notice] <0.281.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-19 12:23:53.534 [notice] <0.281.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-19 12:23:53.572 [info] <0.281.0> GET /feed [feed_eater_erlang] 200 0ms
