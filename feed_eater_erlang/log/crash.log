@@ -1,4 +1,117 @@
 2014-05-19 00:22:44 =ERROR REPORT====
 GET / [feed_eater_erlang] 404 0ms2014-05-19 12:23:21 =ERROR REPORT====
 GET / [feed_eater_erlang] 404 0ms2014-05-19 12:43:40 =ERROR REPORT====
-GET / [feed_eater_erlang] 404 0ms
+GET / [feed_eater_erlang] 404 0ms2014-05-19 14:18:24 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:18:24 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3095
+  neighbours:
+2014-05-19 14:18:24 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:19:15 =ERROR REPORT====
+** Generic server <0.279.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:19:15 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.279.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3086
+  neighbours:
+2014-05-19 14:19:15 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.279.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:19:32 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:19:32 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3094
+  neighbours:
+2014-05-19 14:19:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:20:08 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:20:08 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3093
+  neighbours:
+2014-05-19 14:20:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 17:03:47 =ERROR REPORT====
+GET /site.css [feed_eater_erlang] 404 0ms
