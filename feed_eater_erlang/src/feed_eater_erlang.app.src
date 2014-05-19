@@ -1,5 +1,5 @@
 {application, feed_eater_erlang, [
-        {description, "My Awesome Web Framework"},
+        {description, "Fetish-Storm client built on Chicago Boss in Erlang."},
         {vsn, "0.0.1"},
         {modules, []},
         {registered, []},
