@@ -1,0 +1,900 @@
+2014-05-20 14:58:17.279 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 14:58:17.335 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.362 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.399 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.484 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 14:58:17.507 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"}]
+2014-05-20 14:58:17.594 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.594 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.594 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.595 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.595 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.599 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.601 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.602 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.602 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.602 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.604 [error] <0.121.0> CRASH REPORT Process <0.121.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.607 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.607 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.607 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.607 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.610 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.614 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.614 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.614 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.614 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.626 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.626 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.626 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.626 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.626 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.644 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.645 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.645 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.645 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.645 [error] <0.155.0> CRASH REPORT Process <0.155.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.679 [error] <0.172.0> CRASH REPORT Process <0.172.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.679 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.680 [error] <0.175.0> CRASH REPORT Process <0.175.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.680 [error] <0.174.0> CRASH REPORT Process <0.174.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.680 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.689 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 14:58:17.745 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.745 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.745 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.746 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.746 [error] <0.202.0> CRASH REPORT Process <0.202.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.774 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.877 [error] <0.226.0> CRASH REPORT Process <0.226.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.877 [error] <0.225.0> CRASH REPORT Process <0.225.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.877 [error] <0.222.0> CRASH REPORT Process <0.222.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.877 [error] <0.223.0> CRASH REPORT Process <0.223.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.877 [error] <0.224.0> CRASH REPORT Process <0.224.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:17.913 [info] <0.94.0> SSL:[]
+
+2014-05-20 14:58:17.922 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 14:58:17.931 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.946 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.975 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:17.975 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 14:58:18.008 [warning] <0.6.0> lager_error_logger_h dropped 51 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 14:58:18.026 [info] <0.7.0> Application boss started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:58:18.102 [info] <0.344.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 14:58:18.124 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 14:58:18.146 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.146 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.146 [error] <0.355.0> CRASH REPORT Process <0.355.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.146 [error] <0.354.0> CRASH REPORT Process <0.354.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.146 [error] <0.353.0> CRASH REPORT Process <0.353.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.176 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.251 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.273 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.311 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 14:58:18.311 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.337 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 14:58:18.337 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.393 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.395 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 14:58:18.395 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 14:58:18.396 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 14:58:18.476 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.499 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:58:18.502 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 14:58:18.662 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.663 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.663 [error] <0.375.0> CRASH REPORT Process <0.375.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.663 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.663 [error] <0.373.0> CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:18.940 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 14:58:19.689 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:19.690 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:19.690 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:19.690 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:19.691 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:21.741 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:21.741 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:21.741 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:21.741 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:21.742 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:25.840 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:25.840 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:25.840 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:25.841 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:25.841 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:34.035 [error] <0.421.0> CRASH REPORT Process <0.421.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:34.036 [error] <0.420.0> CRASH REPORT Process <0.420.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:34.036 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:34.036 [error] <0.418.0> CRASH REPORT Process <0.418.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:34.036 [error] <0.419.0> CRASH REPORT Process <0.419.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:44.039 [error] <0.431.0> CRASH REPORT Process <0.431.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:44.039 [error] <0.430.0> CRASH REPORT Process <0.430.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:44.039 [error] <0.429.0> CRASH REPORT Process <0.429.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:44.039 [error] <0.428.0> CRASH REPORT Process <0.428.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:58:44.039 [error] <0.427.0> CRASH REPORT Process <0.427.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:19.735 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 14:59:19.779 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:19.795 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:19.826 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:19.909 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 14:59:19.936 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"}]
+2014-05-20 14:59:20.005 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.005 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.005 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.006 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.006 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.008 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.008 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.008 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.009 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.009 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.014 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.014 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.015 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.015 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.015 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.022 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.022 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.022 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.022 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.022 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.033 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.033 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.033 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.033 [error] <0.150.0> CRASH REPORT Process <0.150.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.033 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.051 [error] <0.161.0> CRASH REPORT Process <0.161.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.051 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.051 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.051 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.051 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.087 [error] <0.175.0> CRASH REPORT Process <0.175.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.087 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.087 [error] <0.174.0> CRASH REPORT Process <0.174.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.087 [error] <0.172.0> CRASH REPORT Process <0.172.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.087 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.097 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 14:59:20.129 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:20.154 [error] <0.214.0> CRASH REPORT Process <0.214.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.154 [error] <0.213.0> CRASH REPORT Process <0.213.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.154 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.154 [error] <0.211.0> CRASH REPORT Process <0.211.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.155 [error] <0.210.0> CRASH REPORT Process <0.210.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.196 [info] <0.94.0> SSL:[]
+
+2014-05-20 14:59:20.206 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 14:59:20.218 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:20.228 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:20.266 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 14:59:20.266 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 14:59:20.285 [error] <0.238.0> CRASH REPORT Process <0.238.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.285 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.285 [error] <0.236.0> CRASH REPORT Process <0.236.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.285 [error] <0.235.0> CRASH REPORT Process <0.235.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.286 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:20.429 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 14:59:20.451 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.515 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.534 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.578 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 14:59:20.578 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.603 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 14:59:20.604 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.655 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.656 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 14:59:20.656 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 14:59:20.657 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 14:59:20.726 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.755 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 14:59:20.758 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 14:59:21.059 [warning] <0.6.0> lager_error_logger_h dropped 76 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 14:59:21.060 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:21.060 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:21.060 [error] <0.375.0> CRASH REPORT Process <0.375.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:21.061 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:21.061 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:21.176 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 14:59:22.086 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:22.086 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:22.087 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:22.087 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:22.088 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:24.136 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:24.136 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:24.136 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:24.138 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 14:59:24.138 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:29.999 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 15:02:30.056 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.084 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.112 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.200 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 15:02:30.220 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 15:02:30.297 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.298 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.298 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.298 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.298 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.301 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.301 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.301 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.301 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.302 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.305 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.306 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.306 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.306 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.306 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.313 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.313 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.313 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.313 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.314 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.324 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.324 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.324 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.325 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.325 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.343 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.344 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.344 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.344 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.344 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.375 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:02:30.377 [error] <0.188.0> CRASH REPORT Process <0.188.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.378 [error] <0.187.0> CRASH REPORT Process <0.187.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.380 [error] <0.194.0> CRASH REPORT Process <0.194.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.380 [error] <0.193.0> CRASH REPORT Process <0.193.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.380 [error] <0.192.0> CRASH REPORT Process <0.192.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.443 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.443 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.447 [error] <0.210.0> CRASH REPORT Process <0.210.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.447 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.448 [error] <0.208.0> CRASH REPORT Process <0.208.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.450 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.504 [info] <0.94.0> SSL:[]
+
+2014-05-20 15:02:30.521 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:02:30.531 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.540 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.568 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:02:30.568 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 15:02:30.574 [error] <0.232.0> CRASH REPORT Process <0.232.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.574 [error] <0.231.0> CRASH REPORT Process <0.231.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.580 [error] <0.238.0> CRASH REPORT Process <0.238.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.581 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.581 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:30.730 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 15:02:30.754 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.834 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.855 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.890 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 15:02:30.890 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.919 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 15:02:30.919 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.967 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:30.968 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 15:02:30.968 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 15:02:30.969 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 15:02:31.049 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:31.068 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:02:31.072 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 15:02:31.347 [warning] <0.6.0> lager_error_logger_h dropped 65 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 15:02:31.347 [error] <0.372.0> CRASH REPORT Process <0.372.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:31.347 [error] <0.371.0> CRASH REPORT Process <0.371.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:31.353 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:31.353 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:31.353 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:31.505 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 15:02:32.373 [error] <0.385.0> CRASH REPORT Process <0.385.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:32.374 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:32.380 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:32.380 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:32.381 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:34.425 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:34.425 [error] <0.394.0> CRASH REPORT Process <0.394.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:34.430 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:34.430 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:02:34.431 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:06.989 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 15:05:07.142 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.159 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.191 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.273 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 15:05:07.299 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 15:05:07.438 [error] <0.103.0> gen_server <0.103.0> terminated with reason: disconnected
+2014-05-20 15:05:07.438 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:07.448 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:05:07.493 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.548 [info] <0.94.0> SSL:[]
+
+2014-05-20 15:05:07.556 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:05:07.577 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.586 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.617 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:05:07.617 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 15:05:08.109 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 15:05:08.109 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 15:05:08.258 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.344 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.364 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.390 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 15:05:08.391 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.427 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 15:05:08.428 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.468 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.469 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 15:05:08.469 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 15:05:08.470 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 15:05:08.545 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.564 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:05:08.567 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 15:05:09.011 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 15:05:25.313 [notice] <0.284.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 15:05:25.321 [info] <0.266.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 15:05:25.323 [info] <0.266.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 15:05:25.378 [notice] <0.284.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 15:05:25.379 [notice] <0.284.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 15:05:25.410 [info] <0.284.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 15:05:34.951 [notice] <0.287.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 15:05:34.956 [info] <0.266.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 15:05:34.967 [notice] <0.287.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 15:05:34.967 [notice] <0.287.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 15:05:34.983 [error] <0.287.0> GET /user/login [feed_eater_erlang] 404 0ms
+2014-05-20 15:05:49.539 [error] <0.117.0> gen_server <0.117.0> terminated with reason: disconnected
+2014-05-20 15:05:49.539 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:49.542 [error] <0.290.0> CRASH REPORT Process <0.290.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.546 [error] <0.292.0> CRASH REPORT Process <0.292.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.552 [error] <0.294.0> CRASH REPORT Process <0.294.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.584 [error] <0.296.0> CRASH REPORT Process <0.296.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.599 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-20 15:05:49.599 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:49.605 [error] <0.300.0> CRASH REPORT Process <0.300.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.605 [error] <0.298.0> CRASH REPORT Process <0.298.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.615 [error] <0.302.0> CRASH REPORT Process <0.302.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.624 [error] <0.304.0> CRASH REPORT Process <0.304.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.634 [error] <0.306.0> CRASH REPORT Process <0.306.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.638 [error] <0.308.0> CRASH REPORT Process <0.308.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.645 [error] <0.106.0> gen_server <0.106.0> terminated with reason: disconnected
+2014-05-20 15:05:49.645 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:49.647 [error] <0.310.0> CRASH REPORT Process <0.310.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.648 [error] <0.105.0> gen_server <0.105.0> terminated with reason: disconnected
+2014-05-20 15:05:49.648 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:49.652 [error] <0.316.0> CRASH REPORT Process <0.316.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.652 [error] <0.315.0> CRASH REPORT Process <0.315.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.652 [error] <0.314.0> CRASH REPORT Process <0.314.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.655 [error] <0.318.0> CRASH REPORT Process <0.318.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.656 [error] <0.104.0> gen_server <0.104.0> terminated with reason: disconnected
+2014-05-20 15:05:49.657 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-20 15:05:49.658 [error] <0.320.0> CRASH REPORT Process <0.320.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.659 [error] <0.322.0> CRASH REPORT Process <0.322.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.662 [error] <0.324.0> CRASH REPORT Process <0.324.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.663 [error] <0.326.0> CRASH REPORT Process <0.326.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.667 [error] <0.328.0> CRASH REPORT Process <0.328.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.670 [error] <0.330.0> CRASH REPORT Process <0.330.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.672 [error] <0.332.0> CRASH REPORT Process <0.332.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.680 [error] <0.334.0> CRASH REPORT Process <0.334.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.687 [error] <0.338.0> CRASH REPORT Process <0.338.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.688 [error] <0.337.0> CRASH REPORT Process <0.337.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.690 [error] <0.340.0> CRASH REPORT Process <0.340.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.698 [error] <0.342.0> CRASH REPORT Process <0.342.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.704 [error] <0.344.0> CRASH REPORT Process <0.344.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.723 [error] <0.346.0> CRASH REPORT Process <0.346.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.724 [error] <0.348.0> CRASH REPORT Process <0.348.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.732 [error] <0.350.0> CRASH REPORT Process <0.350.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.754 [error] <0.352.0> CRASH REPORT Process <0.352.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.789 [error] <0.354.0> CRASH REPORT Process <0.354.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.791 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.798 [error] <0.358.0> CRASH REPORT Process <0.358.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.835 [error] <0.360.0> CRASH REPORT Process <0.360.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.884 [error] <0.362.0> CRASH REPORT Process <0.362.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.919 [error] <0.364.0> CRASH REPORT Process <0.364.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.920 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:49.948 [error] <0.368.0> CRASH REPORT Process <0.368.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.093 [error] <0.370.0> CRASH REPORT Process <0.370.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.143 [error] <0.372.0> CRASH REPORT Process <0.372.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.177 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.179 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.206 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.607 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.658 [error] <0.382.0> CRASH REPORT Process <0.382.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.692 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.695 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:50.720 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:51.633 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:51.684 [error] <0.392.0> CRASH REPORT Process <0.392.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:51.718 [error] <0.394.0> CRASH REPORT Process <0.394.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:51.723 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:05:51.747 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.026 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 15:08:12.068 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.084 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.118 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.200 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 15:08:12.221 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 15:08:12.292 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.293 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.293 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.293 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.293 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.297 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.297 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.298 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.298 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.298 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.303 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.303 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.303 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.303 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.303 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.310 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.310 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.310 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.311 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.311 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.322 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.322 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.322 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.323 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.323 [error] <0.144.0> CRASH REPORT Process <0.144.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.344 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.344 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.345 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.345 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.345 [error] <0.155.0> CRASH REPORT Process <0.155.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.386 [error] <0.167.0> CRASH REPORT Process <0.167.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.386 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.387 [error] <0.169.0> CRASH REPORT Process <0.169.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.387 [error] <0.166.0> CRASH REPORT Process <0.166.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.387 [error] <0.168.0> CRASH REPORT Process <0.168.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.423 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:08:12.472 [error] <0.208.0> CRASH REPORT Process <0.208.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.472 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.472 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.473 [error] <0.207.0> CRASH REPORT Process <0.207.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.473 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.479 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.535 [info] <0.94.0> SSL:[]
+
+2014-05-20 15:08:12.542 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 15:08:12.560 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.571 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.599 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 15:08:12.599 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 15:08:12.604 [error] <0.238.0> CRASH REPORT Process <0.238.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.604 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.604 [error] <0.236.0> CRASH REPORT Process <0.236.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.605 [error] <0.235.0> CRASH REPORT Process <0.235.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.605 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:12.780 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 15:08:12.805 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.870 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.890 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.923 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 15:08:12.924 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.951 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 15:08:12.951 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.988 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:12.990 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 15:08:12.990 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 15:08:12.991 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 15:08:13.084 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:13.103 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 15:08:13.106 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 15:08:13.378 [warning] <0.6.0> lager_error_logger_h dropped 77 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 15:08:13.379 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:13.379 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:13.379 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:13.379 [error] <0.375.0> CRASH REPORT Process <0.375.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:13.379 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:13.541 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 15:08:14.405 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:14.405 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:14.405 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:14.406 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:14.406 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:16.457 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:16.457 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:16.457 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:16.457 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:16.457 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:20.556 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:20.556 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:20.556 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:20.557 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 15:08:20.557 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.566 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 16:20:26.645 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:26.663 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:26.693 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:26.787 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 16:20:26.807 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 16:20:26.904 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.904 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.905 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.905 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.905 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.909 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.909 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.910 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.910 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.910 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.918 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.918 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.919 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.919 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.919 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.924 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.925 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.925 [error] <0.133.0> CRASH REPORT Process <0.133.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.927 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.927 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.935 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.935 [error] <0.144.0> CRASH REPORT Process <0.144.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.935 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.937 [error] <0.150.0> CRASH REPORT Process <0.150.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.938 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.954 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.955 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.955 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.955 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.956 [error] <0.164.0> CRASH REPORT Process <0.164.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.989 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.990 [error] <0.172.0> CRASH REPORT Process <0.172.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.990 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.990 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:26.992 [error] <0.175.0> CRASH REPORT Process <0.175.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.004 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 16:20:27.056 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.056 [error] <0.207.0> CRASH REPORT Process <0.207.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.056 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.057 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.058 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.072 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:27.189 [error] <0.224.0> CRASH REPORT Process <0.224.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.189 [error] <0.222.0> CRASH REPORT Process <0.222.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.189 [error] <0.223.0> CRASH REPORT Process <0.223.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.190 [error] <0.221.0> CRASH REPORT Process <0.221.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.190 [error] <0.226.0> CRASH REPORT Process <0.226.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:27.240 [info] <0.94.0> SSL:[]
+
+2014-05-20 16:20:27.253 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 16:20:27.262 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:27.272 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:27.310 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 16:20:27.310 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 16:20:27.464 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 16:20:27.488 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.554 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.574 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.614 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 16:20:27.614 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.640 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 16:20:27.641 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.686 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.687 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 16:20:27.687 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 16:20:27.688 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 16:20:27.760 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.782 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 16:20:27.786 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 16:20:28.207 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 16:20:28.993 [warning] <0.6.0> lager_error_logger_h dropped 68 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 16:20:28.993 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:28.993 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:28.993 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:28.993 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:28.994 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:31.044 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:31.045 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:31.045 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:31.045 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:31.045 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:35.144 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:35.144 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:35.145 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:35.145 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 16:20:35.145 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.430 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 17:06:21.486 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:21.505 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:21.539 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:21.623 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 17:06:21.643 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 17:06:21.722 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.723 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.723 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.723 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.723 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.727 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.727 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.727 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.728 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.728 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.733 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.733 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.733 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.734 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.734 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.740 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.740 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.740 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.741 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.741 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.752 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.752 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.752 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.753 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.753 [error] <0.144.0> CRASH REPORT Process <0.144.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.771 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.772 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.772 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.772 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.772 [error] <0.155.0> CRASH REPORT Process <0.155.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.806 [error] <0.174.0> CRASH REPORT Process <0.174.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.807 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.807 [error] <0.172.0> CRASH REPORT Process <0.172.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.807 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.808 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.825 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:06:21.873 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.873 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.874 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.874 [error] <0.202.0> CRASH REPORT Process <0.202.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.874 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:21.886 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:21.939 [info] <0.94.0> SSL:[]
+
+2014-05-20 17:06:21.956 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:06:21.965 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:21.975 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:22.004 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:06:22.004 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 17:06:22.004 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:22.004 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:22.004 [error] <0.236.0> CRASH REPORT Process <0.236.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:22.005 [error] <0.235.0> CRASH REPORT Process <0.235.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:22.005 [error] <0.233.0> CRASH REPORT Process <0.233.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:22.170 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 17:06:22.193 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.261 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.282 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.315 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 17:06:22.315 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.341 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 17:06:22.342 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.384 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.385 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 17:06:22.385 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 17:06:22.386 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 17:06:22.451 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.472 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:06:22.476 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 17:06:22.906 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 17:06:23.806 [warning] <0.6.0> lager_error_logger_h dropped 30 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 17:06:23.806 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:23.806 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:23.806 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:23.806 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:23.806 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:25.857 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:25.857 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:25.857 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:25.857 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:06:25.857 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-20 17:11:22.216 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 17:11:22.402 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.423 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.455 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.545 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 17:11:22.565 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 17:11:22.719 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:11:22.766 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.824 [info] <0.94.0> SSL:[]
+
+2014-05-20 17:11:22.831 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:11:22.860 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.871 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.901 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:11:22.901 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 17:11:23.028 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 17:11:23.028 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:11:23.052 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 17:11:23.083 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.156 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.180 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.244 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 17:11:23.244 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.295 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 17:11:23.296 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.393 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.394 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 17:11:23.394 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 17:11:23.395 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 17:11:23.463 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.483 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:11:23.486 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 17:11:23.931 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 17:11:45.498 [notice] <0.282.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:11:45.506 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:11:45.509 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 17:11:45.571 [notice] <0.282.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:11:45.571 [notice] <0.282.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:11:45.597 [info] <0.282.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 17:11:48.979 [notice] <0.284.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:11:48.980 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:11:48.982 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:11:48.989 [notice] <0.284.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:11:48.989 [notice] <0.284.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:11:48.992 [info] <0.284.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:12:02.365 [notice] <0.286.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:12:02.372 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:12:02.376 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:12:02.390 [notice] <0.286.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-20 17:12:02.390 [notice] <0.286.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:12:02.430 [error] <0.286.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{bcrypt,gen_salt,[],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,28}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-20 17:12:02.431 [info] <0.286.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:23:54.561 [notice] <0.288.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:23:54.565 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:23:54.573 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 17:23:54.589 [notice] <0.288.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:23:54.589 [notice] <0.288.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:23:54.595 [info] <0.288.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 17:23:56.597 [notice] <0.290.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:23:56.601 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:23:56.612 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:23:56.622 [notice] <0.290.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:23:56.622 [notice] <0.290.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:23:56.629 [info] <0.290.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:24:11.170 [notice] <0.292.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:24:11.171 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:24:11.173 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:24:11.183 [notice] <0.292.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-20 17:24:11.183 [notice] <0.292.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:24:11.205 [error] <0.292.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{bcrypt,gen_salt,[],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,28}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-20 17:24:11.206 [info] <0.292.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:34:49.734 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-20 17:34:49.779 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:49.796 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:49.833 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:49.918 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-20 17:34:49.946 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_riak options [{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}]
+2014-05-20 17:34:50.060 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:34:50.102 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:50.179 [info] <0.94.0> SSL:[]
+
+2014-05-20 17:34:50.201 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-20 17:34:50.218 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:50.236 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:50.315 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-20 17:34:50.315 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-20 17:34:50.486 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-20 17:34:50.512 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.537 [error] <0.94.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/user_lib.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{4,erl_parse,["syntax error before: ","':'"]},{5,erl_parse,["syntax error before: ","':'"]}]}]
+2014-05-20 17:34:50.537 [error] <0.94.0>@boss_load:make_all_modules:88 Load Module Error lib_modules : [[{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{4,erl_parse,["syntax error before: ","':'"]},{5,erl_parse,["syntax error before: ","':'"]}]}]]
+2014-05-20 17:34:50.560 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.608 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/mail/feed_eater_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.640 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-20 17:34:50.640 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.668 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-20 17:34:50.668 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.718 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.719 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{3,1}},{atom,{3,2},module},{'(',{3,8}},{atom,{3,9},feed_eater_erlang_user},{',',{3,31}},{'[',{3,33}},{var,{3,34},'Id'},{',',{3,36}},{var,{3,38},'Email'},{',',{3,43}},{var,{3,45},'Username'},{',',{3,53}},{var,{3,55},'Password'},{'::',{3,63}},{atom,{3,65},string},{'(',{3,71}},{')',{3,72}},{']',{3,73}},{')',{3,74}},{dot,{3,75}},{'-',{4,1}},{atom,{4,2},compile},{'(',{4,9}},{atom,{4,10},export_all},{')',{4,20}},{dot,{4,21}},{'-',{6,1}},{atom,{6,2},define},{'(',{6,8}},{var,{6,9},'SETEC_ASTRONOMY'},{',',{6,24}},{string,{6,26},"This is used to calculate a hash"},{')',{6,60}},{dot,{6,61}},{atom,{8,1},session_identifier},{'(',{8,19}},{')',{8,20}},{'->',{8,22}},{atom,{9,3},mochihex},{':',{9,11}},{atom,{9,12},to_hex},{'(',{9,18}},{atom,{9,19},erlang},{':',{9,25}},{atom,{9,26},md5},{'(',{9,29}},{'?',{9,30}},{var,{9,31},'SETEC_ASTRONOMY'},{'++',{9,47}},{var,{9,50},'Id'},{')',{9,52}},{')',{9,53}},{dot,{9,54}},{atom,{11,1},check_password},{'(',{11,15}},{var,{11,16},'PasswordAttempt'},{')',{11,31}},{'->',{11,33}},{var,{12,3},'Password'},{'=:=',{12,12}},{atom,{12,17},bcrypt},{':',{12,23}},{atom,{12,24},hashpw},{'(',{12,30}},{var,{12,31},'PasswordAttempt'},{',',{12,46}},{var,{12,48},'Password'},{')',{12,56}},{dot,{12,57}},{atom,{14,1},login_cookies},{'(',{14,14}},{')',{14,15}},{'->',{14,17}},{'[',{15,3}},{atom,{15,5},mochiweb_cookies},{':',{15,21}},{atom,{15,22},cookie},{'(',{15,28}},{string,{15,29},"feed_eater_erlang_user_id"},{',',{15,56}},{var,{15,58},'Id'},{',',{15,60}},{'[',{15,62}},{'{',{15,63}},{atom,{15,64},path},{',',{15,68}},{string,{15,70},"/"},{'}',{15,73}},{']',{15,74}},{')',{15,75}},{',',{15,76}},{atom,{16,5},mochiweb_cookies},{':',{16,21}},{atom,{16,22},cookie},{'(',{16,28}},{string,{16,29},"session_id"},{',',{16,41}},{atom,{16,43},session_identifier},{'(',{16,61}},{')',{16,62}},{',',{16,63}},{'[',{16,65}},{'{',{16,66}},{atom,{16,67},path},{',',{16,71}},{string,{16,73},"/"},{'}',{16,76}},{']',{16,77}},{')',{16,78}},{']',{16,80}},{dot,{16,81}},{eof,{17,1}}]
+2014-05-20 17:34:50.719 [info] <0.94.0>@boss_record_compiler:process_tokens:163 Var Type string
+2014-05-20 17:34:50.720 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-20 17:34:50.823 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/tag_modules/feed_eater_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.847 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/view/lib/filter_modules/feed_eater_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:34:50.850 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-20 17:34:51.275 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-20 17:35:13.874 [notice] <0.281.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:35:13.881 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-20 17:35:13.881 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:35:13.883 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:35:13.923 [notice] <0.281.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:35:13.924 [error] <0.281.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/user_lib.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{4,erl_parse,["syntax error before: ","':'"]},{5,erl_parse,["syntax error before: ","':'"]}]}]
+2014-05-20 17:35:13.959 [info] <0.281.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:35:55.379 [notice] <0.284.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:35:55.380 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:35:55.382 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:35:55.405 [notice] <0.284.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:35:55.406 [error] <0.284.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/user_lib.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{5,erl_parse,["syntax error before: ","':'"]}]}]
+2014-05-20 17:35:55.406 [info] <0.284.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:36:07.255 [notice] <0.287.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:36:07.257 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:36:07.260 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:36:07.284 [notice] <0.287.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:36:07.285 [error] <0.287.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/user_lib.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{5,erl_parse,["syntax error before: ","':'"]}]}]
+2014-05-20 17:36:07.285 [info] <0.287.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:36:11.690 [notice] <0.289.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:36:11.692 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:36:11.695 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 17:36:11.724 [notice] <0.289.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:36:11.725 [error] <0.289.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/user_lib.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl",[{5,erl_parse,["syntax error before: ","':'"]}]}]
+2014-05-20 17:36:11.725 [info] <0.289.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 17:36:39.116 [notice] <0.292.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:36:39.118 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:36:39.122 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 17:36:39.146 [notice] <0.292.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/lib/user_lib.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-20 17:36:39.188 [notice] <0.292.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:36:39.188 [notice] <0.292.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:36:39.207 [info] <0.292.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 17:36:44.584 [notice] <0.296.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:36:44.589 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:36:44.591 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:36:44.595 [notice] <0.296.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:36:44.595 [notice] <0.296.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:36:44.598 [info] <0.296.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:36:56.723 [notice] <0.298.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:36:56.724 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:36:56.726 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "user" "register" []
+2014-05-20 17:36:56.731 [notice] <0.298.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-20 17:36:56.731 [notice] <0.298.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:36:56.758 [error] <0.298.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{bcrypt,gen_salt,[],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,28}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-20 17:36:56.759 [info] <0.298.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:44:35.224 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:44:35.225 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:44:35.231 [notice] <0.300.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-20 17:44:35.231 [notice] <0.300.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:44:35.254 [error] <0.300.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{bcrypt,gen_salt,[],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,28}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-20 17:44:35.256 [info] <0.300.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-20 17:44:40.333 [notice] <0.302.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:44:40.339 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:44:40.342 [info] <0.264.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-20 17:44:40.355 [notice] <0.302.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:44:40.355 [notice] <0.302.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:44:40.359 [info] <0.302.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-20 17:44:44.142 [notice] <0.304.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:44:44.144 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:44:44.167 [notice] <0.304.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:44:44.167 [notice] <0.304.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:44:44.176 [error] <0.304.0> GET /user/login [feed_eater_erlang] 404 0ms
+2014-05-20 17:45:52.666 [notice] <0.306.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:45:52.668 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:45:52.679 [notice] <0.306.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-20 17:45:52.679 [notice] <0.306.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:45:52.771 [info] <0.306.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-20 17:45:57.612 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-20 17:45:57.619 [info] <0.264.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-20 17:45:57.626 [notice] <0.309.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-20 17:45:57.626 [notice] <0.309.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-20 17:45:57.665 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no match of right hand value {error,<<"Unknown message code.">>} in boss_db_adapter_riak:get_keys/3 line 88
+2014-05-20 17:45:57.665 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: no match of right hand value {error,<<"Unknown message code.">>} in boss_db_adapter_riak:get_keys/3 line 88 in gen_server:terminate/6 line 746
+2014-05-20 17:45:57.666 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no match of right hand value {error,<<"Unknown message code.">>} in boss_db_adapter_riak:get_keys/3 line 88 in context child_terminated
+2014-05-20 17:45:57.666 [error] <0.309.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.98.0>,{find,feed_eater_erlang_user,[{username,equals,"admin"}],all,0,id,ascending,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]}]
+2014-05-20 17:45:57.668 [info] <0.309.0> POST /user/login [feed_eater_erlang] 200 0ms

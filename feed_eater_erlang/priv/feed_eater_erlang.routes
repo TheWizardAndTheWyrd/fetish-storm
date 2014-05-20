@@ -17,6 +17,13 @@
 % {"/", [{controller, "world"}, {action, "hello"}]}.
 {"/", [{controller, "feed"}, {action, "index"}]}.
 
+% About
+{"/about", [{controller, "main"}, {action, "about"}]}.
+
+% User
+%% {"/user/login", [{controller, "user"}, {action, "login"}]}.
+%% {"/user/register", [{controller, "user"}, {action, "register"}]}.
+
 % 404 File Not Found handler
 % {404, [{controller, "world"}, {action, "lost"}]}.
 

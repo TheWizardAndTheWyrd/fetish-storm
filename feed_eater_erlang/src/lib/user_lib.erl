@@ -1,6 +1,9 @@
 -module(user_lib).
 -compile(export_all).
 
+%% crypto:start().
+%% bcrypt:start().
+
 hash_password(Password) ->
   bcrypt:hashpw(Password, bcrypt:gen_salt()).
 
