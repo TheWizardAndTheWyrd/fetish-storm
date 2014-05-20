@@ -1,0 +1,29 @@
+{ok, C} = eredis:start_link().
+{ok, Values2} = eredis:q(C, ["HGETALL", "kaitlyn"]).
+
+
+io:format("~w~n", [Values3]).
+
+
+R1=io_lib:format("~n~p", [Values2]).
+Values3 = binary:list_to_bin(Values2).
+lists:flatten(R).
+io:format("~tp~n", [Values2]).
+io:format("~w", [Values2]).
+io:format("~w\n", [Values2]).
+
+io:format("~p~n", [Values2]).
+
+
+
+118> unicode:bom_to_encoding(Values3).
+{latin1,0} %% this could mean our data in redid is latin1.
+	   %% However: If no BOM is found, the function returns {latin1,0}
+
+126> io_lib_pretty:print(Values3).
+[60,60,
+ ["0",44,"62",44,"78",44,"80",44,"89",44,"1",44,"61",44,
+  "240",44,"60",44,"27",44,"0",44,"0",44,"0",44|...],
+ 62,62]
+
+
