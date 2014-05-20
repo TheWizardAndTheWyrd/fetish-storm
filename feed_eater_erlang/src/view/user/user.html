@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Login</h1>
+{% if error %}
+<font color="red">{{ error }}</font>
+{% endif %}
+<form method="post">
+Name:<br />
+<input name="username" /><br /><br />
+
+Password:<br />
+<input name="password" type="password" /><br /><br />
+
+<input type="submit" value="Log in" />
+</form>
+{% endblock %}
