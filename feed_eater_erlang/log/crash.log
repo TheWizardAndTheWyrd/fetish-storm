@@ -7120,3 +7120,61 @@ GET /user/login [feed_eater_erlang] 404 0ms2014-05-20 17:45:57 =ERROR REPORT====
      Reason:     {{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
      Offender:   [{pid,<0.98.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
 
+2014-05-21 01:41:45 =ERROR REPORT====
+Compilation of "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" failed: {error,[{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl",[{6,erl_parse,["syntax error before: ","':'"]},{10,erl_parse,["syntax error before: ","':'"]}]}]}
+2014-05-21 01:45:31 =ERROR REPORT====
+** Generic server bcrypt_nif_worker terminating 
+** Last message in was {hashpw,"password",{ok,"$2a$12$YUfgnCCw9xvpSMUSXMfVr."}}
+** When Server state == {state,12,<<>>}
+** Reason for termination == 
+** {function_clause,[{bcrypt_nif_worker,terminate,[{badarg,[{bcrypt_nif,hashpw,[<<>>,#Ref<0.0.0.19651>,<0.277.0>,"password",{ok,"$2a$12$YUfgnCCw9xvpSMUSXMfVr."}],[]},{bcrypt_nif_worker,handle_call,3,[{file,"src/bcrypt_nif_worker.erl"},{line,42}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{state,12,<<>>}],[{file,"src/bcrypt_nif_worker.erl"},{line,34}]},{gen_server,terminate,6,[{file,"gen_server.erl"},{line,721}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-21 01:45:31 =CRASH REPORT====
+  crasher:
+    initial call: bcrypt_nif_worker:init/1
+    pid: <0.277.0>
+    registered_name: bcrypt_nif_worker
+    exception exit: {{function_clause,[{bcrypt_nif_worker,terminate,[{badarg,[{bcrypt_nif,hashpw,[<<>>,#Ref<0.0.0.19651>,<0.277.0>,"password",{ok,"$2a$12$YUfgnCCw9xvpSMUSXMfVr."}],[]},{bcrypt_nif_worker,handle_call,3,[{file,"src/bcrypt_nif_worker.erl"},{line,42}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{state,12,<<>>}],[{file,"src/bcrypt_nif_worker.erl"},{line,34}]},{gen_server,terminate,6,[{file,"gen_server.erl"},{line,721}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,724}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [bcrypt_sup,<0.275.0>]
+    messages: []
+    links: [<0.276.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 204
+  neighbours:
+2014-05-21 01:45:31 =SUPERVISOR REPORT====
+     Supervisor: {local,bcrypt_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{bcrypt_nif_worker,terminate,[{badarg,[{bcrypt_nif,hashpw,[<<>>,#Ref<0.0.0.19651>,<0.277.0>,"password",{ok,"$2a$12$YUfgnCCw9xvpSMUSXMfVr."}],[]},{bcrypt_nif_worker,handle_call,3,[{file,"src/bcrypt_nif_worker.erl"},{line,42}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{state,12,<<>>}],[{file,"src/bcrypt_nif_worker.erl"},{line,34}]},{gen_server,terminate,6,[{file,"gen_server.erl"},{line,721}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.277.0>},{name,bcrypt_nif_worker},{mfargs,{bcrypt_nif_worker,start_link,[]}},{restart_type,permanent},{shutdown,4294967295},{child_type,worker}]
+
+2014-05-21 02:18:19 =ERROR REPORT====
+** Generic server <0.100.0> terminating 
+** Last message in was {find,feed_eater_erlang_user,[{username,equals,"admin"}],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"riak"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,8087}],boss_db_adapter_riak,<0.105.0>,<0.105.0>,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-21 02:18:19 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.100.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.105.0>,normal}]
+    links: [<0.97.0>,<0.96.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 596
+  neighbours:
+2014-05-21 02:18:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.97.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.100.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+

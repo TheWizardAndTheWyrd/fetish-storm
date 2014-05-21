@@ -7,11 +7,11 @@ login('GET', []) ->
 login('POST', []) ->
   Username = Req:post_param("username"),
   case boss_db:find(feed_eater_erlang_user, [{username, 'equals', Username}]) of
-    [FeedEaterErlangUser] ->
-      case FeedEaterErlangUser:check_password(Req:post_param("password")) of
+    [User] ->
+      case User:check_password(Req:post_param("password")) of
         true ->
           {redirect, proplists:get_value("redirect",
-              Req:post_params(), "/"), FeedEaterErlangUser:login_cookies()};
+              Req:post_params(), "/"), User:login_cookies()};
         false ->
           {ok, [{error, "Authentication error"}]}
       end;
@@ -25,7 +25,8 @@ register('GET', []) ->
 register('POST', []) ->
   Email = Req:post_param("email"),
   Username = Req:post_param("username"),
-  Password = bcrypt:hashpw(Req:post_param("password"), bcrypt:gen_salt()),
-  FeedEaterErlangUser = feed_eater_erlang_user:new(id, Email, Username, Password),
-  Result = FeedEaterErlangUser:save(),
+  %Password = bcrypt:hashpw(Req:post_param("password"), bcrypt:gen_salt()),
+  {ok, Password} = user_lib:hash_password(Req:post_param("password")),
+  User = feed_eater_erlang_user:new(id, Email, Username, Password),
+  Result = User:save(),
   {ok, [Result]}.
