@@ -488,3 +488,813 @@
 2014-05-21 02:18:19.650 [error] <0.100.0> CRASH REPORT Process <0.100.0> with 0 neighbours exited with reason: no match of right hand value {error,<<"Unknown message code.">>} in boss_db_adapter_riak:get_keys/3 line 88 in gen_server:terminate/6 line 746
 2014-05-21 02:18:19.650 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.100.0> exit with reason no match of right hand value {error,<<"Unknown message code.">>} in boss_db_adapter_riak:get_keys/3 line 88 in context child_terminated
 2014-05-21 02:18:19.650 [error] <0.292.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{{badmatch,{error,<<"Unknown message code.">>}},[{boss_db_adapter_riak,get_keys,3,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,88}]},{boss_db_adapter_riak,find,7,[{file,"src/db_adapters/boss_db_adapter_riak.erl"},{line,64}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.100.0>,{find,feed_eater_erlang_user,[{username,equals,"admin"}],all,0,id,ascending,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]}]
+2014-05-21 13:06:25.019 [error] <0.105.0> gen_server <0.105.0> terminated with reason: disconnected
+2014-05-21 13:06:25.019 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.299 [error] <0.104.0> gen_server <0.104.0> terminated with reason: disconnected
+2014-05-21 13:07:00.300 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.300 [error] <0.136.0> gen_server <0.136.0> terminated with reason: disconnected
+2014-05-21 13:07:00.300 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.300 [error] <0.103.0> gen_server <0.103.0> terminated with reason: disconnected
+2014-05-21 13:07:00.300 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.301 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no such process or port in call to gen_server:call(<0.103.0>, stop)
+2014-05-21 13:07:00.301 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.103.0>, stop) in gen_server:terminate/6 line 724
+2014-05-21 13:07:00.302 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no such process or port in call to gen_server:call(<0.103.0>, stop) in context child_terminated
+2014-05-21 13:07:00.302 [error] <0.294.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{noproc,{gen_server,call,[<0.103.0>,stop]}},{gen_server,call,[<0.98.0>,{save_record,{feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$rNScOb7e0drcR51XVlYKzOZdQZ5xPOpOJm16EXe.dfbg8LstUckS6"}},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{boss_db,save_record,2,[{file,"src/boss_db.erl"},{line,400}]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]}]
+2014-05-21 13:07:00.368 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-21 13:07:00.368 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.369 [error] <0.106.0> gen_server <0.106.0> terminated with reason: disconnected
+2014-05-21 13:07:00.369 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:07:00.385 [error] <0.305.0> CRASH REPORT Process <0.305.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.385 [error] <0.304.0> CRASH REPORT Process <0.304.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.386 [error] <0.301.0> CRASH REPORT Process <0.301.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.386 [error] <0.300.0> CRASH REPORT Process <0.300.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.386 [error] <0.299.0> CRASH REPORT Process <0.299.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.401 [error] <0.315.0> CRASH REPORT Process <0.315.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.401 [error] <0.314.0> CRASH REPORT Process <0.314.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.401 [error] <0.311.0> CRASH REPORT Process <0.311.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.401 [error] <0.310.0> CRASH REPORT Process <0.310.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.402 [error] <0.309.0> CRASH REPORT Process <0.309.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.409 [error] <0.317.0> CRASH REPORT Process <0.317.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.674 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.674 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.674 [error] <0.324.0> CRASH REPORT Process <0.324.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.674 [error] <0.322.0> CRASH REPORT Process <0.322.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.327.0> CRASH REPORT Process <0.327.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.337.0> CRASH REPORT Process <0.337.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.336.0> CRASH REPORT Process <0.336.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.335.0> CRASH REPORT Process <0.335.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.334.0> CRASH REPORT Process <0.334.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.333.0> CRASH REPORT Process <0.333.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.347.0> CRASH REPORT Process <0.347.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.346.0> CRASH REPORT Process <0.346.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.345.0> CRASH REPORT Process <0.345.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.344.0> CRASH REPORT Process <0.344.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.675 [error] <0.343.0> CRASH REPORT Process <0.343.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.355.0> CRASH REPORT Process <0.355.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.354.0> CRASH REPORT Process <0.354.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.353.0> CRASH REPORT Process <0.353.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.367.0> CRASH REPORT Process <0.367.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.365.0> CRASH REPORT Process <0.365.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.364.0> CRASH REPORT Process <0.364.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.676 [error] <0.363.0> CRASH REPORT Process <0.363.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.685 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.766 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.766 [error] <0.375.0> CRASH REPORT Process <0.375.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.766 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.766 [error] <0.373.0> CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.944 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.944 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.944 [error] <0.385.0> CRASH REPORT Process <0.385.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.945 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:00.945 [error] <0.383.0> CRASH REPORT Process <0.383.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:01.459 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:01.460 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:01.460 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:01.460 [error] <0.394.0> CRASH REPORT Process <0.394.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:01.460 [error] <0.393.0> CRASH REPORT Process <0.393.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:02.487 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:02.489 [error] <0.406.0> CRASH REPORT Process <0.406.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:02.489 [error] <0.405.0> CRASH REPORT Process <0.405.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:02.490 [error] <0.404.0> CRASH REPORT Process <0.404.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:02.490 [error] <0.403.0> CRASH REPORT Process <0.403.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:04.537 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:04.540 [error] <0.416.0> CRASH REPORT Process <0.416.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:04.540 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:04.540 [error] <0.415.0> CRASH REPORT Process <0.415.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:04.540 [error] <0.414.0> CRASH REPORT Process <0.414.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:08.637 [error] <0.419.0> CRASH REPORT Process <0.419.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:08.646 [error] <0.427.0> CRASH REPORT Process <0.427.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:08.647 [error] <0.426.0> CRASH REPORT Process <0.426.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:08.647 [error] <0.425.0> CRASH REPORT Process <0.425.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:08.647 [error] <0.424.0> CRASH REPORT Process <0.424.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:16.830 [error] <0.429.0> CRASH REPORT Process <0.429.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:16.841 [error] <0.437.0> CRASH REPORT Process <0.437.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:16.841 [error] <0.436.0> CRASH REPORT Process <0.436.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:16.841 [error] <0.435.0> CRASH REPORT Process <0.435.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:16.842 [error] <0.434.0> CRASH REPORT Process <0.434.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:26.833 [error] <0.439.0> CRASH REPORT Process <0.439.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:26.844 [error] <0.447.0> CRASH REPORT Process <0.447.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:26.845 [error] <0.446.0> CRASH REPORT Process <0.446.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:26.845 [error] <0.444.0> CRASH REPORT Process <0.444.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:26.845 [error] <0.445.0> CRASH REPORT Process <0.445.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:38.820 [error] <0.457.0> CRASH REPORT Process <0.457.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:38.820 [error] <0.456.0> CRASH REPORT Process <0.456.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:38.820 [error] <0.455.0> CRASH REPORT Process <0.455.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:38.821 [error] <0.454.0> CRASH REPORT Process <0.454.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:38.821 [error] <0.453.0> CRASH REPORT Process <0.453.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:50.805 [error] <0.467.0> CRASH REPORT Process <0.467.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:50.805 [error] <0.464.0> CRASH REPORT Process <0.464.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:50.806 [error] <0.463.0> CRASH REPORT Process <0.463.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:50.806 [error] <0.466.0> CRASH REPORT Process <0.466.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:07:50.806 [error] <0.465.0> CRASH REPORT Process <0.465.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.216 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.217 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.217 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.217 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.217 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.225 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.226 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.226 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.226 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.226 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.231 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.231 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.231 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.232 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.232 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.239 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.239 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.239 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.239 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.239 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.252 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.252 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.252 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.252 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.252 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.272 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.272 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.273 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.273 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.273 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.307 [error] <0.194.0> CRASH REPORT Process <0.194.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.307 [error] <0.193.0> CRASH REPORT Process <0.193.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.308 [error] <0.192.0> CRASH REPORT Process <0.192.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.308 [error] <0.190.0> CRASH REPORT Process <0.190.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.308 [error] <0.191.0> CRASH REPORT Process <0.191.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.394 [error] <0.202.0> CRASH REPORT Process <0.202.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.394 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.394 [error] <0.200.0> CRASH REPORT Process <0.200.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.395 [error] <0.201.0> CRASH REPORT Process <0.201.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.395 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.525 [error] <0.230.0> CRASH REPORT Process <0.230.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.525 [error] <0.231.0> CRASH REPORT Process <0.231.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.526 [error] <0.226.0> CRASH REPORT Process <0.226.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.526 [error] <0.233.0> CRASH REPORT Process <0.233.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:55.526 [error] <0.232.0> CRASH REPORT Process <0.232.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:56.301 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:56.302 [error] <0.381.0> CRASH REPORT Process <0.381.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:56.302 [error] <0.379.0> CRASH REPORT Process <0.379.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:56.302 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:56.302 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:57.328 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:57.328 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:57.328 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:57.328 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:57.328 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:59.379 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:59.379 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:59.379 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:59.379 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:32:59.379 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:03.478 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:03.478 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:03.478 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:03.478 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:03.479 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:36.490 [error] <0.421.0> CRASH REPORT Process <0.421.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:36.490 [error] <0.420.0> CRASH REPORT Process <0.420.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:36.490 [error] <0.419.0> CRASH REPORT Process <0.419.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:36.491 [error] <0.418.0> CRASH REPORT Process <0.418.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:36.491 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.354 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.355 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.355 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.355 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.355 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.357 [error] <0.111.0> CRASH REPORT Process <0.111.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.359 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.359 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.359 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.360 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.363 [error] <0.121.0> CRASH REPORT Process <0.121.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.366 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.366 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.366 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.366 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.382 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.383 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.383 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.383 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.383 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.400 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.401 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.401 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.401 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.401 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.419 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.419 [error] <0.161.0> CRASH REPORT Process <0.161.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.420 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.420 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.420 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.453 [error] <0.190.0> CRASH REPORT Process <0.190.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.454 [error] <0.189.0> CRASH REPORT Process <0.189.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.454 [error] <0.188.0> CRASH REPORT Process <0.188.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.457 [error] <0.194.0> CRASH REPORT Process <0.194.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.457 [error] <0.193.0> CRASH REPORT Process <0.193.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.520 [error] <0.208.0> CRASH REPORT Process <0.208.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.521 [error] <0.207.0> CRASH REPORT Process <0.207.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.521 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.524 [error] <0.211.0> CRASH REPORT Process <0.211.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.525 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.651 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.651 [error] <0.233.0> CRASH REPORT Process <0.233.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.651 [error] <0.232.0> CRASH REPORT Process <0.232.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.655 [error] <0.238.0> CRASH REPORT Process <0.238.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:46.655 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:47.425 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:47.425 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:47.425 [error] <0.375.0> CRASH REPORT Process <0.375.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:47.435 [error] <0.381.0> CRASH REPORT Process <0.381.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:47.435 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:48.452 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:48.452 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:48.453 [error] <0.385.0> CRASH REPORT Process <0.385.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:48.466 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:48.467 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:50.503 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:50.503 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:50.503 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:50.517 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:50.517 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:54.602 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:54.602 [error] <0.406.0> CRASH REPORT Process <0.406.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:54.602 [error] <0.405.0> CRASH REPORT Process <0.405.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:54.615 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:33:54.615 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:02.797 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:02.797 [error] <0.416.0> CRASH REPORT Process <0.416.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:02.798 [error] <0.415.0> CRASH REPORT Process <0.415.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:02.809 [error] <0.421.0> CRASH REPORT Process <0.421.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:02.811 [error] <0.420.0> CRASH REPORT Process <0.420.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:12.800 [error] <0.427.0> CRASH REPORT Process <0.427.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:12.800 [error] <0.426.0> CRASH REPORT Process <0.426.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:12.800 [error] <0.425.0> CRASH REPORT Process <0.425.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:12.812 [error] <0.431.0> CRASH REPORT Process <0.431.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:12.812 [error] <0.430.0> CRASH REPORT Process <0.430.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:22.803 [error] <0.437.0> CRASH REPORT Process <0.437.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:22.803 [error] <0.436.0> CRASH REPORT Process <0.436.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:22.803 [error] <0.435.0> CRASH REPORT Process <0.435.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:22.814 [error] <0.439.0> CRASH REPORT Process <0.439.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:22.816 [error] <0.441.0> CRASH REPORT Process <0.441.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:32.806 [error] <0.447.0> CRASH REPORT Process <0.447.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:32.806 [error] <0.446.0> CRASH REPORT Process <0.446.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:32.806 [error] <0.445.0> CRASH REPORT Process <0.445.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:32.816 [error] <0.449.0> CRASH REPORT Process <0.449.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:34:32.817 [error] <0.451.0> CRASH REPORT Process <0.451.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.672 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.672 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.672 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.672 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.673 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.676 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.676 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.676 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.676 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.676 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.681 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.681 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.681 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.681 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.681 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.688 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.688 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.688 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.688 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.688 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.699 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.701 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.701 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.701 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.701 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.719 [error] <0.161.0> CRASH REPORT Process <0.161.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.720 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.720 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.720 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.720 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.757 [error] <0.174.0> CRASH REPORT Process <0.174.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.757 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.758 [error] <0.172.0> CRASH REPORT Process <0.172.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.758 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.758 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.834 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.834 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.834 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.835 [error] <0.202.0> CRASH REPORT Process <0.202.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.835 [error] <0.201.0> CRASH REPORT Process <0.201.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.969 [error] <0.226.0> CRASH REPORT Process <0.226.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.970 [error] <0.225.0> CRASH REPORT Process <0.225.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.970 [error] <0.224.0> CRASH REPORT Process <0.224.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.970 [error] <0.222.0> CRASH REPORT Process <0.222.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:24.970 [error] <0.223.0> CRASH REPORT Process <0.223.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:26.771 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:26.771 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:26.771 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:26.771 [error] <0.385.0> CRASH REPORT Process <0.385.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:26.771 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:28.821 [error] <0.394.0> CRASH REPORT Process <0.394.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:28.822 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:28.822 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:28.822 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:28.822 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:32.921 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:32.921 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:32.921 [error] <0.406.0> CRASH REPORT Process <0.406.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:32.921 [error] <0.405.0> CRASH REPORT Process <0.405.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:32.921 [error] <0.404.0> CRASH REPORT Process <0.404.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:41.117 [error] <0.418.0> CRASH REPORT Process <0.418.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:41.117 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:41.117 [error] <0.415.0> CRASH REPORT Process <0.415.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:41.117 [error] <0.416.0> CRASH REPORT Process <0.416.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:49:41.117 [error] <0.414.0> CRASH REPORT Process <0.414.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.689 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.689 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.689 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.689 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.689 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.692 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.693 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.693 [error] <0.118.0> CRASH REPORT Process <0.118.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.693 [error] <0.116.0> CRASH REPORT Process <0.116.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.693 [error] <0.115.0> CRASH REPORT Process <0.115.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.699 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.700 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.700 [error] <0.127.0> CRASH REPORT Process <0.127.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.700 [error] <0.126.0> CRASH REPORT Process <0.126.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.700 [error] <0.125.0> CRASH REPORT Process <0.125.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.713 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.713 [error] <0.138.0> CRASH REPORT Process <0.138.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.713 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.713 [error] <0.136.0> CRASH REPORT Process <0.136.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.713 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.732 [error] <0.149.0> CRASH REPORT Process <0.149.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.732 [error] <0.148.0> CRASH REPORT Process <0.148.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.732 [error] <0.147.0> CRASH REPORT Process <0.147.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.732 [error] <0.146.0> CRASH REPORT Process <0.146.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.732 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.763 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.764 [error] <0.159.0> CRASH REPORT Process <0.159.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.764 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.764 [error] <0.157.0> CRASH REPORT Process <0.157.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.764 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.806 [error] <0.171.0> CRASH REPORT Process <0.171.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.806 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.807 [error] <0.169.0> CRASH REPORT Process <0.169.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.807 [error] <0.168.0> CRASH REPORT Process <0.168.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.807 [error] <0.163.0> CRASH REPORT Process <0.163.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.873 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.873 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.873 [error] <0.211.0> CRASH REPORT Process <0.211.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.873 [error] <0.208.0> CRASH REPORT Process <0.208.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:57.874 [error] <0.210.0> CRASH REPORT Process <0.210.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:58.006 [error] <0.224.0> CRASH REPORT Process <0.224.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:58.006 [error] <0.223.0> CRASH REPORT Process <0.223.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:58.006 [error] <0.222.0> CRASH REPORT Process <0.222.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:58.007 [error] <0.221.0> CRASH REPORT Process <0.221.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:58.007 [error] <0.220.0> CRASH REPORT Process <0.220.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:59.810 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:59.811 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:59.811 [error] <0.386.0> CRASH REPORT Process <0.386.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:59.811 [error] <0.385.0> CRASH REPORT Process <0.385.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:51:59.811 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:01.861 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:01.861 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:01.861 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:01.861 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:01.861 [error] <0.394.0> CRASH REPORT Process <0.394.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:05.960 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:05.960 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:05.961 [error] <0.406.0> CRASH REPORT Process <0.406.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:05.961 [error] <0.405.0> CRASH REPORT Process <0.405.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:05.961 [error] <0.404.0> CRASH REPORT Process <0.404.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:14.155 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:14.155 [error] <0.418.0> CRASH REPORT Process <0.418.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:14.155 [error] <0.416.0> CRASH REPORT Process <0.416.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:14.155 [error] <0.415.0> CRASH REPORT Process <0.415.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:52:14.156 [error] <0.414.0> CRASH REPORT Process <0.414.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:10.409 [error] <0.104.0> gen_server <0.104.0> terminated with reason: disconnected
+2014-05-21 13:53:10.409 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.776 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-21 13:53:51.776 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.776 [error] <0.106.0> gen_server <0.106.0> terminated with reason: disconnected
+2014-05-21 13:53:51.776 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.776 [error] <0.105.0> gen_server <0.105.0> terminated with reason: disconnected
+2014-05-21 13:53:51.776 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.777 [error] <0.137.0> gen_server <0.137.0> terminated with reason: disconnected
+2014-05-21 13:53:51.779 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.779 [error] <0.103.0> gen_server <0.103.0> terminated with reason: disconnected
+2014-05-21 13:53:51.779 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 13:53:51.790 [error] <0.290.0> CRASH REPORT Process <0.290.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.790 [error] <0.289.0> CRASH REPORT Process <0.289.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.790 [error] <0.288.0> CRASH REPORT Process <0.288.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.790 [error] <0.287.0> CRASH REPORT Process <0.287.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.791 [error] <0.286.0> CRASH REPORT Process <0.286.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.799 [error] <0.300.0> CRASH REPORT Process <0.300.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.800 [error] <0.299.0> CRASH REPORT Process <0.299.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.800 [error] <0.298.0> CRASH REPORT Process <0.298.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.800 [error] <0.297.0> CRASH REPORT Process <0.297.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.800 [error] <0.296.0> CRASH REPORT Process <0.296.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.836 [error] <0.310.0> CRASH REPORT Process <0.310.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.837 [error] <0.309.0> CRASH REPORT Process <0.309.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.837 [error] <0.308.0> CRASH REPORT Process <0.308.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.838 [error] <0.307.0> CRASH REPORT Process <0.307.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.838 [error] <0.302.0> CRASH REPORT Process <0.302.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.846 [error] <0.312.0> CRASH REPORT Process <0.312.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.850 [error] <0.318.0> CRASH REPORT Process <0.318.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.850 [error] <0.317.0> CRASH REPORT Process <0.317.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.850 [error] <0.316.0> CRASH REPORT Process <0.316.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.851 [error] <0.320.0> CRASH REPORT Process <0.320.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.872 [error] <0.330.0> CRASH REPORT Process <0.330.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.897 [error] <0.329.0> CRASH REPORT Process <0.329.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.897 [error] <0.328.0> CRASH REPORT Process <0.328.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.897 [error] <0.327.0> CRASH REPORT Process <0.327.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.897 [error] <0.326.0> CRASH REPORT Process <0.326.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.926 [error] <0.338.0> CRASH REPORT Process <0.338.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.926 [error] <0.337.0> CRASH REPORT Process <0.337.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.927 [error] <0.336.0> CRASH REPORT Process <0.336.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.927 [error] <0.340.0> CRASH REPORT Process <0.340.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.927 [error] <0.339.0> CRASH REPORT Process <0.339.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.992 [error] <0.346.0> CRASH REPORT Process <0.346.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.993 [error] <0.345.0> CRASH REPORT Process <0.345.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.993 [error] <0.344.0> CRASH REPORT Process <0.344.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.996 [error] <0.350.0> CRASH REPORT Process <0.350.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:51.996 [error] <0.349.0> CRASH REPORT Process <0.349.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.123 [error] <0.355.0> CRASH REPORT Process <0.355.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.123 [error] <0.354.0> CRASH REPORT Process <0.354.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.125 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.130 [error] <0.360.0> CRASH REPORT Process <0.360.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.130 [error] <0.359.0> CRASH REPORT Process <0.359.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.382 [error] <0.364.0> CRASH REPORT Process <0.364.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.382 [error] <0.363.0> CRASH REPORT Process <0.363.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.384 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.387 [error] <0.368.0> CRASH REPORT Process <0.368.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.389 [error] <0.370.0> CRASH REPORT Process <0.370.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.897 [error] <0.373.0> CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.898 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.899 [error] <0.376.0> CRASH REPORT Process <0.376.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.900 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:52.903 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:53.926 [error] <0.384.0> CRASH REPORT Process <0.384.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:53.927 [error] <0.383.0> CRASH REPORT Process <0.383.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:53.930 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:53.930 [error] <0.388.0> CRASH REPORT Process <0.388.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:53.930 [error] <0.387.0> CRASH REPORT Process <0.387.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:55.980 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:55.981 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:55.981 [error] <0.398.0> CRASH REPORT Process <0.398.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:55.981 [error] <0.397.0> CRASH REPORT Process <0.397.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:53:55.981 [error] <0.396.0> CRASH REPORT Process <0.396.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:00.080 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:00.080 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:00.080 [error] <0.408.0> CRASH REPORT Process <0.408.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:00.080 [error] <0.406.0> CRASH REPORT Process <0.406.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:00.080 [error] <0.407.0> CRASH REPORT Process <0.407.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:08.275 [error] <0.420.0> CRASH REPORT Process <0.420.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:08.275 [error] <0.419.0> CRASH REPORT Process <0.419.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:08.277 [error] <0.418.0> CRASH REPORT Process <0.418.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:08.277 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:08.278 [error] <0.416.0> CRASH REPORT Process <0.416.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:18.280 [error] <0.428.0> CRASH REPORT Process <0.428.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:18.280 [error] <0.427.0> CRASH REPORT Process <0.427.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:18.280 [error] <0.426.0> CRASH REPORT Process <0.426.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:18.281 [error] <0.425.0> CRASH REPORT Process <0.425.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:18.283 [error] <0.430.0> CRASH REPORT Process <0.430.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:28.283 [error] <0.438.0> CRASH REPORT Process <0.438.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:28.284 [error] <0.437.0> CRASH REPORT Process <0.437.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:28.285 [error] <0.436.0> CRASH REPORT Process <0.436.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:28.285 [error] <0.435.0> CRASH REPORT Process <0.435.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:28.287 [error] <0.440.0> CRASH REPORT Process <0.440.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:38.286 [error] <0.448.0> CRASH REPORT Process <0.448.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:38.287 [error] <0.447.0> CRASH REPORT Process <0.447.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:38.287 [error] <0.446.0> CRASH REPORT Process <0.446.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:38.287 [error] <0.445.0> CRASH REPORT Process <0.445.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:38.288 [error] <0.450.0> CRASH REPORT Process <0.450.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:48.291 [error] <0.458.0> CRASH REPORT Process <0.458.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:48.291 [error] <0.455.0> CRASH REPORT Process <0.455.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:48.291 [error] <0.456.0> CRASH REPORT Process <0.456.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:48.291 [error] <0.457.0> CRASH REPORT Process <0.457.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:48.292 [error] <0.460.0> CRASH REPORT Process <0.460.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:58.294 [error] <0.470.0> CRASH REPORT Process <0.470.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:58.294 [error] <0.469.0> CRASH REPORT Process <0.469.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:58.295 [error] <0.468.0> CRASH REPORT Process <0.468.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:58.295 [error] <0.467.0> CRASH REPORT Process <0.467.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:54:58.295 [error] <0.466.0> CRASH REPORT Process <0.466.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:55:08.296 [error] <0.474.0> CRASH REPORT Process <0.474.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:55:08.296 [error] <0.473.0> CRASH REPORT Process <0.473.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:55:08.299 [error] <0.480.0> CRASH REPORT Process <0.480.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:55:08.299 [error] <0.479.0> CRASH REPORT Process <0.479.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 13:55:08.299 [error] <0.478.0> CRASH REPORT Process <0.478.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 322
+2014-05-21 14:12:13.504 [error] <0.103.0> gen_server <0.103.0> terminated with reason: disconnected
+2014-05-21 14:12:13.504 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:12:13.505 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no such process or port in call to gen_server:call(<0.103.0>, stop)
+2014-05-21 14:12:13.505 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.103.0>, stop) in gen_server:terminate/6 line 724
+2014-05-21 14:12:13.505 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no such process or port in call to gen_server:call(<0.103.0>, stop) in context child_terminated
+2014-05-21 14:12:13.505 [error] <0.288.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{noproc,{gen_server,call,[<0.103.0>,stop]}},{gen_server,call,[<0.98.0>,{save_record,{feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$M.ACTlTG0jsONKivotckZOaZE2PlY90XYGbdCAhw.bDZoZSxIWQ.6"}},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{boss_db,save_record,2,[{file,"src/boss_db.erl"},{line,400}]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]}]
+2014-05-21 14:16:17.294 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-21 14:16:17.294 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:16:17.297 [error] <0.104.0> gen_server <0.104.0> terminated with reason: disconnected
+2014-05-21 14:16:17.297 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:16:17.298 [error] <0.106.0> gen_server <0.106.0> terminated with reason: disconnected
+2014-05-21 14:16:17.298 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:16:17.298 [error] <0.105.0> gen_server <0.105.0> terminated with reason: disconnected
+2014-05-21 14:16:17.298 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:17:13.517 [error] <0.291.0> gen_server <0.291.0> terminated with reason: disconnected
+2014-05-21 14:17:13.517 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:19:28.467 [error] <0.103.0> gen_server <0.103.0> terminated with reason: disconnected
+2014-05-21 14:19:28.467 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:19:28.468 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no such process or port in call to gen_server:call(<0.103.0>, stop)
+2014-05-21 14:19:28.468 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.103.0>, stop) in gen_server:terminate/6 line 724
+2014-05-21 14:19:28.468 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no such process or port in call to gen_server:call(<0.103.0>, stop) in context child_terminated
+2014-05-21 14:19:28.468 [error] <0.279.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{noproc,{gen_server,call,[<0.103.0>,stop]}},{gen_server,call,[<0.98.0>,{save_record,{feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$nufgmn6N.KP8Kbw2sjVnleIKtZ7hyMGqHohhKUWR2GHncOpJSjUpq"}},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{boss_db,save_record,2,[{file,"src/boss_db.erl"},{line,400}]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]}]
+2014-05-21 14:24:13.390 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-21 14:24:13.390 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:24:13.391 [error] <0.105.0> gen_server <0.105.0> terminated with reason: disconnected
+2014-05-21 14:24:13.391 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:24:13.391 [error] <0.104.0> gen_server <0.104.0> terminated with reason: disconnected
+2014-05-21 14:24:13.392 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:24:13.392 [error] <0.106.0> gen_server <0.106.0> terminated with reason: disconnected
+2014-05-21 14:24:13.392 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:24:28.472 [error] <0.284.0> gen_server <0.284.0> terminated with reason: disconnected
+2014-05-21 14:24:28.472 [error] <0.284.0> CRASH REPORT Process <0.284.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 746
+2014-05-21 14:56:57.806 [error] <0.111.0> CRASH REPORT Process <0.111.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.807 [error] <0.110.0> CRASH REPORT Process <0.110.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.807 [error] <0.108.0> CRASH REPORT Process <0.108.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.807 [error] <0.109.0> CRASH REPORT Process <0.109.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.807 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.811 [error] <0.120.0> CRASH REPORT Process <0.120.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.811 [error] <0.119.0> CRASH REPORT Process <0.119.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.811 [error] <0.122.0> CRASH REPORT Process <0.122.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.811 [error] <0.121.0> CRASH REPORT Process <0.121.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.811 [error] <0.123.0> CRASH REPORT Process <0.123.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.823 [error] <0.133.0> CRASH REPORT Process <0.133.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.823 [error] <0.132.0> CRASH REPORT Process <0.132.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.823 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.824 [error] <0.130.0> CRASH REPORT Process <0.130.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.824 [error] <0.129.0> CRASH REPORT Process <0.129.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.830 [error] <0.142.0> CRASH REPORT Process <0.142.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.830 [error] <0.143.0> CRASH REPORT Process <0.143.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.830 [error] <0.141.0> CRASH REPORT Process <0.141.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.831 [error] <0.140.0> CRASH REPORT Process <0.140.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.831 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.841 [error] <0.152.0> CRASH REPORT Process <0.152.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.841 [error] <0.154.0> CRASH REPORT Process <0.154.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.841 [error] <0.150.0> CRASH REPORT Process <0.150.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.842 [error] <0.153.0> CRASH REPORT Process <0.153.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.842 [error] <0.151.0> CRASH REPORT Process <0.151.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.870 [error] <0.162.0> CRASH REPORT Process <0.162.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.870 [error] <0.161.0> CRASH REPORT Process <0.161.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.871 [error] <0.163.0> CRASH REPORT Process <0.163.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.871 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.872 [error] <0.164.0> CRASH REPORT Process <0.164.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.905 [error] <0.177.0> CRASH REPORT Process <0.177.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.906 [error] <0.175.0> CRASH REPORT Process <0.175.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.906 [error] <0.176.0> CRASH REPORT Process <0.176.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.906 [error] <0.174.0> CRASH REPORT Process <0.174.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.908 [error] <0.179.0> CRASH REPORT Process <0.179.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.971 [error] <0.203.0> CRASH REPORT Process <0.203.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.972 [error] <0.205.0> CRASH REPORT Process <0.205.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.973 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.974 [error] <0.207.0> CRASH REPORT Process <0.207.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:57.976 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:58.104 [error] <0.225.0> CRASH REPORT Process <0.225.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:58.104 [error] <0.227.0> CRASH REPORT Process <0.227.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:58.104 [error] <0.226.0> CRASH REPORT Process <0.226.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:58.106 [error] <0.231.0> CRASH REPORT Process <0.231.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:58.106 [error] <0.230.0> CRASH REPORT Process <0.230.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:59.127 [error] <0.383.0> The on_load function for module bcrypt_nif returned {error,{bad_lib,"Library version (2.6) not compatible (with 2.4)."}}
+2014-05-21 14:56:59.127 [error] <0.381.0> CRASH REPORT Process <0.381.0> with 0 neighbours exited with reason: call to undefined function bcrypt_nif:create_ctx() in gen_server:init_it/6 line 328
+2014-05-21 14:56:59.128 [error] <0.380.0> Supervisor bcrypt_sup had child bcrypt_nif_worker started with bcrypt_nif_worker:start_link() at undefined exit with reason call to undefined function bcrypt_nif:create_ctx() in context start_error
+2014-05-21 14:56:59.128 [error] <0.378.0> CRASH REPORT Process <0.378.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,bcrypt_nif_worker,{undef,[{bcrypt_nif,create_ctx,[],[]},{bcrypt_nif_worker,init,1,[{file,"src/bcrypt_nif_worker.erl"},{line,31}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{bcrypt_app,start,[normal,[]]}} in application_master:init/4 line 133
+2014-05-21 14:56:59.128 [error] <0.98.0> Execution of "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" failed: {error,{{shutdown,{failed_to_start_child,bcrypt_nif_worker,{undef,[{bcrypt_nif,create_ctx,[],[]},{bcrypt_nif_worker,init,1,[{file,"src/bcrypt_nif_worker.erl"},{line,31}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{bcrypt_app,start,[normal,[]]}}}
+
+2014-05-21 14:56:59.918 [error] <0.393.0> CRASH REPORT Process <0.393.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:59.918 [error] <0.392.0> CRASH REPORT Process <0.392.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:59.918 [error] <0.391.0> CRASH REPORT Process <0.391.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:59.918 [error] <0.390.0> CRASH REPORT Process <0.390.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:56:59.918 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:01.969 [error] <0.403.0> CRASH REPORT Process <0.403.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:01.969 [error] <0.402.0> CRASH REPORT Process <0.402.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:01.969 [error] <0.401.0> CRASH REPORT Process <0.401.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:01.969 [error] <0.400.0> CRASH REPORT Process <0.400.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:01.969 [error] <0.399.0> CRASH REPORT Process <0.399.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:06.069 [error] <0.413.0> CRASH REPORT Process <0.413.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:06.069 [error] <0.412.0> CRASH REPORT Process <0.412.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:06.069 [error] <0.411.0> CRASH REPORT Process <0.411.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:06.070 [error] <0.410.0> CRASH REPORT Process <0.410.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 14:57:06.070 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: {tcp,econnrefused} in gen_server:init_it/6 line 320
+2014-05-21 15:01:15.563 [error] <0.283.0> The on_load function for module bcrypt_nif returned {error,{bad_lib,"Library version (2.6) not compatible (with 2.4)."}}
+2014-05-21 15:01:15.563 [error] <0.281.0> CRASH REPORT Process <0.281.0> with 0 neighbours exited with reason: call to undefined function bcrypt_nif:create_ctx() in gen_server:init_it/6 line 328
+2014-05-21 15:01:15.563 [error] <0.280.0> Supervisor bcrypt_sup had child bcrypt_nif_worker started with bcrypt_nif_worker:start_link() at undefined exit with reason call to undefined function bcrypt_nif:create_ctx() in context start_error
+2014-05-21 15:01:15.564 [error] <0.278.0> CRASH REPORT Process <0.278.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,bcrypt_nif_worker,{undef,[{bcrypt_nif,create_ctx,[],[]},{bcrypt_nif_worker,init,1,[{file,"src/bcrypt_nif_worker.erl"},{line,31}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{bcrypt_app,start,[normal,[]]}} in application_master:init/4 line 133
+2014-05-21 15:01:15.564 [error] <0.98.0> Execution of "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" failed: {error,{{shutdown,{failed_to_start_child,bcrypt_nif_worker,{undef,[{bcrypt_nif,create_ctx,[],[]},{bcrypt_nif_worker,init,1,[{file,"src/bcrypt_nif_worker.erl"},{line,31}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{bcrypt_app,start,[normal,[]]}}}
+
+2014-05-21 15:15:07.094 [error] <0.283.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{noproc,{gen_server,call,[<0.107.0>,stop]}},{gen_server,call,[<0.102.0>,{save_record,{feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$M6cgSvjdKMIGxuPeor1qwu1CMwe5XjJZvkFXy1ncWP4EN8JMSww.e"}},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,188}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{boss_db,save_record,2,[{file,"src/boss_db.erl"},{line,400}]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,31}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]}]
+2014-05-21 15:15:07.094 [error] <0.107.0> gen_server <0.107.0> terminated with reason: disconnected
+2014-05-21 15:15:07.094 [error] <0.107.0> CRASH REPORT Process <0.107.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:15:07.094 [error] <0.102.0> gen_server <0.102.0> terminated with reason: no such process or port in call to gen_server:call(<0.107.0>, stop)
+2014-05-21 15:15:07.094 [error] <0.102.0> CRASH REPORT Process <0.102.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.107.0>, stop) in gen_server:terminate/6 line 722
+2014-05-21 15:15:07.094 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.102.0> exit with reason no such process or port in call to gen_server:call(<0.107.0>, stop) in context child_terminated
+2014-05-21 15:19:51.716 [error] <0.111.0> gen_server <0.111.0> terminated with reason: disconnected
+2014-05-21 15:19:51.716 [error] <0.111.0> CRASH REPORT Process <0.111.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:19:51.717 [error] <0.110.0> gen_server <0.110.0> terminated with reason: disconnected
+2014-05-21 15:19:51.717 [error] <0.110.0> CRASH REPORT Process <0.110.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:19:51.717 [error] <0.109.0> gen_server <0.109.0> terminated with reason: disconnected
+2014-05-21 15:19:51.717 [error] <0.109.0> CRASH REPORT Process <0.109.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:19:51.717 [error] <0.108.0> gen_server <0.108.0> terminated with reason: disconnected
+2014-05-21 15:19:51.717 [error] <0.108.0> CRASH REPORT Process <0.108.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:20:07.099 [error] <0.287.0> gen_server <0.287.0> terminated with reason: disconnected
+2014-05-21 15:20:07.099 [error] <0.287.0> CRASH REPORT Process <0.287.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:24:51.723 [error] <0.295.0> gen_server <0.295.0> terminated with reason: disconnected
+2014-05-21 15:24:51.723 [error] <0.295.0> CRASH REPORT Process <0.295.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:24:51.724 [error] <0.294.0> gen_server <0.294.0> terminated with reason: disconnected
+2014-05-21 15:24:51.724 [error] <0.294.0> CRASH REPORT Process <0.294.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:24:51.724 [error] <0.293.0> gen_server <0.293.0> terminated with reason: disconnected
+2014-05-21 15:24:51.724 [error] <0.292.0> gen_server <0.292.0> terminated with reason: disconnected
+2014-05-21 15:24:51.724 [error] <0.293.0> CRASH REPORT Process <0.293.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:24:51.724 [error] <0.292.0> CRASH REPORT Process <0.292.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:25:07.114 [error] <0.297.0> gen_server <0.297.0> terminated with reason: disconnected
+2014-05-21 15:25:07.114 [error] <0.297.0> CRASH REPORT Process <0.297.0> with 0 neighbours exited with reason: disconnected in gen_server:terminate/6 line 744
+2014-05-21 15:28:06.571 [error] <0.103.0> gen_server <0.103.0> terminated with reason: call to undefined function boss_db_adapter_riak:table_exists/2 from boss_db_controller:handle_call/3 line 188
+2014-05-21 15:28:06.572 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: call to undefined function boss_db_adapter_riak:table_exists(<0.302.0>, schema_migrations) in gen_server:terminate/6 line 744
+2014-05-21 15:28:06.573 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason call to undefined function boss_db_adapter_riak:table_exists(<0.302.0>, schema_migrations) in context child_terminated
+2014-05-21 15:37:28.499 [error] <0.300.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{user,new,[id,"ramonjlongiii@gmail.com","admin","$2a$12$1/2T3dwxo6lshvQknlZF6ewW11HDCE53i379UBQgp3iNNOZmqZCSq"],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,30}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 15:39:39.159 [error] <0.303.0>@boss_web_controller:call_controller_action:366 Error in controller error undef [{feed_eater_earlang_user,new,[id,"ramonjlongiii@gmail.com","admin","$2a$12$AvZq/QpxrJg6Bn1Kzejcb.aOPU6oOkNGylBlvwKFTAAWozt21tc06"],[]},{feed_eater_erlang_user_controller,register,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,30}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 15:43:07.050 [error] <0.312.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{module_not_loaded,user}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 15:43:56.036 [error] <0.314.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"15">>}]}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 15:44:50.737 [error] <0.317.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{module_not_loaded,users}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 15:45:19.037 [error] <0.320.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{module_not_loaded,feed_eater_erlang_users}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 15:45:40.997 [error] <0.323.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"15">>}]}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 15:51:15.299 [error] <0.326.0>@boss_load:compile_and_accumulate_errors:264 Compile Error, "src/controller/feed_eater_erlang_user_controller.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl",[{11,erl_lint,{unbound_var,'User'}}]}]
+2014-05-21 15:54:09.444 [error] <0.103.0> gen_server <0.103.0> terminated with reason: no function clause matching boss_db_adapter_pgsql:find(<0.108.0>, "feed_eater_erlang_user", [], all, 0, id, ascending) line 47
+2014-05-21 15:54:09.444 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 1 neighbours exited with reason: no function clause matching boss_db_adapter_pgsql:find(<0.108.0>, "feed_eater_erlang_user", [], all, 0, id, ascending) line 47 in gen_server:terminate/6 line 744
+2014-05-21 15:54:09.445 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason no function clause matching boss_db_adapter_pgsql:find(<0.108.0>, "feed_eater_erlang_user", [], all, 0, id, ascending) line 47 in context child_terminated
+2014-05-21 16:25:11.843 [error] <0.344.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"15">>}]}}} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 16:45:51.870 [error] <0.604.0>@boss_web_controller:call_controller_action:366 Error in controller error {case_clause,db_connection_down} [{feed_eater_erlang_user_controller,login,3,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl"},{line,9}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2014-05-21 16:47:06.165 [error] emulator Error in process <0.726.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:06.166 [error] emulator Error in process <0.730.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:06.166 [error] emulator Error in process <0.727.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:16.172 [error] emulator Error in process <0.741.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:21.175 [error] emulator Error in process <0.749.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:21.180 [error] emulator Error in process <0.748.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:36.179 [error] emulator Error in process <0.767.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:47:51.216 [error] emulator Error in process <0.790.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:01.303 [error] emulator Error in process <0.985.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:01.309 [error] emulator Error in process <0.988.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:06.266 [error] emulator Error in process <0.991.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:06.292 [error] emulator Error in process <0.994.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:06.308 [error] emulator Error in process <0.997.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:16.307 [error] emulator Error in process <0.1000.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:16.320 [error] emulator Error in process <0.1003.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:21.273 [error] emulator Error in process <0.1006.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:21.332 [error] emulator Error in process <0.1012.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:21.333 [error] emulator Error in process <0.1009.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:31.322 [error] emulator Error in process <0.1016.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:31.323 [error] emulator Error in process <0.1018.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:36.288 [error] emulator Error in process <0.1021.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:36.336 [error] emulator Error in process <0.1027.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:36.336 [error] emulator Error in process <0.1025.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:46.329 [error] emulator Error in process <0.1033.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:46.329 [error] emulator Error in process <0.1031.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:51.306 [error] emulator Error in process <0.1036.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:51.339 [error] emulator Error in process <0.1041.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:50:51.339 [error] emulator Error in process <0.1040.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:51:01.338 [error] emulator Error in process <0.1046.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:51:06.349 [error] emulator Error in process <0.1055.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:51:21.363 [error] emulator Error in process <0.1073.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:51:36.377 [error] emulator Error in process <0.1096.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:56:15.122 [error] emulator Error in process <0.725.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:56:15.123 [error] emulator Error in process <0.724.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:56:25.131 [error] emulator Error in process <0.740.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:56:25.138 [error] emulator Error in process <0.739.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:56:30.121 [error] emulator Error in process <0.745.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:57:15.159 [error] emulator Error in process <0.807.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:57:40.165 [error] emulator Error in process <0.843.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:58:15.198 [error] emulator Error in process <0.894.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:58:30.237 [error] emulator Error in process <0.918.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:59:10.303 [error] emulator Error in process <0.975.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:59:10.305 [error] emulator Error in process <0.974.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:59:25.273 [error] emulator Error in process <0.990.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 16:59:25.312 [error] emulator Error in process <0.997.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:00:00.337 [error] emulator Error in process <0.1045.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:00:45.349 [error] emulator Error in process <0.1111.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:01:10.375 [error] emulator Error in process <0.1144.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:01:20.386 [error] emulator Error in process <0.1159.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:02:05.409 [error] emulator Error in process <0.1227.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:02:20.443 [error] emulator Error in process <0.1246.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:04:55.483 [error] emulator Error in process <0.1474.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:05:05.505 [error] emulator Error in process <0.1493.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:05:30.675 [error] emulator Error in process <0.1532.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 17:05:55.581 [error] emulator Error in process <0.1567.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
