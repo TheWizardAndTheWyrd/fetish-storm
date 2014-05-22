@@ -1298,3 +1298,165 @@
 2014-05-21 17:05:55.581 [error] emulator Error in process <0.1567.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
 
 
+2014-05-21 18:09:37.110 [error] emulator Error in process <0.732.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:37.110 [error] emulator Error in process <0.730.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:47.152 [error] emulator Error in process <0.738.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:47.152 [error] emulator Error in process <0.737.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:52.122 [error] emulator Error in process <0.745.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:02.173 [error] emulator Error in process <0.757.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:02.173 [error] emulator Error in process <0.753.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:07.174 [error] emulator Error in process <0.762.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:17.180 [error] emulator Error in process <0.774.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:17.180 [error] emulator Error in process <0.773.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:32.187 [error] emulator Error in process <0.790.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:26.909 [error] emulator Error in process <0.849.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:26.909 [error] emulator Error in process <0.848.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:27.103 [error] emulator Error in process <0.847.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:27.103 [error] emulator Error in process <0.850.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.866.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.865.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.864.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.171 [error] emulator Error in process <0.886.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.171 [error] emulator Error in process <0.884.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.172 [error] emulator Error in process <0.882.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:12.184 [error] emulator Error in process <0.900.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:12.185 [error] emulator Error in process <0.899.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:27.187 [error] emulator Error in process <0.919.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:52.296 [error] emulator Error in process <0.954.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:02.315 [error] emulator Error in process <0.970.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:07.255 [error] emulator Error in process <0.978.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:27.368 [error] emulator Error in process <0.1005.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:27.368 [error] emulator Error in process <0.1004.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:32.476 [error] emulator Error in process <0.1012.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:42.491 [error] emulator Error in process <0.1023.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:42.492 [error] emulator Error in process <0.1022.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:57.517 [error] emulator Error in process <0.1044.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:57.518 [error] emulator Error in process <0.1043.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:12.583 [error] emulator Error in process <0.1062.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:12.584 [error] emulator Error in process <0.1061.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.595 [error] emulator Error in process <0.1095.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.596 [error] emulator Error in process <0.1099.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.597 [error] emulator Error in process <0.1098.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.615 [error] emulator Error in process <0.1115.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.616 [error] emulator Error in process <0.1114.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.616 [error] emulator Error in process <0.1113.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:07.622 [error] emulator Error in process <0.1134.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:07.623 [error] emulator Error in process <0.1133.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:22.629 [error] emulator Error in process <0.1152.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:22.629 [error] emulator Error in process <0.1151.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:37.637 [error] emulator Error in process <0.1170.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:37.638 [error] emulator Error in process <0.1169.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:52.650 [error] emulator Error in process <0.1189.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:57.667 [error] emulator Error in process <0.1198.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:39:12.659 [error] emulator Error in process <0.1215.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:39:22.751 [error] emulator Error in process <0.1231.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 23:09:29.351 [error] <0.509.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{lists,map,[#Fun<cb_admin_model_controller.0.101071866>,db_connection_down],[{file,"lists.erl"},{line,1236}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,37}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 23:11:08.342 [error] <0.660.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{lists,map,[#Fun<cb_admin_model_controller.0.101071866>,db_connection_down],[{file,"lists.erl"},{line,1236}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,37}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 23:12:42.376 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78
+2014-05-21 23:12:42.377 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 1 neighbours exited with reason: no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78 in gen_server:terminate/6 line 746
+2014-05-21 23:12:42.378 [error] <0.287.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{{badmatch,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}}},[{boss_db_adapter_pgsql,count,3,[{file,"src/db_adapters/boss_db_adapter_pgsql.erl"},{line,78}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,138}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.98.0>,{count,feed_eater_erlang_user,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,34}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]}]
+2014-05-21 23:12:42.378 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78 in context child_terminated

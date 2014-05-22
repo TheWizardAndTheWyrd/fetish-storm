@@ -2670,3 +2670,369 @@
 2014-05-21 17:05:55.581 [error] emulator Error in process <0.1567.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
 
 
+2014-05-21 18:06:49.450 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-21 18:06:49.907 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:49.929 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:49.970 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:50.229 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-21 18:06:50.253 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mysql options [{adapter,"mysql"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feedeater"},{db_username,"feedeater"},{db_host,"localhost"},{db_port,3306}]
+2014-05-21 18:06:50.417 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 18:06:50.591 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:50.889 [info] <0.94.0> SSL:[]
+
+2014-05-21 18:06:50.917 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 18:06:50.940 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:50.961 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:51.015 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:06:51.015 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-21 18:06:51.190 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-21 18:06:51.310 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-21 18:06:51.323 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-21 18:06:51.479 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-21 18:06:51.733 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 18:06:51.741 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 18:06:52.066 [warning] <0.6.0> lager_error_logger_h dropped 32 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-21 18:06:52.080 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 18:07:49.699 [notice] <0.555.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:07:49.717 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:07:49.729 [info] <0.405.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-21 18:07:49.935 [info] <0.555.0> GET / [feed_eater_erlang] 302 0ms
+2014-05-21 18:07:50.050 [notice] <0.556.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:07:50.052 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:07:50.060 [notice] <0.556.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 18:07:50.060 [notice] <0.556.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 18:07:50.080 [info] <0.556.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-21 18:07:55.361 [notice] <0.561.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:07:55.365 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:07:55.420 [notice] <0.561.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 18:07:55.420 [notice] <0.561.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 18:07:55.445 [info] <0.561.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 18:08:07.891 [notice] <0.593.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:08:07.898 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:08:07.914 [notice] <0.593.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-21 18:08:07.914 [notice] <0.593.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 18:08:09.162 [info] <0.593.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 18:08:17.999 [notice] <0.610.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:08:18.004 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:08:18.029 [notice] <0.610.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 18:08:18.029 [notice] <0.610.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 18:08:18.058 [info] <0.610.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 18:08:20.069 [notice] <0.612.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 18:08:20.073 [info] <0.405.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 18:08:20.096 [notice] <0.612.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 18:08:20.096 [notice] <0.612.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 18:08:20.106 [info] <0.612.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-21 18:09:37.110 [error] emulator Error in process <0.732.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:37.110 [error] emulator Error in process <0.730.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:47.152 [error] emulator Error in process <0.738.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:47.152 [error] emulator Error in process <0.737.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:09:52.122 [error] emulator Error in process <0.745.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:02.173 [error] emulator Error in process <0.757.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:02.173 [error] emulator Error in process <0.753.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:07.174 [error] emulator Error in process <0.762.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:17.180 [error] emulator Error in process <0.774.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:17.180 [error] emulator Error in process <0.773.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 18:10:32.187 [error] emulator Error in process <0.790.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:26.909 [error] emulator Error in process <0.849.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:26.909 [error] emulator Error in process <0.848.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:27.103 [error] emulator Error in process <0.847.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:27.103 [error] emulator Error in process <0.850.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.866.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.865.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:41.955 [error] emulator Error in process <0.864.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.171 [error] emulator Error in process <0.886.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.171 [error] emulator Error in process <0.884.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:34:57.172 [error] emulator Error in process <0.882.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:12.184 [error] emulator Error in process <0.900.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:12.185 [error] emulator Error in process <0.899.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:27.187 [error] emulator Error in process <0.919.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:35:52.296 [error] emulator Error in process <0.954.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:02.315 [error] emulator Error in process <0.970.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:07.255 [error] emulator Error in process <0.978.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:27.368 [error] emulator Error in process <0.1005.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:27.368 [error] emulator Error in process <0.1004.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:32.476 [error] emulator Error in process <0.1012.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:42.491 [error] emulator Error in process <0.1023.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:42.492 [error] emulator Error in process <0.1022.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:57.517 [error] emulator Error in process <0.1044.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:36:57.518 [error] emulator Error in process <0.1043.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:12.583 [error] emulator Error in process <0.1062.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:12.584 [error] emulator Error in process <0.1061.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.595 [error] emulator Error in process <0.1095.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.596 [error] emulator Error in process <0.1099.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:37.597 [error] emulator Error in process <0.1098.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.615 [error] emulator Error in process <0.1115.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.616 [error] emulator Error in process <0.1114.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:37:52.616 [error] emulator Error in process <0.1113.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:07.622 [error] emulator Error in process <0.1134.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:07.623 [error] emulator Error in process <0.1133.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:22.629 [error] emulator Error in process <0.1152.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:22.629 [error] emulator Error in process <0.1151.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:37.637 [error] emulator Error in process <0.1170.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:37.638 [error] emulator Error in process <0.1169.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:52.650 [error] emulator Error in process <0.1189.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:38:57.667 [error] emulator Error in process <0.1198.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:39:12.659 [error] emulator Error in process <0.1215.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 22:39:22.751 [error] emulator Error in process <0.1231.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+
+2014-05-21 23:09:06.389 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-21 23:09:06.508 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:06.526 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:06.595 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:06.993 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-21 23:09:07.017 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mysql options [{adapter,"mysql"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feedeater"},{db_username,"feedeater"},{db_host,"localhost"},{db_port,3306}]
+2014-05-21 23:09:07.151 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 23:09:07.207 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:07.456 [info] <0.94.0> SSL:[]
+
+2014-05-21 23:09:07.465 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 23:09:07.473 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:07.482 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:07.531 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:07.531 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-21 23:09:07.650 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:09:07.741 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-21 23:09:07.787 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-21 23:09:07.788 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-21 23:09:07.873 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-21 23:09:08.339 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:09:08.344 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:09:08.424 [warning] <0.6.0> lager_error_logger_h dropped 32 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-21 23:09:08.424 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:09:22.867 [notice] <0.487.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:09:22.885 [info] <0.412.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:09:22.890 [info] <0.412.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-21 23:09:23.029 [info] <0.487.0> GET / [feed_eater_erlang] 302 0ms
+2014-05-21 23:09:23.086 [notice] <0.488.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:09:23.090 [info] <0.412.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:09:23.097 [notice] <0.488.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:09:23.097 [notice] <0.488.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:09:23.120 [info] <0.488.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-21 23:09:24.474 [notice] <0.489.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:09:24.477 [info] <0.390.0>@boss_router_controller:route:171 Boss Route cb_admin "admin" "index" []
+2014-05-21 23:09:24.503 [notice] <0.489.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:09:24.503 [notice] <0.489.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:09:24.561 [info] <0.489.0> GET /admin [cb_admin] 200 0ms
+2014-05-21 23:09:27.248 [notice] <0.490.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:09:27.253 [notice] <0.490.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:09:27.253 [notice] <0.490.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:09:27.267 [info] <0.490.0> GET /admin/model/model [cb_admin] 200 0ms
+2014-05-21 23:09:29.344 [notice] <0.509.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:09:29.350 [notice] <0.509.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:09:29.350 [notice] <0.509.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_user"]
+2014-05-21 23:09:29.351 [error] <0.509.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{lists,map,[#Fun<cb_admin_model_controller.0.101071866>,db_connection_down],[{file,"lists.erl"},{line,1236}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,37}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 23:09:29.352 [info] <0.509.0> GET /admin/model/model/feed_eater_erlang_user [cb_admin] 200 0ms
+2014-05-21 23:11:08.314 [notice] <0.660.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:11:08.317 [notice] <0.660.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:11:08.317 [notice] <0.660.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_user"]
+2014-05-21 23:11:08.342 [error] <0.660.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{lists,map,[#Fun<cb_admin_model_controller.0.101071866>,db_connection_down],[{file,"lists.erl"},{line,1236}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,37}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-21 23:11:08.344 [info] <0.660.0> GET /admin/model/model/feed_eater_erlang_user [cb_admin] 200 0ms
+2014-05-21 23:11:19.747 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-21 23:11:23.083 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:23.107 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:23.497 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:24.229 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-21 23:11:24.865 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_pgsql options [{adapter,"pgsql"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feedeater"},{db_username,"ramonlong"},{db_host,"localhost"},{db_port,5432}]
+2014-05-21 23:11:27.025 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 23:11:27.117 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:27.524 [info] <0.94.0> SSL:[]
+
+2014-05-21 23:11:27.544 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-21 23:11:27.569 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:27.581 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:27.630 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:27.630 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-21 23:11:28.139 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-21 23:11:28.149 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:11:28.321 [info] <0.7.0> Application feed_eater_erlang started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:11:28.364 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:11:28.383 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-21 23:11:28.490 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-21 23:11:28.490 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-21 23:11:28.592 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-21 23:11:29.036 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:11:29.042 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-21 23:11:29.175 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-21 23:12:42.221 [notice] <0.287.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:12:42.363 [notice] <0.287.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:12:42.363 [notice] <0.287.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_user"]
+2014-05-21 23:12:42.376 [error] <0.98.0> gen_server <0.98.0> terminated with reason: no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78
+2014-05-21 23:12:42.377 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 1 neighbours exited with reason: no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78 in gen_server:terminate/6 line 746
+2014-05-21 23:12:42.378 [error] <0.287.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{{badmatch,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}}},[{boss_db_adapter_pgsql,count,3,[{file,"src/db_adapters/boss_db_adapter_pgsql.erl"},{line,78}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,138}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.98.0>,{count,feed_eater_erlang_user,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,34}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]}]
+2014-05-21 23:12:42.378 [error] <0.97.0> Supervisor {<0.97.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.98.0> exit with reason no match of right hand value {error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}} in boss_db_adapter_pgsql:count/3 line 78 in context child_terminated
+2014-05-21 23:12:42.420 [info] <0.287.0> GET /admin/model/model/feed_eater_erlang_user [cb_admin] 200 0ms
+2014-05-21 23:25:14.083 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400695092_create_users.erl"
+2014-05-21 23:25:14.086 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400729050_create_feed_eater_erlang_users.erl"
+2014-05-21 23:25:25.539 [notice] <0.296.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-21 23:25:25.542 [notice] <0.296.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:25:25.542 [notice] <0.296.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_user"]
+2014-05-21 23:25:25.720 [info] <0.296.0> GET /admin/model/model/feed_eater_erlang_user [cb_admin] 200 0ms
+2014-05-21 23:25:31.399 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:25:31.462 [info] <0.301.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"feed_eater_erlang_user_id"},{',',{20,56}},{atom,{20,58},erlang},{':',{20,64}},{atom,{20,65},md5},{'(',{20,68}},{var,{20,69},'Id'},{')',{20,71}},{',',{20,72}},{'[',{20,74}},{'{',{20,75}},{atom,{20,76},path},{',',{20,80}},{string,{20,82},"/"},{'}',{20,85}},{']',{20,86}},{')',{20,87}},{',',{20,88}},{atom,{21,5},mochiweb_cookies},{':',{21,21}},{atom,{21,22},cookie},{'(',{21,28}},{string,{21,29},"session_id"},{',',{21,41}},{atom,{21,43},session_identifier},{'(',{21,61}},{')',{21,62}},{',',{21,63}},{'[',{21,65}},{'{',{21,66}},{atom,{21,67},path},{',',{21,71}},{string,{21,73},"/"},{'}',{21,76}},{']',{21,77}},{')',{21,78}},{']',{22,3}},{dot,{22,4}},{eof,{23,1}}]
+2014-05-21 23:25:31.464 [notice] <0.301.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-21 23:25:31.890 [info] <0.301.0> GET /doc/feed_eater_erlang_user [feed_eater_erlang] 200 0ms
+2014-05-21 23:25:43.628 [notice] <0.307.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:25:43.634 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:25:43.636 [info] <0.272.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-21 23:25:43.641 [info] <0.307.0> GET / [feed_eater_erlang] 302 0ms
+2014-05-21 23:25:43.647 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:25:43.648 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:25:43.659 [notice] <0.309.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:25:43.659 [notice] <0.309.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:25:43.683 [info] <0.309.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-21 23:25:45.659 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:25:45.660 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:25:45.675 [notice] <0.311.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:25:45.675 [notice] <0.311.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:25:45.685 [info] <0.311.0> GET /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 23:25:53.417 [notice] <0.313.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:25:53.422 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:25:53.428 [notice] <0.313.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-21 23:25:53.428 [notice] <0.313.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:25:54.498 [notice] <0.99.0>@boss_db_adapter_pgsql:save_record:115 Saving Record {feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$pDAdBzHVKga.fa.y2JTHseuGSYahQLb.JyaccsZizWv280nSi5bQO"}
+2014-05-21 23:25:54.520 [info] <0.313.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 23:28:18.412 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400695092_create_users.erl"
+2014-05-21 23:28:18.418 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400729050_create_feed_eater_erlang_users.erl"
+2014-05-21 23:28:18.424 [info] <0.49.0>@boss_db:migrate:133 Running migration: create_feed_eater_erlang_users down
+2014-05-21 23:33:25.382 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400695092_create_users.erl"
+2014-05-21 23:33:25.387 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400729050_create_feed_eater_erlang_users.erl"
+2014-05-21 23:33:40.694 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:33:40.697 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:33:40.703 [notice] <0.321.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-21 23:33:40.703 [notice] <0.321.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:33:41.752 [notice] <0.99.0>@boss_db_adapter_pgsql:save_record:115 Saving Record {feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$4AuxSfyflVG20/0qmB5hNu3FuF94z7mmugv6YTT6ngTQV0ZfcpcSq"}
+2014-05-21 23:33:41.834 [info] <0.321.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 23:51:32.050 [notice] <0.324.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:51:32.052 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:51:32.061 [notice] <0.324.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-21 23:51:32.061 [notice] <0.324.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:51:33.068 [notice] <0.100.0>@boss_db_adapter_pgsql:save_record:115 Saving Record {feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$tVDmsAN3HRdMnhU9gXCei.tNf9U8vjRfrCHM4cIpWBBDYOrP4Z95W"}
+2014-05-21 23:51:33.081 [info] <0.324.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 23:54:19.558 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400695092_create_users.erl"
+2014-05-21 23:54:19.563 [info] <0.49.0>@boss_migrate:load_migrations:36 Reading migration file: "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/migrations/1400729050_create_feed_eater_erlang_users.erl"
+2014-05-21 23:55:39.946 [notice] <0.330.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:55:39.948 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:55:39.956 [notice] <0.330.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-21 23:55:39.956 [notice] <0.330.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:55:41.025 [notice] <0.99.0>@boss_db_adapter_pgsql:save_record:115 Saving Record {feed_eater_erlang_user,id,"ramonjlongiii@gmail.com","admin","$2a$12$6Lukyw4NnIZ6W4rdkOM/SOl.2FkUvpZpe9LLYi8deijqTACnGTml2"}
+2014-05-21 23:55:41.044 [info] <0.330.0> POST /user/register [feed_eater_erlang] 200 0ms
+2014-05-21 23:55:45.590 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-21 23:55:45.594 [info] <0.272.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-21 23:55:45.613 [notice] <0.332.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-21 23:55:45.613 [notice] <0.332.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-21 23:55:45.627 [info] <0.332.0> GET /user/login [feed_eater_erlang] 200 0ms

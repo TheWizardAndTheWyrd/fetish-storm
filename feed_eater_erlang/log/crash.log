@@ -16862,3 +16862,188 @@ Error in process <0.1532.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with
 2014-05-21 17:05:55 =ERROR REPORT====
 Error in process <0.1567.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
 
+2014-05-21 18:09:37 =ERROR REPORT====
+Error in process <0.732.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:09:37 =ERROR REPORT====
+Error in process <0.730.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:09:47 =ERROR REPORT====
+Error in process <0.738.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:09:47 =ERROR REPORT====
+Error in process <0.737.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:09:52 =ERROR REPORT====
+Error in process <0.745.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:02 =ERROR REPORT====
+Error in process <0.757.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:02 =ERROR REPORT====
+Error in process <0.753.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:07 =ERROR REPORT====
+Error in process <0.762.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:17 =ERROR REPORT====
+Error in process <0.774.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:17 =ERROR REPORT====
+Error in process <0.773.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 18:10:32 =ERROR REPORT====
+Error in process <0.790.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:27 =ERROR REPORT====
+Error in process <0.849.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:27 =ERROR REPORT====
+Error in process <0.848.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:27 =ERROR REPORT====
+Error in process <0.847.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:27 =ERROR REPORT====
+Error in process <0.850.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:41 =ERROR REPORT====
+Error in process <0.866.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:41 =ERROR REPORT====
+Error in process <0.865.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:42 =ERROR REPORT====
+Error in process <0.864.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:57 =ERROR REPORT====
+Error in process <0.886.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:57 =ERROR REPORT====
+Error in process <0.884.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:34:57 =ERROR REPORT====
+Error in process <0.882.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:35:12 =ERROR REPORT====
+Error in process <0.900.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:35:12 =ERROR REPORT====
+Error in process <0.899.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:35:27 =ERROR REPORT====
+Error in process <0.919.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:35:52 =ERROR REPORT====
+Error in process <0.954.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:02 =ERROR REPORT====
+Error in process <0.970.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:07 =ERROR REPORT====
+Error in process <0.978.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:27 =ERROR REPORT====
+Error in process <0.1005.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:27 =ERROR REPORT====
+Error in process <0.1004.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:32 =ERROR REPORT====
+Error in process <0.1012.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:42 =ERROR REPORT====
+Error in process <0.1023.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:42 =ERROR REPORT====
+Error in process <0.1022.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:57 =ERROR REPORT====
+Error in process <0.1044.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:36:57 =ERROR REPORT====
+Error in process <0.1043.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:12 =ERROR REPORT====
+Error in process <0.1062.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:12 =ERROR REPORT====
+Error in process <0.1061.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:37 =ERROR REPORT====
+Error in process <0.1095.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:37 =ERROR REPORT====
+Error in process <0.1099.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:37 =ERROR REPORT====
+Error in process <0.1098.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:52 =ERROR REPORT====
+Error in process <0.1115.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:52 =ERROR REPORT====
+Error in process <0.1114.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:37:52 =ERROR REPORT====
+Error in process <0.1113.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:07 =ERROR REPORT====
+Error in process <0.1134.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:07 =ERROR REPORT====
+Error in process <0.1133.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:22 =ERROR REPORT====
+Error in process <0.1152.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:22 =ERROR REPORT====
+Error in process <0.1151.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:37 =ERROR REPORT====
+Error in process <0.1170.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:37 =ERROR REPORT====
+Error in process <0.1169.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:52 =ERROR REPORT====
+Error in process <0.1189.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:38:57 =ERROR REPORT====
+Error in process <0.1198.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:39:12 =ERROR REPORT====
+Error in process <0.1215.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 22:39:22 =ERROR REPORT====
+Error in process <0.1231.0> on node 'feed_eater_erlang@Ramon-Longs-MacBook' with exit value: {{badmatch,<<0 bytes>>},[{mysql_conn,greeting,2,[{file,"src/mysql_conn.erl"},{line,622}]},{mysql_conn,mysql_init,5,[{file,"src/mysql_conn.erl"},{line,585}]},{mysql_conn,init,9,[{file,"src/mysql_conn.erl"},{line,322}]}]}
+
+2014-05-21 23:12:42 =ERROR REPORT====
+** Generic server <0.98.0> terminating 
+** Last message in was {count,feed_eater_erlang_user,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"pgsql"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feedeater"},{db_username,"ramonlong"},{db_host,"localhost"},{db_port,5432}],boss_db_adapter_pgsql,<0.103.0>,<0.103.0>,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {{badmatch,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}}},[{boss_db_adapter_pgsql,count,3,[{file,"src/db_adapters/boss_db_adapter_pgsql.erl"},{line,78}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,138}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-21 23:12:42 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.98.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}}},[{boss_db_adapter_pgsql,count,3,[{file,"src/db_adapters/boss_db_adapter_pgsql.erl"},{line,78}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,138}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: []
+    links: [<0.97.0>,<0.103.0>,<0.96.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 499
+  neighbours:
+    neighbour: [{pid,<0.103.0>},{registered_name,[]},{initial_call,{pgsql_sock,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[<0.98.0>,<0.97.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]},{messages,[{'$gen_cast',stop}]},{links,[<0.98.0>,#Port<0.18599>]},{dictionary,[{datetime_mod,pgsql_idatetime}]},{trap_exit,false},{status,runnable},{heap_size,987},{stack_size,9},{reductions,1340}]
+2014-05-21 23:12:42 =SUPERVISOR REPORT====
+     Supervisor: {<0.97.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{error,error,<<"42P01">>,<<"relation \"feed_eater_erlang_users\" does not exist">>,[{position,<<"31">>}]}}},[{boss_db_adapter_pgsql,count,3,[{file,"src/db_adapters/boss_db_adapter_pgsql.erl"},{line,78}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,138}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.98.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
