@@ -16,7 +16,6 @@ check_password(PasswordAttempt) ->
 
 login_cookies() ->
   [ 
-    %mochiweb_cookies:cookie("feed_eater_erlang_user_id", Id, [{path, "/"}]),
-    mochiweb_cookies:cookie("feed_eater_erlang_user_id", erlang:md5(Id), [{path, "/"}]),
+    mochiweb_cookies:cookie("feed_eater_erlang_user_id", Id, [{path, "/"}]),
     mochiweb_cookies:cookie("session_id", session_identifier(), [{path, "/"}]) 
   ].

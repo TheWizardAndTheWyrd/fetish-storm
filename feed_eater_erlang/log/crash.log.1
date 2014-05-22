@@ -1,0 +1,642 @@
+2014-05-19 00:22:44 =ERROR REPORT====
+GET / [feed_eater_erlang] 404 0ms2014-05-19 12:23:21 =ERROR REPORT====
+GET / [feed_eater_erlang] 404 0ms2014-05-19 12:43:40 =ERROR REPORT====
+GET / [feed_eater_erlang] 404 0ms2014-05-19 14:18:24 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:18:24 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3095
+  neighbours:
+2014-05-19 14:18:24 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:19:15 =ERROR REPORT====
+** Generic server <0.279.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:19:15 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.279.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3086
+  neighbours:
+2014-05-19 14:19:15 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.279.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:19:32 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:19:32 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3094
+  neighbours:
+2014-05-19 14:19:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 14:20:08 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 14:20:08 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3093
+  neighbours:
+2014-05-19 14:20:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 17:03:47 =ERROR REPORT====
+GET /site.css [feed_eater_erlang] 404 0ms2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ranch_acceptors_sup/1
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,38}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.154.0>,ranch_sup,<0.145.0>]
+    messages: []
+    links: [<0.154.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 518
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {<0.154.0>,ranch_listener_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,38}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,ranch_acceptors_sup},{mfargs,{ranch_acceptors_sup,start_link,[boss_http_listener,100,ranch_tcp,[{port,8001},{ip,{0,0,0,0}}]]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server ranch_server terminating 
+** Last message in was {set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}
+** When Server state == {state,[]}
+** Reason for termination == 
+** {badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: ranch_server:init/1
+    pid: <0.147.0>
+    registered_name: ranch_server
+    exception exit: {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [ranch_sup,<0.145.0>]
+    messages: []
+    links: [<0.146.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {local,ranch_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.147.0>},{name,ranch_server},{mfargs,{ranch_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_web terminating 
+** Last message in was timeout
+** When Server state == {state,[],<0.141.0>,{ok,<0.157.0>},undefined,true}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: boss_web_controller:init/1
+    pid: <0.59.0>
+    registered_name: boss_web
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_sup,<0.57.0>]
+    messages: []
+    links: [<0.102.0>,<0.137.0>,<0.158.0>,<0.161.0>,<0.141.0>,<0.127.0>,<0.135.0>,<0.104.0>,<0.92.0>,<0.94.0>,<0.58.0>]
+    dictionary: [{random_seed,{8236,26623,17360}},{boss_environment,production}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 22656
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_db_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{local,boss_db_sup},one_for_one,[{child,<0.95.0>,db_controller,{poolboy,start_link,[[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]},permanent,2000,worker,[poolboy]}],undefined,10,10,[],boss_db_sup,[{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_db_sup/1
+    pid: <0.94.0>
+    registered_name: boss_db_sup
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 294
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_db_mock_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_db_mock_sup},one_for_one,[{child,<0.93.0>,db_mock_controller,{boss_db_mock_controller,start_link,[[]]},permanent,2000,worker,[boss_db_mock_controller]}],undefined,10,10,[],boss_db_mock_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_db_mock_sup/1
+    pid: <0.92.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 256
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {local,boss_sup}
+     Context:    child_terminated
+     Reason:     {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+     Offender:   [{pid,<0.59.0>},{name,boss_web_controller},{mfargs,{boss_web_controller,start_link,[[{ip,"0.0.0.0"},{port,8001}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_session_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{local,boss_session_sup},one_for_one,[{child,<0.105.0>,session_controller,{poolboy,start_link,[[{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]},permanent,2000,worker,[poolboy]}],undefined,10,10,[],boss_session_sup,[{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_session_sup/1
+    pid: <0.104.0>
+    registered_name: boss_session_sup
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 261
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_news_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_news_sup},one_for_one,[{child,<0.136.0>,news_controller,{boss_news_controller,start_link,[[]]},permanent,2000,worker,[boss_news_controller]}],undefined,10,10,[],boss_news_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_news_sup/1
+    pid: <0.135.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 276
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_mq_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_mq_sup},one_for_one,[{child,<0.128.0>,mq_controller,{boss_mq_controller,start_link,[[{adapter,boss_mq_adapter_tinymq}]]},permanent,2000,worker,[boss_mq_controller]}],undefined,10,10,[],boss_mq_sup,[{adapter,boss_mq_adapter_tinymq}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_mq_sup/1
+    pid: <0.127.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 283
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server <0.161.0> terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{<0.161.0>,boss_translator_sup},one_for_one,[{child,<0.162.0>,translator_controller,{boss_translator_controller,start_link,[[{application,feed_eater_erlang}]]},permanent,2000,worker,[boss_translator_controller]}],undefined,10,10,[],boss_translator_sup,[{application,feed_eater_erlang}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_translator_sup/1
+    pid: <0.161.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 278
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server <0.158.0> terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{<0.158.0>,boss_router_sup},one_for_one,[{child,<0.159.0>,router_controller,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,[]}]]},permanent,2000,worker,[boss_router_controller]}],undefined,10,10,[],boss_router_sup,[{application,feed_eater_erlang},{controllers,[]}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_router_sup/1
+    pid: <0.158.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 228
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_mail_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{local,boss_mail_sup},one_for_one,[{child,<0.138.0>,mail_controller,{boss_mail_controller,start_link,[[{driver,boss_mail_driver_smtp}]]},permanent,2000,worker,[boss_mail_controller]}],undefined,10,10,[],boss_mail_sup,[{driver,boss_mail_driver_smtp}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_mail_sup/1
+    pid: <0.137.0>
+    registered_name: boss_mail_sup
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 284
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_session_mock_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_session_mock_sup},one_for_one,[{child,<0.103.0>,session_mock_controller,{boss_session_mock_controller,start_link,[[]]},permanent,2000,worker,[boss_session_mock_controller]}],undefined,10,10,[],boss_session_mock_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_session_mock_sup/1
+    pid: <0.102.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 260
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {<0.106.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_service_sup terminating 
+** Last message in was {'EXIT',<0.59.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_service_sup},one_for_all,[{child,<0.157.0>,boss_websocket_router,{boss_websocket_router,start_link,[]},permanent,5000,worker,[boss_websocket_router]}],undefined,10,10,[],boss_service_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_service_sup/1
+    pid: <0.141.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 332
+  neighbours:
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ranch_acceptors_sup/1
+    pid: <0.210.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,38}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.208.0>,ranch_sup,<0.145.0>]
+    messages: []
+    links: [<0.208.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 518
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {<0.208.0>,ranch_listener_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,38}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,ranch_acceptors_sup},{mfargs,{ranch_acceptors_sup,start_link,[boss_http_listener,100,ranch_tcp,[{port,8001},{ip,{0,0,0,0}}]]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server ranch_server terminating 
+** Last message in was {set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}
+** When Server state == {state,[]}
+** Reason for termination == 
+** {badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: ranch_server:init/1
+    pid: <0.164.0>
+    registered_name: ranch_server
+    exception exit: {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [ranch_sup,<0.145.0>]
+    messages: []
+    links: [<0.146.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {local,ranch_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.164.0>},{name,ranch_server},{mfargs,{ranch_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_web terminating 
+** Last message in was timeout
+** When Server state == {state,[],<0.207.0>,{ok,<0.211.0>},undefined,true}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: boss_web_controller:init/1
+    pid: <0.165.0>
+    registered_name: boss_web
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_sup,<0.57.0>]
+    messages: []
+    links: [<0.176.0>,<0.205.0>,<0.212.0>,<0.215.0>,<0.207.0>,<0.201.0>,<0.203.0>,<0.178.0>,<0.166.0>,<0.168.0>,<0.58.0>]
+    dictionary: [{random_seed,{8236,26623,17360}},{boss_environment,production}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 22339
+  neighbours:
+2014-05-19 21:52:01 =SUPERVISOR REPORT====
+     Supervisor: {local,boss_sup}
+     Context:    child_terminated
+     Reason:     {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+     Offender:   [{pid,<0.165.0>},{name,boss_web_controller},{mfargs,{boss_web_controller,start_link,[[{ip,"0.0.0.0"},{port,8001}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_db_sup terminating 
+** Last message in was {'EXIT',<0.165.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{local,boss_db_sup},one_for_one,[{child,<0.169.0>,db_controller,{poolboy,start_link,[[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]},permanent,2000,worker,[poolboy]}],undefined,10,10,[],boss_db_sup,[{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_db_sup/1
+    pid: <0.168.0>
+    registered_name: boss_db_sup
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 287
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_db_mock_sup terminating 
+** Last message in was {'EXIT',<0.165.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_db_mock_sup},one_for_one,[{child,<0.167.0>,db_mock_controller,{boss_db_mock_controller,start_link,[[]]},permanent,2000,worker,[boss_db_mock_controller]}],undefined,10,10,[],boss_db_mock_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_db_mock_sup/1
+    pid: <0.166.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 246
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_session_sup terminating 
+** Last message in was {'EXIT',<0.165.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{local,boss_session_sup},one_for_one,[{child,<0.179.0>,session_controller,{poolboy,start_link,[[{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]},permanent,2000,worker,[poolboy]}],undefined,10,10,[],boss_session_sup,[{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_session_sup/1
+    pid: <0.178.0>
+    registered_name: boss_session_sup
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 257
+  neighbours:
+2014-05-19 21:52:01 =ERROR REPORT====
+** Generic server boss_news_sup terminating 
+** Last message in was {'EXIT',<0.165.0>,{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}}
+** When Server state == {state,{global,boss_news_sup},one_for_one,[{child,<0.204.0>,news_controller,{boss_news_controller,start_link,[[]]},permanent,2000,worker,[boss_news_controller]}],undefined,10,10,[],boss_news_sup,[]}
+** Reason for termination == 
+** {{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}}
+2014-05-19 21:52:01 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:boss_news_sup/1
+    pid: <0.203.0>
+    registered_name: []
+    exception exit: {{{badarg,[{ets,lookup_element,[ranch_server,{conns_sup,boss_http_listener},2],[]},{ranch_server,get_connections_sup,1,[{file,"src/ranch_server.erl"},{line,77}]},{ranch_server,handle_call,3,[{file,"src/ranch_server.erl"},{line,147}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[ranch_server,{set_opts,boss_http_listener,[{env,[{dispatch,[{'_',[],[{[<<"static">>,'...'],[],cowboy_static,{priv_dir,feed_eater_erlang,"static",[{mimetypes,cow_mimetypes,all}]}},{'_',[],boss_mochicow_handler,[{loop,{boss_mochicow_handler,loop}}]}]}]}]}]}]}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [boss_web,boss_sup,<0.57.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 262
+  neighbours:
+2014-05-19 21:56:33 =ERROR REPORT====
+** Generic server <0.265.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 21:56:33 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.265.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3094
+  neighbours:
+2014-05-19 21:56:33 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.265.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-19 21:57:41 =ERROR REPORT====
+** Generic server <0.278.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,feed_eater_erlang,["feed_eater_erlang_feed_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-19 21:57:41 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.278.0>
+    registered_name: []
+    exception exit: {{undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.264.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.264.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3086
+  neighbours:
+2014-05-19 21:57:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.264.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{feed_eater_erlang_feed_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.278.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,feed_eater_erlang},{controllers,["feed_eater_erlang_feed_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+

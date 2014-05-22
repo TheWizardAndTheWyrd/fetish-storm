@@ -14,7 +14,6 @@
             <ul class="horizontal sections">
               <li class="shorter"><a href="/about">About</a></li>
               <li class="shorter"><a href="/feed">Feed</a></li>
-              <li class="shorter"><a href="/user/register">Register</a></li>
               <li class="shorter"><a href="/user/login">Login</a></li>
               
               {% if feed_eater_erlang_user %}
@@ -22,7 +21,7 @@
               {% endif %}
                               
               {% if not feed_eater_erlang_user %}
-              <li class="shorter"><p>You should <a href="/user/register">Register</a>.</p></li>
+              <li class="shorter"><a href="/user/register">Register</a></li>
               {% endif %}
 
             </ul>
