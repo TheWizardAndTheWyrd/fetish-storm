@@ -57,18 +57,18 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
        ;; for more robust sentences in our Feed.  Analyzing feed data could be
        ;; sent to Storm with Apache OpenNLP to tokenize the words, etc.
 
-       [events [{:user :travis, :action :commented, :glue "on",   :status :update}
-                {:user :jim,    :action :loved,     :glue "5 of", :status :picture}
-                {:user :karen,  :action :is-into,   :glue "everything to do with", :status :fetish}
-                {:user :emma,   :action :commented, :glue "on",   :status :writing}
-                {:user :jim,    :action :loved,     :glue "3 of",    :status :writing}
-                {:user :karen,  :action :shared,    :glue "69 of",   :status :picture}
-                {:user :travis, :action :joined,    :glue "the group", :status :group-name}
-                {:user :karen,  :action :commented, :glue "on 'A Sample Discussion' in" :status :group-name}
-                {:user :emma,   :action :loved,     :glue "on 'A Second Discussion' in", :status :group-name}
-                {:user :rob,    :action :commented, :glue "on",   :status :update}
-                {:user :rob,    :action :loved,     :glue "7 of",    :status :picture}
-                {:user :rob,    :action :shared,    :glue "10 of",   :status :picture}]]
+       [events [{:user :travis, :action :commented, :glue "on",                           :status :update}
+                {:user :jim,    :action :loved,     :glue "5 of",                         :status :picture}
+                {:user :karen,  :action :is-into,   :glue "everything to do with",        :status :fetish}
+                {:user :emma,   :action :commented, :glue "on",                           :status :writing}
+                {:user :jim,    :action :loved,     :glue "3 of",                         :status :writing}
+                {:user :karen,  :action :shared,    :glue "69 of",                        :status :picture}
+                {:user :travis, :action :joined,    :glue "the group",                    :status :group-name}
+                {:user :karen,  :action :commented, :glue "on 'A Sample Discussion' in"   :status :group-name}
+                {:user :emma,   :action :loved,     :glue "on 'A Second Discussion' in",  :status :group-name}
+                {:user :rob,    :action :commented, :glue "on",                           :status :update}
+                {:user :rob,    :action :loved,     :glue "7 of",                         :status :picture}
+                {:user :rob,    :action :shared,    :glue "10 of",                        :status :picture}]]
 
     (spout
      (nextTuple []
