@@ -86,6 +86,6 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               ;; The following probably needs to be refactored:
               (let [bucket "feed-events"
                     key    user
-                    val    {:user user :event event :username key}]
-                (kv/store bucket key val :content-type Constants/CTYPE_JSON_UTF8 :indexes {:user #{user}}))
+                    val    {:user #{user} :event #{event} :username key}]
+                (kv/store bucket key val :content-type "application/json; charset=UTF-8"))
               (ack! collector tuple)))))
