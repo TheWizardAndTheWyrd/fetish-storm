@@ -9,7 +9,9 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
             [taoensso.nippy    :as nippy]
             [clojurewerkz.welle.core    :as wc]
             [clojurewerkz.welle.buckets :as wb]
-            [clojurewerkz.welle.kv      :as kv])
+            [clojurewerkz.welle.kv      :as kv]
+            [clj-time.local :as l]
+            [clj-time.coerce :as c])
   (:import com.basho.riak.client.http.util.Constants))
 
 
@@ -73,6 +75,8 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               (ack! collector tuple)))))
 
 
+;;(let [datetimenow (l/local-now)])
+
 
 (defbolt riak-feed-bolt ["user" "event"] {:prepare true}
   [conf context collector]
@@ -82,10 +86,10 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               (swap! feeds #(update-in % [user] conj event))
               (println "Current feeds:")
               (clojure.pprint/pprint @feeds)
-
               ;; The following probably needs to be refactored:
               (let [bucket "feed-events"
+                    datetime (c/to-date (l/local-now))
                     key    user
-                    val    {:user #{user} :event #{event} :username key}]
+                    val    {:user #{user} :event #{event} :feeds @feeds :timestamp datetime}]
                 (kv/store bucket key val :content-type "application/json; charset=UTF-8"))
               (ack! collector tuple)))))
