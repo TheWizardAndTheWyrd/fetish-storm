@@ -77,6 +77,7 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
 
 ;;(let [datetimenow (l/local-now)])
 
+(defn uuid [] (str (java.util.UUID/randomUUID)))
 
 (defbolt riak-feed-bolt ["user" "event"] {:prepare true}
   [conf context collector]
@@ -89,7 +90,8 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               ;; The following probably needs to be refactored:
               (let [bucket "feed-events"
                     datetime (c/to-date (l/local-now))
-                    key    user
+                    ;;key    user
+                    key    (uuid)
                     val    {:user #{user} :event #{event} :feeds @feeds :timestamp datetime}]
                 (kv/store bucket key val :content-type "application/json; charset=UTF-8"))
               (ack! collector tuple)))))
