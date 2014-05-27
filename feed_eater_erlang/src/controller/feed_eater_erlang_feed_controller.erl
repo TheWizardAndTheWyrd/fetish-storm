@@ -24,7 +24,7 @@ about('GET', []) ->
 
 pull('GET', [LastTimestamp]) ->
   {ok, Timestamp, FeedEvents} = boss_mq:pull("new-feed-events",
-    list_to_integer(LastTimeStamp)),
+    list_to_integer(LastTimestamp)),
   {json, [{timestamp, Timestamp}, {feedevents, FeedEvents}]}.
 
 

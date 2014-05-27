@@ -2586,3 +2586,34 @@
 2014-05-27 12:27:44.737 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
 2014-05-27 12:27:44.745 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
 2014-05-27 12:27:44.889 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 13:00:01.477 [notice] <0.303.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:01.492 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:01.496 [info] <0.303.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 13:00:01.497 [notice] <0.303.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 13:00:01.501 [error] <0.303.0>@boss_load:compile_and_accumulate_errors:264 Compile Error, "src/controller/feed_eater_erlang_feed_controller.erl" -> [{"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl",[{27,erl_lint,{unbound_var,'LastTimeStamp'}}]}]
+2014-05-27 13:00:01.530 [info] <0.303.0> GET /feed [feed_eater_erlang] 200 0ms
+2014-05-27 13:00:37.956 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:37.958 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:37.965 [info] <0.309.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 13:00:37.965 [notice] <0.309.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 13:00:38.026 [info] <0.309.0> GET /feed [feed_eater_erlang] 302 0ms
+2014-05-27 13:00:38.030 [notice] <0.310.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:38.031 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:38.037 [notice] <0.310.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 13:00:38.037 [notice] <0.310.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 13:00:38.047 [info] <0.310.0> GET /user/login [feed_eater_erlang] 200 0ms
+2014-05-27 13:00:42.830 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:42.833 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:42.839 [notice] <0.311.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 13:00:42.839 [notice] <0.311.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 13:00:43.636 [info] <0.311.0> POST /user/login [feed_eater_erlang] 302 0ms
+2014-05-27 13:00:43.641 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:43.642 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:43.643 [info] <0.276.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-27 13:00:43.660 [notice] <0.319.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 13:00:43.660 [notice] <0.319.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 13:00:43.880 [info] <0.319.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-27 13:00:44.331 [notice] <0.326.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 13:00:44.332 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 13:00:44.367 [notice] <0.326.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 13:00:44.367 [notice] <0.326.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401210043718182"]

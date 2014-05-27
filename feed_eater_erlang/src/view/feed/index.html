@@ -14,8 +14,35 @@
   	<div class="row-fluid">
     	  <div class="span8">
     	    {{content|safe}}
-    	  </div>
-  	</div>
+          </div>
+          <div class="span8" id="feed">
+            {% for feedevent in feedevents  %}
+              <p>{{ feedevent }}</p>
+            {% empty %}
+              <p>No feed activity!  Start up the FetishStorm!</p>
+            {% endfor %}
+          </div>
+        </div>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script>
+              function listen_for_events(timestamp) {
+                $.ajax("/feed/pull/"+timestamp, { success:
+                  function(data, code, xhr) {
+                    for (var i=0; i<data.feedevents.length; i++) {
+                      var msg = data.feedevents[i];
+                      $("#feed").prepend("<p>" + msg);
+                    }
+                    listen_for_events(data.timestamp);
+                  } });
+                }
+              $(document).ready(function () {
+                listen_for_events( {{ timestamp }}  );
+              });
+            </script>
+
+    	 <!-- </div>
+     </div>-->
 
       </div>
     </div>
