@@ -11184,3 +11184,31 @@
      Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
      Offender:   [{pid,<0.338.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
 
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.326.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.339.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.386.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.428.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.437.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.405.0> exit with reason: killed
+2014-05-27 16:01:56 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.329.0> exit with reason: killed
+2014-05-27 16:09:28 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.456.0> exit with reason: killed
+2014-05-27 16:10:39 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.465.0> exit with reason: killed
+2014-05-27 16:11:36 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.474.0> exit with reason: killed
+2014-05-27 16:12:44 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.483.0> exit with reason: killed
+2014-05-27 16:29:32 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.492.0> exit with reason: killed
+2014-05-27 16:34:46 =ERROR REPORT====
+Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.522.0> exit with reason: killed
+2014-05-27 17:03:15 =ERROR REPORT====
+GET /feed/feed1 [feed_eater_erlang] 404 0ms

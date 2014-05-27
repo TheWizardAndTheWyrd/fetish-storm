@@ -27,4 +27,11 @@ pull('GET', [LastTimestamp]) ->
     list_to_integer(LastTimestamp)),
   {json, [{timestamp, Timestamp}, {feedevents, FeedEvents}]}.
 
+feed('GET', []) ->
+  Events = boss_db:find(feed_eater_erlang_event, []),
+  Events1 = [{feed_eater_erlang_event:id(E), feed_eater_erlang_event:user(E), feed_eater_erlang_event:event(E), feed_eater_erlang_event:feeds(E)} || E <- Events],
+  {json, [{events, Events1}]}.
 
+feed1('GET', []) ->
+  Events = boss_db:find(feed_eater_erlang_event, []),
+  {json, [{events, Events}]}.

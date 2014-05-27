@@ -17,10 +17,15 @@
           </div>
           <div class="span8" id="feed">
             {% for feedevent in feedevents  %}
-              <p>{{ feedevent }}</p>
-            {% empty %}
-              <p>No feed activity!  Start up the FetishStorm!</p>
+
+              {% for item in feedevent %}
+
+                <p>{{ item }}</p>
+
+              {% endfor %}
+
             {% endfor %}
+
           </div>
         </div>
 
