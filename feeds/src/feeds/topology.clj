@@ -8,7 +8,7 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
              ;[spouts :refer [type-spout]]
              [spouts :refer [event-spout]]
              ; [bolts :refer [stormy-bolt fetish-storm-bolt]]]
-             [bolts :refer [active-user-bolt follow-bolt feed-bolt riak-feed-bolt]]]
+             [bolts :refer [active-user-bolt follow-bolt feed-bolt riak-feed-bolt mongo-feed-bolt]]]
              [backtype.storm [clojure :refer [topology spout-spec bolt-spec]] [config :refer :all]]
              [clojurewerkz.welle.core    :as wc]
              [clojurewerkz.welle.buckets :as wb]
@@ -31,15 +31,15 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
    {"active users" (bolt-spec {"events" :shuffle} active-user-bolt :p 2)
     "follows" (bolt-spec {"active users" :shuffle} follow-bolt :p 2)
     ;; "feeds" (bolt-spec {"follows" ["user"]} feed-bolt :p 2)}))
-    "feeds" (bolt-spec {"follows" ["user"]} riak-feed-bolt :p 2)}))
+    "feeds" (bolt-spec {"follows" ["user"]} mongo-feed-bolt :p 2)}))
 
 (defn run! [& {debug "debug" workers "workers" :or {debug "true" workers "2"}}]
 
   ;; Setup Riak
-  ;; (wc/connect! "http://localhost:8098/riak")
-  ;;(wc/connect! "http://localhost:8099/riak")
-  (wc/connect-via-pb! "127.0.0.1", 10017)
-  (wb/create "feed-events")
+  ;;;; (wc/connect! "http://localhost:8098/riak")
+  ;;;;(wc/connect! "http://localhost:8099/riak")
+  ;;(wc/connect-via-pb! "127.0.0.1", 10017)
+  ;;(wb/create "feed-events")
 
   (doto (LocalCluster.)
     (.submitTopology "fetish feed"

@@ -8,6 +8,7 @@
                  [com.taoensso/nippy "2.6.3"]
                  [shoutout "0.1.0-SNAPSHOT"] ;; A port of FetLife's Rollout
                  [clj-time "0.7.0"]
+                 [com.novemberain/monger "2.0.0-rc1"] ;; a MongoDB Client
                  [com.novemberain/welle "2.0.0"]] ;; a Riak client
   :aot [feeds.TopologySubmitter]
   ;; include storm dependency only in dev because production storm cluster provides it

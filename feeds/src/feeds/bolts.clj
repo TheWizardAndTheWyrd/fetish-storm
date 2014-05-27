@@ -11,8 +11,11 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
             [clojurewerkz.welle.buckets :as wb]
             [clojurewerkz.welle.kv      :as kv]
             [clj-time.local :as l]
-            [clj-time.coerce :as c])
-  (:import com.basho.riak.client.http.util.Constants))
+            [clj-time.coerce :as c]
+            [monger.core :as mg]
+            [monger.collection :as mc])
+  (:import (com.basho.riak.client.http.util.Constants)
+           (com.mongodb MongoOptions ServerAddress)))
 
 
 
@@ -70,8 +73,8 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
               (swap! feeds #(update-in % [user] conj event))
               (println "Current feeds:")
               (clojure.pprint/pprint @feeds)
-              ;;(wcar redis-connection (car/publish "feeds" @feeds))  ;; Insert into redis-connection
-              (wcar redis-connection (car/publish "feeds" (car/hmset user event @feeds)))
+              ;;;;(wcar redis-connection (car/publish "feeds" @feeds))  ;; Insert into redis-connection
+              ;;(wcar redis-connection (car/publish "feeds" (car/hmset user event @feeds)))
               (ack! collector tuple)))))
 
 
@@ -95,3 +98,28 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
                     val    {:user #{user} :event #{event} :feeds @feeds :timestamp datetime}]
                 (kv/store bucket key val :content-type "application/json; charset=UTF-8"))
               (ack! collector tuple)))))
+
+
+  ;; Let's make a bolt for Mongo
+  ;;(let [mongoconn (mg/connect)
+  ;;      mongodb (mg/get-db "feed_eater_erlang")])
+
+  ;;(let [^MongoOptions opts (mg/mongo-options :threads-allowed-to-block-for-connection-multiplier 300)
+  ;;      ^ServerAddress sa  (mg/server-address "127.0.0.1" 27017)
+  ;;      mongodb            (mg/connect sa opts)])
+
+  (defbolt mongo-feed-bolt ["user" "event"] {:prepare true}
+  [conf context collector]
+  (let [feeds (atom {})]
+    (bolt
+     (execute [{user "user" event "event" :as tuple}]
+              (swap! feeds #(update-in % [user] conj event))
+              (println "Current feeds:")
+              (clojure.pprint/pprint @feeds)
+                (let [conn (mg/connect)
+                      db (mg/get-db conn "feed_eater_erlang")
+                      oid (uuid)
+                      doc {:user #{user} :event #{event} :data @feeds}]
+              ;; The following probably needs to be refactored:
+              (mc/insert db "feed_events" (merge doc {:_id oid}))
+              (ack! collector tuple))))))
