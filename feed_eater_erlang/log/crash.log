@@ -10873,3 +10873,314 @@
     reductions: 1668
   neighbours:
     neighbour: [{pid,<0.335.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{messages,[]},{links,[<0.34.0>,<0.337.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,36},{reductions,1671}]
+2014-05-27 01:13:13 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,feed_event,[],100,0,id,descending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:13:13 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.303.0>,normal},{'EXIT',<0.108.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59586
+  neighbours:
+2014-05-27 01:13:13 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:14:27 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,feed_event,[],100,0,id,descending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:14:27 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.302.0>,normal},{'EXIT',<0.108.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59613
+  neighbours:
+2014-05-27 01:14:27 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:16:41 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,feed_event,[],100,0,id,descending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:16:41 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.301.0>,normal},{'EXIT',<0.108.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59613
+  neighbours:
+2014-05-27 01:16:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:19:13 =ERROR REPORT====
+** Generic server <0.102.0> terminating 
+** Last message in was {find,feed_event,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.107.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.107.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:19:13 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.102.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.298.0>,normal},{'EXIT',<0.107.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59776
+  neighbours:
+2014-05-27 01:19:13 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.102.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:24:25 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,feed_event,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:24:25 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.313.0>,normal},{'EXIT',<0.108.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59571
+  neighbours:
+2014-05-27 01:24:25 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:24:50 =ERROR REPORT====
+** Generic server <0.105.0> terminating 
+** Last message in was {find,feed_event,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.110.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.110.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:24:50 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.105.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.322.0>,normal},{'EXIT',<0.110.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 46422
+    stack_size: 27
+    reductions: 59571
+  neighbours:
+2014-05-27 01:24:50 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.105.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:31:28 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,feed_eater_erlang_event,[{id,eq,"28282a09-4550-48b5-8f82-1089dcd24bdb"}],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.108.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+2014-05-27 01:31:28 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.108.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 736
+  neighbours:
+2014-05-27 01:31:28 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:35:01 =ERROR REPORT====
+** Generic server <0.311.0> terminating 
+** Last message in was {find,feed_eater_erlang_event,[{id,eq,"28282a09-4550-48b5-8f82"}],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.312.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.312.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+2014-05-27 01:35:01 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.311.0>
+    registered_name: []
+    exception exit: {{function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.312.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: [{mongo_lasterror,{n,0,connectionId,483,err,undefined,ok,1.0}}]
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 1278
+  neighbours:
+2014-05-27 01:35:01 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+     Offender:   [{pid,<0.311.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:35:07 =ERROR REPORT====
+** Generic server <0.104.0> terminating 
+** Last message in was {find,feed_eater_erlang_event,[{id,eq,"28282a"}],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.109.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.109.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+2014-05-27 01:35:07 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.104.0>
+    registered_name: []
+    exception exit: {{function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.109.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 1925
+  neighbours:
+2014-05-27 01:35:07 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{boss_db_adapter_mongodb,boss_to_mongo_op,[eq],[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,569}]},{boss_db_adapter_mongodb,build_conditions2,3,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,418}]},{boss_db_adapter_mongodb,build_conditions1,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,349}]},{boss_db_adapter_mongodb,build_conditions,1,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,329}]},{boss_db_adapter_mongodb,build_conditions,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,332}]},{boss_db_adapter_mongodb,'-execute_find/7-fun-0-',6,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,173}]},{mongo,do,5,[{file,"src/mongo.erl"},{line,173}]},{boss_db_adapter_mongodb,find,7,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,157}]}]}
+     Offender:   [{pid,<0.104.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:43:16 =ERROR REPORT====
+** Generic server <0.102.0> terminating 
+** Last message in was {find,feed_eater_erlang_event,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.331.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.331.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:43:16 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.102.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.353.0>,normal},{'EXIT',<0.331.0>,normal}]
+    links: [<0.301.0>,<0.320.0>,<0.101.0>,<0.107.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 17731
+    stack_size: 27
+    reductions: 20599
+  neighbours:
+    neighbour: [{pid,<0.107.0>},{registered_name,[]},{initial_call,{mvar,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[<0.102.0>,<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]},{messages,[]},{links,[<0.102.0>,#Port<0.19254>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,376},{stack_size,9},{reductions,474}]
+    neighbour: [{pid,<0.320.0>},{registered_name,[]},{initial_call,{mvar,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[<0.102.0>,<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]},{messages,[]},{links,[<0.102.0>,#Port<0.29890>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,454}]
+    neighbour: [{pid,<0.301.0>},{registered_name,[]},{initial_call,{mvar,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[<0.102.0>,<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]},{messages,[]},{links,[<0.102.0>,#Port<0.27261>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,454}]
+2014-05-27 01:43:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.102.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2014-05-27 01:43:27 =ERROR REPORT====
+** Generic server <0.338.0> terminating 
+** Last message in was {find,feed_eater_erlang_event,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}],boss_db_adapter_mongodb,{safe,master,{connection,{"localhost",27017},<0.339.0>,false,infinity},feed_eater_erlang},{safe,master,{connection,{"localhost",27017},<0.339.0>,false,infinity},feed_eater_erlang},[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-27 01:43:27 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.338.0>
+    registered_name: []
+    exception exit: {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.92.0>]
+    messages: [{'EXIT',<0.359.0>,normal},{'EXIT',<0.339.0>,normal}]
+    links: [<0.101.0>,<0.100.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 28690
+    stack_size: 27
+    reductions: 19581
+  neighbours:
+2014-05-27 01:43:27 =SUPERVISOR REPORT====
+     Supervisor: {<0.101.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.338.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+

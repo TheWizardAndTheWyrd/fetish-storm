@@ -1,0 +1,2 @@
+-module(feed_eater_erlang_event, [Id, User, Event, Feeds]).
+-compile(export_all).

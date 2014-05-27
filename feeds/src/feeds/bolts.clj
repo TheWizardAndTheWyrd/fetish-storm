@@ -121,5 +121,6 @@ https://github.com/nathanmarz/storm/wiki/Clojure-DSL"
                       oid (uuid)
                       doc {:user #{user} :event #{event} :data @feeds}]
               ;; The following probably needs to be refactored:
-              (mc/insert db "feed_events" (merge doc {:_id oid}))
+              ;;(mc/insert db "feed_events" (merge doc {:_id oid}))
+              (mc/insert db "feed_eater_erlang_events" {:user #{user} :event #{event} :feeds #{@feeds}})
               (ack! collector tuple))))))

@@ -1944,3 +1944,572 @@
 2014-05-26 20:05:27.851 [notice] <0.397.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
 2014-05-26 20:05:27.851 [notice] <0.397.0>@boss_controller_adapter_pmod:action:92 Tokens ["0"]
 2014-05-26 20:05:27.854 [info] <0.397.0> POST /admin/model/heartbeat/0 [cb_admin] 200 0ms
+2014-05-27 00:59:49.845 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 00:59:50.455 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:50.492 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:50.551 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:50.693 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 00:59:50.726 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 00:59:50.762 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:50.963 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 00:59:51.088 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:51.222 [info] <0.94.0> SSL:[]
+
+2014-05-27 00:59:51.232 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 00:59:51.242 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:51.255 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:51.310 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 00:59:51.310 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 00:59:51.519 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 00:59:51.660 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 00:59:51.720 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 00:59:51.720 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 00:59:51.764 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 00:59:51.765 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 00:59:51.832 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 00:59:51.834 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 00:59:51.835 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 00:59:51.969 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 00:59:52.576 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 00:59:52.584 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 00:59:52.749 [warning] <0.6.0> lager_error_logger_h dropped 31 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 00:59:52.749 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.071 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:12:55.352 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.370 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.471 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.585 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:12:55.611 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:12:55.632 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.779 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:12:55.822 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.922 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:12:55.930 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:12:55.941 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.952 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.993 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:12:55.993 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:12:56.193 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:12:56.282 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:12:56.349 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:12:56.349 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:12:56.372 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:12:56.373 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:12:56.427 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:12:56.429 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_event},{',',{1,19}},{'[',{1,21}},{var,{1,22},'Id'},{',',{1,24}},{var,{1,26},'User'},{',',{1,30}},{var,{1,32},'Event'},{',',{1,37}},{var,{1,39},'Data'},{']',{1,43}},{')',{1,44}},{dot,{1,45}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:12:56.430 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_event" Parameters ['Id','User','Event','Data'] Attributes[{compile,export_all}]
+2014-05-27 01:12:56.494 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:12:56.495 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:12:56.497 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:12:56.550 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:12:56.931 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:12:56.936 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:12:57.044 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:12:57.044 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:13:09.268 [notice] <0.298.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath feed_eater_erlang
+2014-05-27 01:13:09.278 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 01:13:09.279 [info] <0.276.0>@boss_router_controller:route:171 Boss Route feed_eater_erlang "feed" "index" []
+2014-05-27 01:13:09.397 [notice] <0.298.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:13:09.397 [notice] <0.298.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:13:09.444 [info] <0.298.0> GET / [feed_eater_erlang] 200 0ms
+2014-05-27 01:13:09.987 [notice] <0.299.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:13:09.988 [info] <0.269.0>@boss_router_controller:route:171 Boss Route cb_admin "admin" "index" []
+2014-05-27 01:13:10.013 [notice] <0.299.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:13:10.013 [notice] <0.299.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:13:10.072 [info] <0.299.0> GET /admin [cb_admin] 200 0ms
+2014-05-27 01:13:11.872 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:13:11.877 [notice] <0.301.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:13:11.877 [notice] <0.301.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:13:11.894 [info] <0.301.0> GET /admin/model/model [cb_admin] 200 0ms
+2014-05-27 01:13:13.596 [notice] <0.302.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:13:13.606 [notice] <0.302.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:13:13.607 [notice] <0.302.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_event"]
+2014-05-27 01:13:13.674 [error] <0.103.0> gen_server <0.103.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:13:13.675 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:13:13.675 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:13:13.675 [error] <0.302.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.103.0>,{find,feed_event,[],100,0,id,descending,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,35}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]}]
+2014-05-27 01:13:13.682 [info] <0.302.0> GET /admin/model/model/feed_event [cb_admin] 200 0ms
+2014-05-27 01:14:19.762 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:14:20.004 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.021 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.061 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.156 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:14:20.184 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:14:20.208 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.354 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:14:20.399 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.529 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:14:20.537 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:14:20.545 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.555 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.596 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:20.596 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:14:20.724 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:14:20.815 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:14:20.862 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:14:20.863 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:14:20.887 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:14:20.887 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:14:20.940 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:14:20.940 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_event},{',',{1,19}},{'[',{1,21}},{var,{1,22},'_Id'},{',',{1,25}},{var,{1,27},'User'},{',',{1,31}},{var,{1,33},'Event'},{',',{1,38}},{var,{1,40},'Data'},{']',{1,44}},{')',{1,45}},{dot,{1,46}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:14:20.941 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_event" Parameters ['_Id','User','Event','Data'] Attributes[{compile,export_all}]
+2014-05-27 01:14:21.006 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:14:21.007 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:14:21.010 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:14:21.069 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:14:21.446 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:14:21.452 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:14:21.541 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:14:21.541 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:14:27.635 [notice] <0.298.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:14:27.725 [notice] <0.298.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:14:27.725 [notice] <0.298.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_event"]
+2014-05-27 01:14:27.796 [error] <0.103.0> gen_server <0.103.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:14:27.797 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:14:27.797 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:14:27.798 [error] <0.298.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.103.0>,{find,feed_event,[],100,0,id,descending,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,35}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]}]
+2014-05-27 01:14:27.830 [info] <0.298.0> GET /admin/model/model/feed_event [cb_admin] 200 0ms
+2014-05-27 01:16:30.973 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:16:31.101 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.124 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.210 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.314 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:16:31.337 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:16:31.359 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.524 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:16:31.574 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.699 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:16:31.708 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:16:31.728 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.751 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.793 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:31.793 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:16:31.973 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:16:32.044 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:16:32.044 [info] <0.7.0> Application feed_eater_erlang started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:32.076 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 01:16:32.088 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:16:32.314 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:16:32.314 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:16:32.341 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:16:32.342 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:16:32.401 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:16:32.403 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_event},{',',{1,19}},{'[',{1,21}},{var,{1,22},'_id'},{',',{1,25}},{var,{1,27},'User'},{',',{1,31}},{var,{1,33},'Event'},{',',{1,38}},{var,{1,40},'Data'},{']',{1,44}},{')',{1,45}},{dot,{1,46}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:16:32.404 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_event" Parameters ['_id','User','Event','Data'] Attributes[{compile,export_all}]
+2014-05-27 01:16:32.463 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:16:32.465 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:16:32.466 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:16:32.531 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:16:32.899 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:16:32.905 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:16:32.987 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:16:40.889 [notice] <0.298.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:16:40.978 [notice] <0.298.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:16:40.978 [notice] <0.298.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_event"]
+2014-05-27 01:16:41.048 [error] <0.103.0> gen_server <0.103.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:16:41.048 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:16:41.048 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:16:41.049 [error] <0.298.0>@boss_web_controller:call_controller_action:366 Error in controller exit {{badarg,[{boss_db_adapter_mongodb,unpack_id,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,534}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,479}]},{lists,map,2,[{file,"lists.erl"},{line,1237}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.103.0>,{find,feed_event,[],100,0,id,descending,[]},30000]}} [{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{boss_pool,call,3,[{file,"src/boss_pool.erl"},{line,12}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,35}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]}]
+2014-05-27 01:16:41.079 [info] <0.298.0> GET /admin/model/model/feed_event [cb_admin] 200 0ms
+2014-05-27 01:19:00.720 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:19:00.852 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:00.869 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:00.912 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.032 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:19:01.055 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:19:01.071 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.239 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:19:01.280 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.382 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:19:01.399 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:19:01.410 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.425 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.491 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:01.491 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:19:01.659 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:19:01.742 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:19:01.789 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:19:01.789 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:19:01.813 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:19:01.814 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:19:01.869 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:19:01.870 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_event},{',',{1,19}},{'[',{1,21}},{var,{1,22},'Id'},{',',{1,24}},{var,{1,26},'User'},{',',{1,30}},{var,{1,32},'Event'},{',',{1,37}},{var,{1,39},'Data'},{']',{1,43}},{')',{1,44}},{dot,{1,45}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:19:01.870 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_event" Parameters ['Id','User','Event','Data'] Attributes[{compile,export_all}]
+2014-05-27 01:19:01.956 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:19:01.958 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:19:01.961 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:19:02.020 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:19:02.377 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:19:02.388 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:19:02.489 [warning] <0.6.0> lager_error_logger_h dropped 32 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:19:02.489 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:19:13.984 [error] <0.102.0> gen_server <0.102.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:19:13.984 [error] <0.102.0> CRASH REPORT Process <0.102.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:19:13.985 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.102.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:24:25.009 [error] <0.103.0> gen_server <0.103.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:24:25.009 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:24:25.009 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:24:50.403 [error] <0.105.0> gen_server <0.105.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:24:50.403 [error] <0.105.0> CRASH REPORT Process <0.105.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:24:50.404 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.105.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:25:51.090 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:25:51.416 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:51.434 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:51.495 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:51.612 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:25:51.659 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:25:51.677 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:51.826 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:25:51.878 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:51.967 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:25:51.990 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:25:51.999 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:52.016 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:52.045 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:25:52.046 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:25:52.192 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:25:52.322 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:25:52.441 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:25:52.441 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:25:52.479 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:25:52.480 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:25:52.545 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:25:52.547 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:25:52.548 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:25:52.661 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:25:52.662 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_eater_erlang_event},{',',{1,32}},{'[',{1,34}},{var,{1,35},'Id'},{',',{1,37}},{var,{1,39},'User'},{',',{1,43}},{var,{1,45},'Event'},{',',{1,50}},{var,{1,52},'Data'},{']',{1,56}},{')',{1,57}},{dot,{1,58}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:25:52.662 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_event" Parameters ['Id','User','Event','Data'] Attributes[{compile,export_all}]
+2014-05-27 01:25:52.716 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:25:53.153 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:25:53.160 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:25:53.286 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:25:53.294 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:31:28.272 [error] <0.103.0> gen_server <0.103.0> terminated with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569
+2014-05-27 01:31:28.274 [error] <0.103.0> CRASH REPORT Process <0.103.0> with 0 neighbours exited with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in gen_server:terminate/6 line 746
+2014-05-27 01:31:28.275 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.103.0> exit with reason no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in context child_terminated
+2014-05-27 01:32:06.454 [notice] <0.315.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:32:06.574 [notice] <0.315.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:32:06.574 [notice] <0.315.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_event"]
+2014-05-27 01:32:06.599 [error] <0.315.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{lists,map,[#Fun<cb_admin_model_controller.0.101071866>,{error,{module_not_loaded,feed_event}}],[{file,"lists.erl"},{line,1236}]},{cb_admin_model_controller,model,4,[{file,"/Users/ramonlong/src/fetish-storm/feed_eater_erlang/deps/cb_admin/src/controller/cb_admin_model_controller.erl"},{line,37}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,232}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]}]
+2014-05-27 01:32:06.645 [info] <0.315.0> GET /admin/model/model/feed_event [cb_admin] 200 0ms
+2014-05-27 01:32:09.866 [notice] <0.316.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:32:09.869 [notice] <0.316.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:32:09.869 [notice] <0.316.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:32:10.039 [info] <0.316.0> GET /admin/model/model/ [cb_admin] 200 0ms
+2014-05-27 01:32:13.272 [notice] <0.317.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:32:13.283 [notice] <0.317.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:32:13.283 [notice] <0.317.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:32:13.307 [info] <0.317.0> GET /admin/model/model/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:32:16.249 [notice] <0.322.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:32:16.261 [notice] <0.322.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:32:16.261 [notice] <0.322.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:32:16.285 [info] <0.322.0> GET /admin/model/create/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:34:29.510 [notice] <0.323.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:29.527 [notice] <0.323.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:34:29.527 [notice] <0.323.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:34:29.560 [info] <0.323.0> POST /admin/model/create/feed_eater_erlang_event [cb_admin] 302 0ms
+2014-05-27 01:34:29.567 [notice] <0.324.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:29.570 [notice] <0.324.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:34:29.570 [notice] <0.324.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event-538423e5eed2c60eb5000001"]
+2014-05-27 01:34:29.592 [info] <0.324.0> GET /admin/model/show/feed_eater_erlang_event-538423e5eed2c60eb5000001 [cb_admin] 200 0ms
+2014-05-27 01:34:29.803 [notice] <0.326.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:29.806 [notice] <0.326.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:34:29.806 [notice] <0.326.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:34:29.838 [info] <0.326.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:34:29.991 [notice] <0.327.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:29.994 [notice] <0.327.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:34:29.994 [notice] <0.327.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401168869573407"]
+2014-05-27 01:34:35.308 [notice] <0.328.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:35.316 [notice] <0.328.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:34:35.316 [notice] <0.328.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:34:35.333 [info] <0.328.0> GET /admin/model/model/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:34:35.511 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:35.514 [notice] <0.332.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:34:35.514 [notice] <0.332.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:34:35.520 [info] <0.332.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:34:35.692 [notice] <0.333.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:34:35.695 [notice] <0.333.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:34:35.695 [notice] <0.333.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401168875323758"]
+2014-05-27 01:34:59.997 [info] <0.327.0> GET /admin/model/events/1401168869573407 [cb_admin] 200 0ms
+2014-05-27 01:34:59.998 [error] <0.327.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:normal. Stacktrace: [{mochicow_request,send,2,[{file,"src/mochicow_request.erl"},{line,156}]},{mochicow_request,respond,2,[{file,"src/mochicow_request.erl"},{line,406}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2014-05-27 01:35:01.554 [error] <0.311.0> gen_server <0.311.0> terminated with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569
+2014-05-27 01:35:01.555 [error] <0.311.0> CRASH REPORT Process <0.311.0> with 0 neighbours exited with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in gen_server:terminate/6 line 746
+2014-05-27 01:35:01.555 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.311.0> exit with reason no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in context child_terminated
+2014-05-27 01:35:05.699 [info] <0.333.0> GET /admin/model/events/1401168875323758 [cb_admin] 200 0ms
+2014-05-27 01:35:07.835 [error] <0.104.0> gen_server <0.104.0> terminated with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569
+2014-05-27 01:35:07.850 [error] <0.104.0> CRASH REPORT Process <0.104.0> with 0 neighbours exited with reason: no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in gen_server:terminate/6 line 746
+2014-05-27 01:35:07.850 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.104.0> exit with reason no function clause matching boss_db_adapter_mongodb:boss_to_mongo_op(eq) line 569 in context child_terminated
+2014-05-27 01:43:16.455 [error] <0.102.0> gen_server <0.102.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:43:16.456 [error] <0.102.0> CRASH REPORT Process <0.102.0> with 3 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:43:16.456 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.102.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:43:27.415 [error] <0.338.0> gen_server <0.338.0> terminated with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534
+2014-05-27 01:43:27.415 [error] <0.338.0> CRASH REPORT Process <0.338.0> with 0 neighbours exited with reason: bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in gen_server:terminate/6 line 746
+2014-05-27 01:43:27.416 [error] <0.101.0> Supervisor {<0.101.0>,poolboy_sup} had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.338.0> exit with reason bad argument in boss_db_adapter_mongodb:unpack_id/2 line 534 in context child_terminated
+2014-05-27 01:45:16.388 [notice] <0.371.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:16.390 [info] <0.269.0>@boss_router_controller:route:171 Boss Route cb_admin "admin" "index" []
+2014-05-27 01:45:16.394 [notice] <0.371.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:16.394 [notice] <0.371.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:45:16.419 [info] <0.371.0> GET /admin [cb_admin] 200 0ms
+2014-05-27 01:45:18.326 [notice] <0.372.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:18.337 [notice] <0.372.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:18.338 [notice] <0.372.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:45:18.345 [info] <0.372.0> GET /admin/model/model [cb_admin] 200 0ms
+2014-05-27 01:45:20.168 [notice] <0.373.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:20.172 [notice] <0.373.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:20.172 [notice] <0.373.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:45:20.188 [info] <0.373.0> GET /admin/model/model/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:45:21.620 [notice] <0.377.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:21.630 [notice] <0.377.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:21.630 [notice] <0.377.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:45:21.642 [info] <0.377.0> GET /admin/model/create/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:45:33.151 [notice] <0.378.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:33.160 [notice] <0.378.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:45:33.160 [notice] <0.378.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:45:33.178 [info] <0.378.0> POST /admin/model/create/feed_eater_erlang_event [cb_admin] 302 0ms
+2014-05-27 01:45:33.183 [notice] <0.379.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:33.185 [notice] <0.379.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:33.185 [notice] <0.379.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event-5384267deed2c60eb5000002"]
+2014-05-27 01:45:33.193 [info] <0.379.0> GET /admin/model/show/feed_eater_erlang_event-5384267deed2c60eb5000002 [cb_admin] 200 0ms
+2014-05-27 01:45:33.446 [notice] <0.380.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:33.450 [notice] <0.380.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:45:33.450 [notice] <0.380.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:45:33.452 [info] <0.380.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:45:33.632 [notice] <0.381.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:45:33.636 [notice] <0.381.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:45:33.636 [notice] <0.381.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169533187730"]
+2014-05-27 01:46:03.639 [info] <0.381.0> GET /admin/model/events/1401169533187730 [cb_admin] 200 0ms
+2014-05-27 01:46:03.651 [notice] <0.386.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:46:03.656 [notice] <0.386.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:46:03.656 [notice] <0.386.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:46:03.658 [info] <0.386.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:46:03.660 [notice] <0.387.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:46:03.664 [notice] <0.387.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:46:03.664 [notice] <0.387.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169533636926"]
+2014-05-27 01:46:33.667 [info] <0.387.0> GET /admin/model/events/1401169533636926 [cb_admin] 200 0ms
+2014-05-27 01:46:33.679 [notice] <0.388.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:46:33.682 [notice] <0.388.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:46:33.682 [notice] <0.388.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169563664763"]
+2014-05-27 01:46:34.321 [notice] <0.389.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:46:34.324 [notice] <0.389.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:46:34.324 [notice] <0.389.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:46:34.327 [info] <0.389.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:47:03.684 [info] <0.388.0> GET /admin/model/events/1401169563664763 [cb_admin] 200 0ms
+2014-05-27 01:47:03.706 [notice] <0.390.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:47:03.708 [notice] <0.390.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:47:03.708 [notice] <0.390.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169593682599"]
+2014-05-27 01:47:05.317 [notice] <0.391.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:47:05.318 [notice] <0.391.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:47:05.319 [notice] <0.391.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:47:05.321 [info] <0.391.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:47:33.711 [info] <0.390.0> GET /admin/model/events/1401169593682599 [cb_admin] 200 0ms
+2014-05-27 01:47:33.723 [notice] <0.392.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:47:33.727 [notice] <0.392.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:47:33.727 [notice] <0.392.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169623708748"]
+2014-05-27 01:47:35.316 [notice] <0.393.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:47:35.318 [notice] <0.393.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:47:35.318 [notice] <0.393.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:47:35.321 [info] <0.393.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:48:03.732 [info] <0.392.0> GET /admin/model/events/1401169623708748 [cb_admin] 200 0ms
+2014-05-27 01:48:03.744 [notice] <0.394.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:48:03.746 [notice] <0.394.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:48:03.746 [notice] <0.394.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169653728530"]
+2014-05-27 01:48:05.314 [notice] <0.395.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:48:05.316 [notice] <0.395.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:48:05.317 [notice] <0.395.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:48:05.320 [info] <0.395.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:48:33.749 [info] <0.394.0> GET /admin/model/events/1401169653728530 [cb_admin] 200 0ms
+2014-05-27 01:48:33.764 [notice] <0.396.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:48:33.768 [notice] <0.396.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:48:33.768 [notice] <0.396.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169683746986"]
+2014-05-27 01:48:35.315 [notice] <0.397.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:48:35.318 [notice] <0.397.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:48:35.318 [notice] <0.397.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:48:35.319 [info] <0.397.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:49:03.772 [info] <0.396.0> GET /admin/model/events/1401169683746986 [cb_admin] 200 0ms
+2014-05-27 01:49:03.784 [notice] <0.398.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:49:03.788 [notice] <0.398.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:49:03.788 [notice] <0.398.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169713768790"]
+2014-05-27 01:49:05.317 [notice] <0.399.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:49:05.320 [notice] <0.399.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:49:05.320 [notice] <0.399.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:49:05.322 [info] <0.399.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:49:33.791 [info] <0.398.0> GET /admin/model/events/1401169713768790 [cb_admin] 200 0ms
+2014-05-27 01:49:33.804 [notice] <0.400.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:49:33.806 [notice] <0.400.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:49:33.806 [notice] <0.400.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169743788581"]
+2014-05-27 01:49:35.313 [notice] <0.401.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:49:35.316 [notice] <0.401.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:49:35.316 [notice] <0.401.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:49:35.317 [info] <0.401.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:50:03.814 [info] <0.400.0> GET /admin/model/events/1401169743788581 [cb_admin] 200 0ms
+2014-05-27 01:50:03.827 [notice] <0.402.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:50:03.830 [notice] <0.402.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:50:03.830 [notice] <0.402.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401169773810033"]
+2014-05-27 01:50:05.311 [notice] <0.403.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:50:05.313 [notice] <0.403.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:50:05.313 [notice] <0.403.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:50:05.315 [info] <0.403.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:50:36.802 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-27 01:50:37.102 [info] <0.7.0> Application lager started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.129 [info] <0.7.0> Application crypto started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.190 [info] <0.7.0> Application mimetypes started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.307 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-27 01:50:37.335 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,"mongodb"},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_database,"feed_eater_erlang"}]
+2014-05-27 01:50:37.354 [info] <0.7.0> Application mongodb started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.527 [info] <0.94.0> Starting master services on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:50:37.598 [info] <0.7.0> Application tinymq started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.692 [info] <0.94.0> SSL:[]
+
+2014-05-27 01:50:37.700 [info] <0.94.0> Starting cowboy... on 'feed_eater_erlang@Ramon-Longs-MacBook'
+
+2014-05-27 01:50:37.713 [info] <0.7.0> Application cowlib started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.729 [info] <0.7.0> Application ranch started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.798 [info] <0.7.0> Application cowboy started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:37.798 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-27 01:50:37.961 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "./deps/cb_admin/priv/init/cb_admin_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:50:38.037 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-27 01:50:38.038 [info] <0.7.0> Application feed_eater_erlang started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:50:38.091 [info] <0.276.0> Loading routes from "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/feed_eater_erlang.routes" ....
+2014-05-27 01:50:38.094 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application feed_eater_erlang
+2014-05-27 01:50:38.143 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl
+2014-05-27 01:50:38.143 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_feed_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:50:38.189 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl
+2014-05-27 01:50:38.190 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/controller/feed_eater_erlang_user_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:50:38.226 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_user.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:50:38.227 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{4,1}},{atom,{4,2},module},{'(',{4,8}},{atom,{4,9},feed_eater_erlang_user},{',',{4,31}},{'[',{4,33}},{var,{4,34},'Id'},{',',{4,36}},{var,{4,38},'Email'},{',',{4,43}},{var,{4,45},'Username'},{',',{4,53}},{var,{4,55},'Password'},{']',{4,63}},{')',{4,64}},{dot,{4,65}},{'-',{5,1}},{atom,{5,2},compile},{'(',{5,9}},{atom,{5,10},export_all},{')',{5,20}},{dot,{5,21}},{'-',{7,1}},{atom,{7,2},define},{'(',{7,8}},{var,{7,9},'SETEC_ASTRONOMY'},{',',{7,24}},{string,{7,26},"This is used to calculate a hash"},{')',{7,60}},{dot,{7,61}},{atom,{9,1},session_identifier},{'(',{9,19}},{')',{9,20}},{'->',{9,22}},{atom,{10,3},mochihex},{':',{10,11}},{atom,{10,12},to_hex},{'(',{10,18}},{atom,{10,19},erlang},{':',{10,25}},{atom,{10,26},md5},{'(',{10,29}},{'?',{10,30}},{var,{10,31},'SETEC_ASTRONOMY'},{'++',{10,47}},{var,{10,50},'Id'},{')',{10,52}},{')',{10,53}},{dot,{10,54}},{atom,{12,1},check_password},{'(',{12,15}},{var,{12,16},'PasswordAttempt'},{')',{12,31}},{'->',{12,33}},{var,{14,3},'StoredPassword'},{'=',{14,18}},{atom,{14,20},erlang},{':',{14,26}},{atom,{14,27},binary_to_list},{'(',{14,41}},{var,{14,42},'Password'},{')',{14,50}},{',',{14,51}},{atom,{15,3},user_lib},{':',{15,11}},{atom,{15,12},compare_password},{'(',{15,28}},{var,{15,29},'PasswordAttempt'},{',',{15,44}},{var,{15,46},'StoredPassword'},{')',{15,60}},{dot,{15,61}},{atom,{17,1},login_cookies},{'(',{17,14}},{')',{17,15}},{'->',{17,17}},{'[',{18,3}},{atom,{19,5},mochiweb_cookies},{':',{19,21}},{atom,{19,22},cookie},{'(',{19,28}},{string,{19,29},"feed_eater_erlang_user_id"},{',',{19,56}},{var,{19,58},'Id'},{',',{19,60}},{'[',{19,62}},{'{',{19,63}},{atom,{19,64},path},{',',{19,68}},{string,{19,70},"/"},{'}',{19,73}},{']',{19,74}},{')',{19,75}},{',',{19,76}},{atom,{20,5},mochiweb_cookies},{':',{20,21}},{atom,{20,22},cookie},{'(',{20,28}},{string,{20,29},"session_id"},{',',{20,41}},{atom,{20,43},session_identifier},{'(',{20,61}},{')',{20,62}},{',',{20,63}},{'[',{20,65}},{'{',{20,66}},{atom,{20,67},path},{',',{20,71}},{string,{20,73},"/"},{'}',{20,76}},{']',{20,77}},{')',{20,78}},{']',{21,3}},{dot,{21,4}},{eof,{22,1}}]
+2014-05-27 01:50:38.229 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_user" Parameters ['Id','Email','Username','Password'] Attributes[{compile,export_all}]
+2014-05-27 01:50:38.341 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/src/model/feed_eater_erlang_event.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-27 01:50:38.341 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},feed_eater_erlang_event},{',',{1,32}},{'[',{1,34}},{var,{1,35},'Id'},{',',{1,37}},{var,{1,39},'User'},{',',{1,43}},{var,{1,45},'Event'},{',',{1,50}},{var,{1,52},'Feeds'},{']',{1,57}},{')',{1,58}},{dot,{1,59}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-27 01:50:38.342 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "feed_eater_erlang_event" Parameters ['Id','User','Event','Feeds'] Attributes[{compile,export_all}]
+2014-05-27 01:50:38.410 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  feed_eater_erlang_view_lib_tags
+2014-05-27 01:50:39.256 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_01_news.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:50:39.261 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ramonlong/src/fetish-storm/feed_eater_erlang/priv/init/feed_eater_erlang_10_bcrypt.erl" with options [{include_dirs,["/Users/ramonlong/src/fetish-storm/feed_eater_erlang/include"]}] 
+2014-05-27 01:50:39.542 [info] <0.7.0> Application bcrypt started on node 'feed_eater_erlang@Ramon-Longs-MacBook'
+2014-05-27 01:51:05.423 [notice] <0.298.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:51:05.523 [notice] <0.298.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:51:05.523 [notice] <0.298.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:51:05.563 [info] <0.298.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:51:35.306 [notice] <0.299.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:51:35.308 [notice] <0.299.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:51:35.308 [notice] <0.299.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:51:35.309 [info] <0.299.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:52:05.310 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:52:05.327 [notice] <0.300.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:52:05.327 [notice] <0.300.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:52:05.329 [info] <0.300.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:52:35.303 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:52:35.306 [notice] <0.301.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:52:35.306 [notice] <0.301.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:52:35.307 [info] <0.301.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:53:05.302 [notice] <0.302.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:05.304 [notice] <0.302.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:53:05.304 [notice] <0.302.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:53:05.306 [info] <0.302.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:53:25.640 [notice] <0.303.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:25.649 [notice] <0.303.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:53:25.649 [notice] <0.303.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:53:25.743 [info] <0.303.0> GET /admin/model/model [cb_admin] 200 0ms
+2014-05-27 01:53:27.327 [notice] <0.304.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:27.331 [notice] <0.304.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:53:27.332 [notice] <0.304.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:53:27.523 [info] <0.304.0> GET /admin/model/model/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:53:27.673 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:27.678 [notice] <0.309.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:53:27.678 [notice] <0.309.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:53:27.729 [info] <0.309.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:53:27.857 [notice] <0.310.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:27.859 [notice] <0.310.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:53:27.859 [notice] <0.310.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170007402099"]
+2014-05-27 01:53:36.310 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:36.315 [notice] <0.311.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:53:36.315 [notice] <0.311.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event-5384283c03649fca1b5098de"]
+2014-05-27 01:53:36.336 [info] <0.311.0> GET /admin/model/show/feed_eater_erlang_event-5384283c03649fca1b5098de [cb_admin] 200 0ms
+2014-05-27 01:53:36.492 [notice] <0.312.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:36.494 [notice] <0.312.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:53:36.494 [notice] <0.312.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:53:36.505 [info] <0.312.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:53:36.643 [notice] <0.313.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:53:36.646 [notice] <0.313.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:53:36.646 [notice] <0.313.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170016319543"]
+2014-05-27 01:53:57.863 [info] <0.310.0> GET /admin/model/events/1401170007402099 [cb_admin] 200 0ms
+2014-05-27 01:54:06.646 [notice] <0.314.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:54:06.649 [info] <0.313.0> GET /admin/model/events/1401170016319543 [cb_admin] 200 0ms
+2014-05-27 01:54:06.653 [notice] <0.314.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:54:06.654 [notice] <0.314.0>@boss_controller_adapter_pmod:action:92 Tokens ["1"]
+2014-05-27 01:54:06.656 [info] <0.314.0> POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+2014-05-27 01:54:06.663 [notice] <0.315.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:54:06.667 [notice] <0.315.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:54:06.667 [notice] <0.315.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170016646799"]
+2014-05-27 01:54:36.646 [notice] <0.316.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:54:36.649 [notice] <0.316.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:54:36.649 [notice] <0.316.0>@boss_controller_adapter_pmod:action:92 Tokens ["1"]
+2014-05-27 01:54:36.655 [info] <0.316.0> POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+2014-05-27 01:54:36.672 [info] <0.315.0> GET /admin/model/events/1401170016646799 [cb_admin] 200 0ms
+2014-05-27 01:54:36.684 [notice] <0.317.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:54:36.687 [notice] <0.317.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:54:36.687 [notice] <0.317.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170046670055"]
+2014-05-27 01:55:06.647 [notice] <0.318.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:06.650 [notice] <0.318.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:55:06.650 [notice] <0.318.0>@boss_controller_adapter_pmod:action:92 Tokens ["1"]
+2014-05-27 01:55:06.653 [info] <0.318.0> POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+2014-05-27 01:55:06.696 [info] <0.317.0> GET /admin/model/events/1401170046670055 [cb_admin] 200 0ms
+2014-05-27 01:55:06.712 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:06.715 [notice] <0.319.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:55:06.715 [notice] <0.319.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170076688101"]
+2014-05-27 01:55:18.548 [notice] <0.320.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:18.553 [notice] <0.320.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:55:18.553 [notice] <0.320.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:55:18.561 [info] <0.320.0> GET /admin/model/model [cb_admin] 200 0ms
+2014-05-27 01:55:19.992 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:20.001 [notice] <0.321.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:55:20.001 [notice] <0.321.0>@boss_controller_adapter_pmod:action:92 Tokens ["feed_eater_erlang_event"]
+2014-05-27 01:55:20.038 [info] <0.321.0> GET /admin/model/model/feed_eater_erlang_event [cb_admin] 200 0ms
+2014-05-27 01:55:20.322 [notice] <0.325.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:20.326 [notice] <0.325.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:55:20.326 [notice] <0.325.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 01:55:20.329 [info] <0.325.0> POST /admin/model/watch [cb_admin] 200 0ms
+2014-05-27 01:55:20.542 [notice] <0.326.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:20.546 [notice] <0.326.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:55:20.546 [notice] <0.326.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170120016408"]
+2014-05-27 01:55:36.719 [info] <0.319.0> GET /admin/model/events/1401170076688101 [cb_admin] 200 0ms
+2014-05-27 01:55:36.719 [error] <0.319.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:normal. Stacktrace: [{mochicow_request,send,2,[{file,"src/mochicow_request.erl"},{line,156}]},{mochicow_request,respond,2,[{file,"src/mochicow_request.erl"},{line,406}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2014-05-27 01:55:50.544 [notice] <0.327.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:50.547 [notice] <0.327.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-27 01:55:50.548 [notice] <0.327.0>@boss_controller_adapter_pmod:action:92 Tokens ["2"]
+2014-05-27 01:55:50.552 [info] <0.327.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2014-05-27 01:55:50.552 [info] <0.326.0> GET /admin/model/events/1401170120016408 [cb_admin] 200 0ms
+2014-05-27 01:55:50.560 [notice] <0.328.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath cb_admin
+2014-05-27 01:55:50.564 [notice] <0.328.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 01:55:50.564 [notice] <0.328.0>@boss_controller_adapter_pmod:action:92 Tokens ["1401170120547537"]
