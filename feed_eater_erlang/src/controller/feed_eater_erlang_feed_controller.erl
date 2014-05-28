@@ -35,3 +35,7 @@ feed('GET', []) ->
 feed1('GET', []) ->
   Events = boss_db:find(feed_eater_erlang_event, []),
   {json, [{events, Events}]}.
+
+feed2('GET', []) ->
+  Events = boss_db:find(feed_eater_erlang_event, []),
+  {ok, [{feedevents, Events}]}.

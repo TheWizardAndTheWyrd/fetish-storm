@@ -16,11 +16,12 @@
     	    {{content|safe}}
           </div>
           <div class="span8" id="feed">
-            {% for feedevent in feedevents  %}
+            {% for feedevent in feedevents %}
 
               {% for item in feedevent %}
 
                 <p>{{ item }}</p>
+                <script>console.log('"{{item}}"');</script>
 
               {% endfor %}
 
